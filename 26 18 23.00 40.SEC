@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">UFGS-26 18 23.00 40 (August 2016)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1" STYLEID="s50"/>
+         <CEL STYLEID="s50"/>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2" STYLEID="s50">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Preparing Activity:  <PRA>NASA</PRA></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-26 18 23.00 40 (August 2013)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 18 23.00 40</SCN><BRK/>
+<BRK/>
+<STL>MEDIUM-VOLTAGE SURGE ARRESTERS</STL><BRK/>
+<DTE>08/16</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers the requirements for <SCP>surge and lightning arresters of the distribution, 
+intermediate, and station types</SCP>.  Show type, voltage, mounting, and connection details on drawings.</NPR><BRK/>
+<BRK/>
+<NPR>Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format Standard when editing this guide 
+specification or preparing new project specification sections.  Edit this guide specification for project specific 
+requirements by adding, deleting, or revising text.  For bracketed items, choose applicable item(s) or insert 
+appropriate information.</NPR><BRK/>
+<BRK/>
+<NPR>Remove information and requirements not required in respective project, whether or not brackets are present.</NPR><BRK/>
+<BRK/>
+<NPR>Comments, suggestions and recommended changes for this guide specification are welcome and should be submitted 
+as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of the guide specification.  The publications 
+are referred to in the text by basic designation only and listed in this paragraph by organization, designation, 
+date, and title.</NPR><BRK/>
+<BRK/>
+<NPR>Use the Reference Wizard's Check Reference feature when you add a Reference Identifier (RID) outside of the Section's 
+Reference Article to automatically place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.</NPR><BRK/>
+<BRK/>
+<NPR>References not used in the text are automatically deleted from this section of the project specification when 
+you choose to reconcile references in the publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are referred to within the text by 
+the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>ASTM INTERNATIONAL (ASTM)</ORG><BRK/><BRK/><RID>ASTM A123/A123M</RID><RTL>(2017) Standard Specification for Zinc (Hot-Dip Galvanized) Coatings on Iron and Steel Products</RTL><BRK/><BRK/><RID>ASTM A153/A153M</RID><RTL>(2016a) Standard Specification for Zinc Coating (Hot-Dip) on Iron and Steel Hardware</RTL><BRK/><BRK/></REF><REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE 386</RID><RTL>(2016) Separable Insulated Connector Systems for Power Distribution Systems Rated 2.5 kV through 35 kV</RTL><BRK/><BRK/><RID>IEEE C2</RID><RTL>(2017; Errata 1-2 2017; INT 1 2017) National Electrical Safety Code</RTL><BRK/><BRK/><RID>IEEE C62.11</RID><RTL>(2020) Standard for Metal-Oxide Surge Arresters for Alternating Current Power Circuits (&gt;1kV)</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA)</ORG><BRK/><BRK/><RID>RCBEA GUIDE</RID><RTL>(2004) NASA Reliability Centered Building and Equipment Acceptance Guide</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)</ORG><BRK/><BRK/><RID>NFPA 70</RID><RTL>(2020; ERTA 20-1 2020; ERTA 20-2 2020; TIA 20-1; TIA 20-2; TIA 20-3; TIA 20-4) National Electrical Code</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review Submittal Description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES and edit the following 
+list, and corresponding submittal items in the text, to reflect only the submittals required for the project.  
+The Guide Specification technical editors have classified those items that require Government approval, due to 
+their complexity or criticality, with a "G."  Generally, other submittal items can be reviewed by the Contractor's 
+Quality Control System.  Only add a “G” to an item, if the submittal is sufficiently important or complex in context 
+of the project.</NPR><BRK/>
+<BRK/>
+<NPR><TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, with a code of up to three characters 
+to indicate the approving authority.  Codes for Army projects using the Resident Management System (RMS) are:  
+"AE" for Architect-Engineer; "DO" for District Office (Engineering Division or other organization in the District 
+Office); "AO" for Area Office; "RO" for Resident Office; and "PO" for Project Office.  </TAI>Codes following the "G" 
+typically are not used for Navy,  Air Force, and NASA projects.</NPR><BRK/>
+<BRK/>
+<NPR> The "S" classification indicates submittals required as proof of compliance for sustainability Guiding Principles 
+Validation or Third Party Certification and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.</NPR><BRK/>
+<BRK/>
+<NPR>Choose the first bracketed item for Navy, Air Force and NASA projects, or choose the second bracketed item for 
+Army projects.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" or "S" classification are [for Contractor 
+Quality Control approval.][for information only.  When used, a code following the "G" classification identifies the office that will review the 
+submittal for the Government.]  Submit the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Surge Arrester</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-08 Manufacturer's Instructions</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Installation Instructions</SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-10 Operation and Maintenance Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Operation and Maintenance Manuals</SUB></ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>QUALITY CONTROL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Regulatory Requirements</TTL><BRK/>
+<BRK/>
+<TXT>In each of the publications referred to herein, consider the advisory <BRK/>
+provisions to be mandatory, as though the word, "shall" had been <BRK/>
+substituted for "should" wherever it appears.  Interpret references in <BRK/>
+these publications to the "authority having jurisdiction," or words of <BRK/>
+similar meaning, to mean the Contracting Officer.  Ensure equipment, materials, installation, and workmanship are in accordance with the mandatory 
+and advisory provisions of <RID>NFPA 70</RID>, <RID>IEEE C2</RID> unless more stringent requirements are specified or indicated.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Standard Products</TTL><BRK/>
+<BRK/>
+<TXT>Provide materials and equipment that are products of manufacturers <BRK/>
+regularly engaged in the production of such products which are of equal <BRK/>
+material, design and workmanship.  Provide products which have been in <BRK/>
+satisfactory commercial or industrial use for 2 years prior to bid <BRK/>
+opening.  Ensure the 2-year period includes applications of equipment and <BRK/>
+materials under similar circumstances and of similar size.  Ensure the product has been on sale on the commercial market through advertisements, <BRK/>
+manufacturers' catalogs, or brochures during the 2-year period.  Where two <BRK/>
+or more items of the same class of equipment are required, these items <BRK/>
+must be products of a single manufacturer.</TXT><BRK/>
+<BRK/>
+<TXT>Products manufactured more than 3 years prior to date of delivery to site are not to be used, unless specified otherwise.</TXT><BRK/>
+<BRK/></SPT>
+<TAI OPT="RCBEA"><SPT><TTL>Predictive Testing and Inspection Technology Requirements</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  The Predictive Testing and Inspection (PT&amp;I) tests prescribed in Section <SRF>01 86 26.07 40</SRF> RELIABILITY 
+CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS are MANDATORY for all NASA assets and systems identified as Critical, 
+Configured, or Mission Essential.  If the system is non-critical, non-configured, and not mission essential, use 
+sound engineering discretion to assess the value of adding these additional test and acceptance requirements.  
+See Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS for additional information regarding 
+cost feasibility of PT&amp;I.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>This section contains systems and equipment components regulated by NASA's Reliability Centered Building and Equipment Acceptance Program.  This 
+program requires the use of Predictive Testing and Inspection (PT&amp;I) technologies in conformance with <RID>RCBEA GUIDE</RID> to ensure building equipment 
+and systems have been installed properly and contain no identifiable defects that shorten the design life of a system and its components.  Satisfactory 
+completion of all acceptance requirements is required to obtain Government approval and acceptance of the work.</TXT><BRK/>
+<BRK/>
+<TXT>Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS.</TXT><BRK/>
+<BRK/></SPT>
+</TAI></SPT></PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<BRK/>
+<TXT>Submit <SUB>surge arrester</SUB> equipment and performance data including life, test, system functional flows, safety features, and fabrication drawings that 
+show assembly and fabrication details performed in the factory.</TXT><BRK/>
+<BRK/>
+<TXT>Submit manufacturer's <SUB>installation instructions</SUB> for surge arresters including special provisions required to install equipment components and system 
+packages.  Provide special notices that detail impedances, hazards and safety precautions.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>EQUIPMENT</TTL><BRK/>
+<BRK/>
+<TXT>Provide arresters that comply with <RID>IEEE C62.11</RID> for design, fabrication, testing, and performance.</TXT><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Provide a voltage rating of arresters in accordance with manufacturer's recommendations to meet the maximum 
+continuous line-to-ground operating voltage (MCOV).  Consider system neutral, whether grounded, ungrounded, or 
+effectively grounded for all possible conditions of operations, including Phase-to-ground faults, when selecting 
+arrestors.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide [gapped][gapless] metal oxide varistor (MOV) type, single-phase, single-pole surge arresters that comply with <RID>IEEE C62.11</RID> for design, fabrication, 
+testing, and performance.  Ensure surge arresters are rated minimum [15][18][21][  ] kilovolts (kV) duty cycle and [12.7][15.3][17][  ] kV Maximum 
+Continuous Operating Voltage (MCOV) with creepage distance in accordance with manufacturer's specifications for the duty cycle and specific type 
+of arrester.  Ensure arrester is designed as non-fragmenting.</TXT><BRK/>
+<BRK/>
+<TXT>Provide porcelain surge arrestors consisting of [tube][cage] style fiberglass reinforced plastic epoxy resin structural hollow core surrounding 
+the MOV elements with [silicon rubber polymer][porcelain] housing.  Ensure end fittings are attached to the structural hollow core using a pressure 
+controlled crimping process.  Seal the interface between the structural hollow core and end fittings to prevent ingress of moisture.</TXT>[<BRK/>
+<BRK/>
+<TXT>Ensure silicon rubber polymer housing is chemically bonded to the structural hollow core with bond strength greater than the tearing strength of 
+the housing.  Provide silicon polymer housing manufactured as a single, continuous part using a high temperature vulcanizing and high pressure 
+injection molding process.  Ensure the silicon polymer material is formulated such that it is hydrophobic, non-tracking, erosion resistant, and 
+non-weathering.</TXT>]<BRK/>
+<BRK/>
+<SPT><TTL>Distribution Class</TTL><BRK/>
+<BRK/>
+<TXT>Provide heavy duty distribution class arresters.  Provide corrosion resistant mounting hardware and insulated brackets for riser-pole type arrestors.  
+Provide arrestors installed in a pre-molded rubber elbow for underground distribution systems in accordance with <RID>IEEE 386</RID>[ and <SRF>26 05 13.00 98</SRF> MEDIUM-VOLTAGE 
+CABLES].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Intermediate Class</TTL><BRK/>
+<BRK/>
+<TXT>Provide arresters for cubicle, pedestal, platform, or bracket mounting as indicated.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Station Class</TTL><BRK/>
+<BRK/>
+<TXT>Provide single-phase, single-pole, self-supporting type arresters for pedestal, platform, or bracket mounting as indicated.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Mounting Brackets</TTL><BRK/>
+<BRK/>
+<TXT>Provide arresters equipped with suitable mounting brackets for the applicable method of mounting.  For arresters utilizing a hanger frame type 
+mounting bracket, provide a frame that is a non-corrosive track resistant glass filled polyester or other suitable non-corrosive and non-conductive 
+material that provides high mechanical strength.[  Provide arrester mounting hardware designed for installation in a severe salt-spray atmosphere 
+and is a zinc-coated or corrosion-resistant metal in accordance with [<RID>ASTM A123/A123M</RID>] [<RID>ASTM A153/A153M</RID>].]</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>INSTALLATION</TTL><BRK/>
+<BRK/>
+<TXT>Install and connect arresters in accordance with the manufacturer's installation instructions.</TXT><BRK/>
+<BRK/>
+<TXT>Make ground connection to a driven ground rod, counterpoise, or station grounding system and meet the intent of the National Electrical Code, <RID>NFPA 70</RID>
+.</TXT><BRK/>
+<BRK/>
+<TXT>Connect lightning arresters as close as practicable to the apparatus being protected.  When connecting arresters to overhead conductors, use a 
+hot line clamp.  Provide a hot line clamp that is compatible with the conductor material being used, i.e. aluminum or copper.</TXT><BRK/>
+<BRK/>
+<TXT>Ensure all installations comply with the requirements and recommendations of <RID>NFPA 70</RID> and <RID>IEEE C2</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<TAI OPT="RCBEA"><SPT><TTL>FIELD QUALITY CONTROL</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  If the specified system is identified as critical, configured, or mission essential, use Section 
+<SRF>01 86 26.07 40</SRF>  RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS to establish predictive and acceptance 
+testing criteria.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT><TST>Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS</TST>.</TXT><BRK/>
+<BRK/></SPT>
+</TAI><NED/><SPT><TTL>CLOSEOUT ACTIVITIES</TTL><BRK/>
+<BRK/>
+<TXT>Submit <SUB>operation and maintenance manuals</SUB> for the specified surge arresters.</TXT><BRK/>
+<BRK/></SPT>
+</PRT>    <END/><BRK/></SEC>

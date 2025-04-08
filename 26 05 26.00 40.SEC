@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">UFGS-26 05 26.00 40 (August 2019)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1" STYLEID="s50"/>
+         <CEL STYLEID="s50"/>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2" STYLEID="s50">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Preparing Activity:  <PRA>NASA</PRA></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-28 05 26.00 40 (August 2016)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 05 26.00 40</SCN><BRK/>
+<BRK/>
+<STL>GROUNDING AND BONDING FOR ELECTRICAL SYSTEMS</STL><BRK/>
+<DTE>08/19</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers the requirements for <SCP>electrical system and equipment grounding including 
+ground rods, grounding conductors, connectors, and other accessories</SCP>.  This section excludes instrumentation and 
+static grounding systems.</NPR><BRK/>
+<BRK/>
+<NPR>Ensure drawings show plan layout of each grounding electrode, ground mat, ground grid, substation ground bus, 
+interconnecting grounding conductor, and tap connections to steel building columns and outdoor electrical equipment.  
+Ensure that detail drawings of ground mats and ground grids show; configuration, ground rod spacings, interconnecting 
+cable and tap connections to substation yard fence, substation ground bus, and interior equipment.</NPR><BRK/>
+<BRK/>
+<NPR>When grounding systems as shown fail to achieve the desired measured resistance to ground, additional ground rods 
+may be required.</NPR><BRK/>
+<BRK/>
+<NPR>Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format Standard when editing this guide 
+specification or preparing new project specification sections.  Edit this guide specification for project specific 
+requirements by adding, deleting, or revising text.  For bracketed items, choose applicable item(s) or insert 
+appropriate information.</NPR><BRK/>
+<BRK/>
+<NPR>Remove information and requirements not required in respective project, whether or not brackets are present.</NPR><BRK/>
+<BRK/>
+<NPR>Comments, suggestions and recommended changes for this guide specification are welcome and should be submitted 
+as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>If Lighting Protection is required as part of the project include Section <SRF>26 41 00</SRF> LIGHTNING PROTECTION SYSTEMS 
+and include reference in second paragraph.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+[<TXT>Section <SRF>26 20 00</SRF> INTERIOR DISTRIBUTION SYSTEM applies to work specified in this section.</TXT><BRK/>
+<BRK/>
+][<TXT>Section <SRF>26 41 00</SRF> LIGHTNING PROTECTION SYSTEMS applies to work specified in this section.</TXT><BRK/>
+<BRK/>
+]<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of the guide specification.  The publications 
+are referred to in the text by basic designation only and listed in this paragraph by organization, designation, 
+date, and title.</NPR><BRK/>
+<BRK/>
+<NPR>Use the Reference Wizard's Check Reference feature when you add a Reference Identifier (RID) outside of the Section's 
+Reference Article to automatically place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.</NPR><BRK/>
+<BRK/>
+<NPR>References not used in the text will automatically be deleted from this section of the project specification when 
+you choose to reconcile references in the publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are referred to within the text by 
+the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>AMERICAN WELDING SOCIETY (AWS)</ORG><BRK/><BRK/><RID>AWS A3.0M/A3.0</RID><RTL>(2020) Standard Welding Terms and Definitions</RTL><BRK/><BRK/><RID>AWS A5.8/A5.8M</RID><RTL>(2019) Specification for Filler Metals for Brazing and Braze Welding</RTL><BRK/><BRK/><RID>AWS B2.1/B2.1M</RID><RTL>(2014; Errata 2015) Specification for Welding Procedure and Performance Qualification</RTL><BRK/><BRK/></REF><REF><ORG>ASTM INTERNATIONAL (ASTM)</ORG><BRK/><BRK/><RID>ASTM B3</RID><RTL>(2013) Standard Specification for Soft or Annealed Copper Wire</RTL><BRK/><BRK/><RID>ASTM B8</RID><RTL>(2011; R 2017) Standard Specification for Concentric-Lay-Stranded Copper Conductors, Hard, Medium-Hard, or Soft</RTL><BRK/><BRK/><RID>ASTM B187/B187M</RID><RTL>(2020) Standard Specification for Copper, Bus Bar, Rod and Shapes and General Purpose Rod, Bar and Shapes</RTL><BRK/><BRK/></REF><REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE 81</RID><RTL>(2012) Guide for Measuring Earth Resistivity, Ground Impedance, and Earth Surface Potentials of a Ground System</RTL><BRK/><BRK/><RID>IEEE C2</RID><RTL>(2017; Errata 1-2 2017; INT 1 2017) National Electrical Safety Code</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA)</ORG><BRK/><BRK/><RID>RCBEA GUIDE</RID><RTL>(2004) NASA Reliability Centered Building and Equipment Acceptance Guide</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION (NEMA)</ORG><BRK/><BRK/><RID>ANSI/NEMA GR 1</RID><RTL>(2007) Grounding Rod Electrodes and Grounding Rod Electorode Couplings</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)</ORG><BRK/><BRK/><RID>NFPA 70</RID><RTL>(2020; ERTA 20-1 2020; ERTA 20-2 2020; TIA 20-1; TIA 20-2; TIA 20-3; TIA 20-4) National Electrical Code</RTL><BRK/><BRK/><RID>NFPA 780</RID><RTL>(2020) Standard for the Installation of Lightning Protection Systems</RTL><BRK/><BRK/></REF><REF><ORG>TELECOMMUNICATIONS INDUSTRY ASSOCIATION (TIA)</ORG><BRK/><BRK/><RID>TIA-607</RID><RTL>(2019d) Generic Telecommunications Bonding and Grounding (Earthing) for Customer Premises</RTL><BRK/><BRK/></REF><REF><ORG>U.S. DEPARTMENT OF DEFENSE (DOD)</ORG><BRK/><BRK/><RID>MIL-STD-889</RID><RTL>(2021; Rev D) Galvanic Compatibility of Electrically Conductive Materials</RTL><BRK/><BRK/></REF><REF><ORG>UNDERWRITERS LABORATORIES (UL)</ORG><BRK/><BRK/><RID>UL 467</RID><RTL>(2013; Reprint Jun 2017) UL Standard for Safety Grounding and Bonding Equipment</RTL><BRK/><BRK/><RID>UL 546</RID><RTL>(2008) UL Outline of Investigation for Conductor Termination Compounds</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review Submittal Description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES and edit the following 
+list, and corresponding submittal items in the text, to reflect only the submittals required for the project.  
+The Guide Specification technical editors have classified those items that require Government approval, due to 
+their complexity or criticality, with a "G."  Generally, other submittal items can be reviewed by the Contractor's 
+Quality Control System.  Only add a “G” to an item, if the submittal is sufficiently important or complex in context 
+of the project.</NPR><BRK/>
+<BRK/>
+<NPR><TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, with a code of up to three characters 
+to indicate the approving authority.  Codes for Army projects using the Resident Management System (RMS) are:  
+"AE" for Architect-Engineer; "DO" for District Office (Engineering Division or other organization in the District 
+Office); "AO" for Area Office; "RO" for Resident Office; and "PO" for Project Office.  </TAI>Codes following the "G" 
+typically are not used for Navy,  Air Force, and NASA projects.</NPR><BRK/>
+<BRK/>
+<NPR> The "S" classification indicates submittals required as proof of compliance for sustainability Guiding Principles 
+Validation or Third Party Certification and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.</NPR><BRK/>
+<BRK/>
+<NPR>Choose the first bracketed item for Navy, Air Force and NASA projects, or choose the second bracketed item for 
+Army projects.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" or "S" classification are [for Contractor 
+Quality Control approval.][for information only.  When used, a code following the "G" classification identifies the office that will review the 
+submittal for the Government.]  Submit the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Ground Rods</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ground Wires</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Connectors and Fasteners</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Test Wells</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Conductive Corrosion Inhibiting Compounds</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ground Buses</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-06 Test Reports</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Bond Resistance Test</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ground Resistance Tests</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ground Isolation Test</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Equipment Continuity Test</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-07 Certificates</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Ground Resistance Test Equipment</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Micro-Ohmmeter Test Equipment</SUB>; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-11 Closeout Submittals</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Record Drawings</SUB></ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>QUALITY CONTROL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Regulatory Requirements</TTL><BRK/>
+<BRK/>
+<TXT>In each of the publications referred to herein, consider the advisory <BRK/>
+provisions to be mandatory, as though the word, "shall" had been <BRK/>
+substituted for "should" wherever it appears.  Interpret references in <BRK/>
+these publications to the "authority having jurisdiction," or words of <BRK/>
+similar meaning, to mean the Contracting Officer.  Ensure equipment, materials, installation, and workmanship are in accordance with the mandatory 
+and advisory provisions of <RID>NFPA 70</RID>, <RID>IEEE C2</RID> unless more stringent requirements are specified or indicated.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Standard Products</TTL><BRK/>
+<BRK/>
+<TXT>Provide materials and equipment that are products of manufacturers <BRK/>
+regularly engaged in the production of such products which are of equal <BRK/>
+material, design and workmanship.  Provide products which have been in <BRK/>
+satisfactory commercial or industrial use for 2 years prior to bid <BRK/>
+opening.  Ensure the 2-year period includes applications of equipment and <BRK/>
+materials under similar circumstances and of similar size.  Ensure the product has been on sale on the commercial market through advertisements, <BRK/>
+manufacturers' catalogs, or brochures during the 2-year period.  Where two <BRK/>
+or more items of the same class of equipment are required, these items <BRK/>
+must be products of a single manufacturer.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Ground Resistance Test Equipment</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide combination 3-point and 4-point type ground resistance test equipment specifically designed for grounding electrode resistance and soil 
+resistivity tests. Submit proof of current equipment calibration with test equipment product data.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Micro-Ohmmeter Test Equipment</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Perform [circuit and ]bond resistance tests using a micro-ohmmeter with the following characteristics:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Resistance range selectable and capable of measuring to 10 micro-Ohms <BRK/>
+using a minimum of 1 ampere of test current.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Positive and negative test leads of the 2-wire balanced type.  <BRK/>
+Provide both clamp and probe type connections to allow measurements <BRK/>
+across all bonded surfaces.  Provide long length balanced test lead to <BRK/>
+allow measurements from a bonding location to the nearest test well.</LST><BRK/>
+<BRK/>
+<TXT>Submit proof of current equipment calibration with test equipment product data.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><TAI OPT="RCBEA"><SPT><TTL>PREDICTIVE TESTING AND INSPECTION TECHNOLOGY REQUIREMENTS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  The Predictive Testing and Inspection (PT&amp;I) tests prescribed in Section <SRF>01 86 26.07 40</SRF> RELIABILITY 
+CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS are MANDATORY for all NASA assets and systems identified as Critical, 
+Configured, or Mission Essential.  If the system is non-critical, non-configured, and not mission essential, use 
+sound engineering discretion to assess the value of adding these additional test and acceptance requirements.  
+See Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS for additional information regarding 
+cost feasibility of PT&amp;I.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>This section contains systems and equipment components regulated by NASA's Reliability Centered Building and Equipment Acceptance Program.  This 
+program requires the use of Predictive Testing and Inspection (PT&amp;I) technologies in conformance with <RID>RCBEA GUIDE</RID> to ensure building equipment 
+and systems have been installed properly and contain no identifiable defects that shorten the design life of a system and its components.  Satisfactory 
+completion of all acceptance requirements is required to obtain Government approval and acceptance of the work.<BRK/>
+<BRK/>
+Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS.</TXT><BRK/>
+<BRK/></SPT>
+</TAI></PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<BRK/>
+<TXT>Submit material, equipment, and fixture lists for grounding systems, including manufacturer's style or catalog numbers, specification and drawing 
+reference numbers, warranty information, and fabrication site information.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>MATERIALS</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Ground Rods</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide ground rods of [copper][copper-clad steel] conforming to <RID>UL 467</RID> and <RID>ANSI/NEMA GR 1</RID>.  Ensure ground rods are not less than[<MET> 20 mm</MET><ENG> 3/4 inch</ENG>
+ in diameter and <MET> 3000 mm</MET><ENG> 10 feet</ENG> in length][as indicated].</TXT><BRK/>
+<BRK/>
+<TXT>Where ground rod length is greater than <MET>3000 mm</MET><ENG>10 feet</ENG>, provide sectional type ground rods with each section <MET>3000 mm</MET><ENG>10 feet</ENG> in length.  Join sectional 
+type ground rods using [threaded brass couplings][exothermic welding completely around both rod/coupling joints][threaded couplings that are welded 
+at the threaded joints].  Ensure ground rods have cone-shaped point on the end of the first section driven into the ground.</TXT><BRK/>
+<BRK/>
+<TXT>Provide ground rods and ground rod sections die-stamped near the top with the name or trademark of the manufacturer and the length of the segment 
+in feet.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Ground Wires</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>Bare</TTL><BRK/>
+<BRK/>
+<TXT>Provide annealed bare copper, Class "B" stranded ground and bond wires in accordance with <RID>ASTM B8</RID> for wires #4 AWG and larger and solid in accordance 
+with <RID>ASTM B3</RID> for wires #6 AWG and smaller.  Provide conductors with 98 percent conductivity and sized wires in accordance with the requirements 
+of <RID>NFPA 70</RID> and <RID>NFPA 780</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Insulated</TTL><BRK/>
+<BRK/>
+<TXT>Ensure insulated conductors conform to the requirements of Section <SRF>26 05 00.00 40</SRF> COMMON WORK RESULTS FOR ELECTRICAL.</TXT><BRK/>
+<BRK/>
+<TXT>Where installed in conduit as part of a complete circuit provide conductors with green insulation for sizes #8 AWG and smaller and with green phase 
+tape at each end and in each junction box for sizes #6 AWG and larger.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Straps/Jumpers</TTL><BRK/>
+<BRK/>
+<TXT>Provide copper bonding straps and jumpers with a cross-sectional area of not less than<MET> [4.12 millimeter diameter][as indicated]</MET><ENG> [No. 6 AWG][as 
+indicated]</ENG>.  Ensure bonding straps and jumpers for shock-mounted devices with [pivot] [hinged] [swivel] joints are made of [flat] [tinned-copper] 
+[woven-wire braid] [flexible stranded] wire.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Connectors and Fasteners</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>Exothermic Welds</TTL><BRK/>
+<BRK/>
+<TXT>Ensure the molds, materials and powder charges used to make exothermic welds are the standard product of a single manufacturer and listed by the 
+manufacturer for use on the specific type, size, quantity and configuration of conductors to which the weld is applied.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Irreversible Compression Lugs</TTL><BRK/>
+<BRK/>
+<TXT>Provide irreversible compression lug type connectors manufactured from tin-plated copper and installed using a hydraulic compression tool and die 
+to apply correct, uniformly distributed, circumferential pressure.  Ensure tools and dies are as recommended by the irreversible compression lug 
+type connector manufacturer.  Use an embossing die code or other standard method to provide visible indication that a connector has been adequately 
+compressed onto the conductor.  Apply irreversible compression lug type connectors in strict accordance with the manufacturer's written instructions 
+and published installation instructions.  Use 2-hole lug type connectors for connections to NEMA cable pads and bus bars, and single-hole connectors 
+otherwise.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Mechanical</TTL><BRK/>
+<BRK/>
+<TXT>Provide split bolt and clamp style mechanical type connectors manufactured from [copper, ][copper alloy, ][or ][bronze,] listed by the manufacturer 
+as suitable for direct burial use.  Ensure mechanical type connectors are applied in strict accordance with the manufacturer's published installation 
+instructions.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Fasteners</TTL><BRK/>
+<BRK/>
+<TXT>Provide bolts, nuts, washers, lock washers, and associated fasteners used for grounding and bonding connections manufactured of [copper][bronze][tin 
+plated tempered brass][stainless steel].  Where fasteners contact dissimilar metals, apply conductive oxide-inhibiting compound.</TXT><BRK/>
+<BRK/></SPT>
+</SPT>[<SPT><TTL><SUB>Test Wells</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide test wells that are H2O rated, precast reinforced concrete, [circular][rectangular], with open bottom and concrete or cast iron lid/frame.  
+Ensure test wells have inside dimensions of not less than [15 inches wide by 22 inches long][12 inches in diameter] by 24 inches deep.  Provide 
+test well lid with cast "GROUND" legend.</TXT><BRK/>
+<BRK/></SPT>
+]<SPT><TTL><SUB>Conductive Corrosion Inhibiting Compounds</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide conductive corrosion inhibiting compounds UL Listed in accordance with <RID>UL 546</RID>, listed by the manufacturer as suitable for the application, 
+and suitable for all aluminum and copper conductor/connector applications.  Ensure conductive corrosion inhibiting compounds inhibit oxidation 
+at the conductor/connector interface and have no deleterious effect on the conductor/connector metal or EPDM, natural rubber, or polyethylene insulating 
+materials.</TXT>[<BRK/>
+<BRK/>
+<TXT>Provide gritted conductive corrosion inhibiting compound that are<BRK/>
+non-petroleum based and non-toxic, and contain conductive grit.  Ensure gritted conductive corrosion inhibiting compound is specified by the manufacturer 
+for application to the conductor/connector interface of compression connectors.]</TXT>[<BRK/>
+<BRK/>
+<TXT>Provide non-gritted conductive corrosion inhibiting compound that are <BRK/>
+non-petroleum based and non-toxic and contain no grit filler.  Ensure non-gritted conductive corrosion inhibiting compound is specified by the 
+manufacturer for application to the conductor/connector interface of mechanical connectors such as bolted joints, flat-to-flat contact surfaces, 
+terminal and lug tongues, and grooves of bolted parallel connectors or clamps.]</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Ground Buses</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide [electro-tin plated, ]solid copper ground buses conforming to <RID>ASTM B187/B187M</RID> with minimum dimensions of <MET>6 millimeters</MET><ENG>0.25 inches</ENG> thick, <MET>
+100 millimeters</MET><ENG>4 inches</ENG> wide, and <MET>300 millimeters</MET><ENG>12 inches</ENG> in length or as indicated. Ensure ground buses are equipped with two UL Recognized red 
+1000V rated insulated standoffs and stainless steel mounting brackets.</TXT><BRK/>
+<BRK/>
+<TXT>Provide Telecommunications Main Ground Buses and Telecommunications Ground Buses in meeting the standards of <RID>TIA-607</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide grounding buses with predrilled NEMA hole configuration as indicated.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>INSTALLATION</TTL><BRK/>
+<BRK/>
+<TXT>Install grounding systems in accordance with <RID>NFPA 70</RID>, <RID>NFPA 780</RID> and <RID>IEEE C2</RID>, and as indicated.</TXT><BRK/>
+<BRK/>
+<TXT>Bond exposed non-current-carrying metallic parts of electrical equipment and metallic raceway systems to ground.</TXT>  <BRK/>
+<BRK/>
+<TXT>Bond grounding conductors in metallic and non-metallic raceways to ground.  Make ground connections at equipment and to ground rods as indicated.  
+Interconnect all grounding media in or on the structure to provide a common ground potential.  This includes lightning protection, electrical service, 
+telecommunications system grounds, as well as underground metallic piping systems.</TXT>  <BRK/>
+<BRK/>
+<TXT>Bond wiring system neutrals to ground in accordance with the requirements of <RID>NFPA 70</RID>.  Where ground fault protection is employed, ensure that connection 
+of ground and neutral does not interfere with correct operation of fault protection. </TXT>[ <BRK/>
+<BRK/>
+<TXT>Counterpoise ground systems consist of a series of ground rods with a direct buried grounding conductor loop, configured to minimize the number 
+of dead-ends, interconnecting the individual ground rods.  Provide ground rods in the locations indicated.</TXT>]<BRK/>
+<BRK/>
+<SPT><TTL>Ground Rods</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  In locations where existing underground utilities, equipment or structures may be damaged, use the water 
+jetting method for ground rod installation.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<TXT><BRK/>
+[Install ground rods using a water jetting procedure.]</TXT><BRK/>
+<BRK/>
+[<TXT>Install ground rods so that the top of the rod is<MET> [100] [_____] millimeter</MET><ENG> [4] [_____] inches</ENG> above grade.</TXT><BRK/>
+<BRK/>
+][<TXT>Install ground rods so that the top of the rod is not less than<MET> [450] [_____] millimeter</MET><ENG> [18] [_____] inches</ENG> below finished grade.</TXT><BRK/>
+<BRK/>
+]</SPT><SPT><TTL>Conductors</TTL><BRK/>
+<BRK/>
+<TXT>Install bare or insulated conductors as indicated.  Install bare conductors where not specifically identified as bare or insulated except where 
+installed in conduit with associated phase conductors.  Install insulated conductors in conduit with insulation of the same material as the associated 
+phase conductors with which it is installed.</TXT><BRK/>
+<BRK/>
+<TXT>Provide straps/jumpers across joints subject to vibration.  Install strap/jumper such that vibration will not change its electrical characteristics. 
+Apply strap/jumper to the metallic structure on each side of the joint; do not penetrate any adjacent parts.  Install straps/jumpers in areas that 
+are accessible for maintenance. Install strap/jumper such that it does not restrict the movement of the metallic structures to which it is connected.  
+Install strap/jumper such that it does not weaken the metallic structures to which it is attached.  Do not connect two or more straps/jumpers in 
+series.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Counterpoise</TTL><BRK/>
+<BRK/>
+<TXT>Install <MET> [11.7] [_____] millimeter diameter (No. [4/0] [_____] AWG)</MET><ENG> No. [4/0] [_____] AWG</ENG> bare copper counterpoise grounding conductor direct buried 
+outside of the structure drip line, within <MET>600 to 1800 millimeters</MET><ENG>24 to 72 inches</ENG> of the structure foundation, with a minimum of <MET>450 millimeters</MET><ENG>
+18 inches</ENG> of earth cover.  Install counterpoise grounding conductor in earth undisturbed by excavation, not earth fill, and do not locate beneath 
+roof overhang, or wholly under paved areas or roadways where rainfall cannot penetrate to keep soil moist in the vicinity of the conductor. </TXT><BRK/>
+<BRK/>
+<TXT>Install ground rods vertically into the earth not less<MET> 3000 mm</MET><ENG> 10 feet</ENG> with top of ground rod not less than <MET> [450] [_____] millimeter</MET><ENG> [18] [_____] 
+inches</ENG> below finished grade.  Bond ground rods to counterpoise grounding conductor at intervals no less than <MET>6 linear meters</MET><ENG>20 linear feet</ENG> nor 
+greater than <MET>12 linear meters</MET><ENG>40 linear feet</ENG> of ground counterpoise cable.  </TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Ground Buses</TTL><BRK/>
+<BRK/>
+<TXT>Install ground busses in accordance with manufacturer's instructions.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Building Grounds</TTL><BRK/>
+<BRK/>
+<TXT>Install <MET> [11.7] [_____] millimeter diameter (No. [4/0] [_____] AWG)</MET><ENG> No. [4/0] [_____] AWG</ENG> bare copper ground conductor from [concrete encased foundation 
+rebar][ and ][every corner column and intermediate exterior column] to counterpoise.  [Connect conductors to rebar using [mechanical connectors 
+manufactured for such purpose][exothermic welds].  Install one conductor a minimum of every <MET> [18,000] [_____] millimeter</MET><ENG> [60] [_____] feet</ENG> of concrete 
+foundation perimeter.  ]Connect ground conductors to [columns and ]counterpoise using [mechanical connectors manufactured for such purpose][exothermic 
+welds].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Equipment Grounding</TTL><BRK/>
+<BRK/>
+<TXT>Install ground systems for power, telecommunications, and instrumentation.  Independently connect each system to the building counterpoise.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Equipment and Enclosure Bonding</TTL><BRK/>
+<BRK/>
+<TXT>Bond each metallic enclosure and all electrical equipment to ground.  Make at least one copper connection from the system ground point to one or 
+more enclosures in the area such that all enclosures and equipment provide a low-impedance path to ground when properly bonded together.</TXT><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph specifies a "Case" ground.  A Case ground is where grounding is critical such as fueling 
+areas, pads, etc.  A modification such as an office building or an administrative area would not require the additional 
+ground.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+[<TXT>In addition to the green colored equipment grounding conductor required in each raceway and sized in accordance with Table 250.122 of <RID>NFPA 70</RID>, 
+bond each panelboard, switchboard enclosure, transformer housing, motor housing, disconnect, starter, and other electrical equipment, to the grounding 
+system with a stranded copper conductor, routed external to the feeder raceway.</TXT><BRK/>
+<BRK/>
+]<TXT>Individually and directly connect indoor substations, transformers, switchboard frames, switchgear assemblies, motors, motor control centers, air 
+compressors, air handlers, refrigerated air dryers, generators, frames and tracks of cranes, and [_____] to the building ground.  Ensure the current-carrying 
+capacity of the grounding conductor is the same as the current-carrying capacity of the power conductors for circuits utilizing power lines size<MET>
+ [6.54] [_____] millimeter diameter (No. [2] [_____] AWG)</MET><ENG> No. [2] [_____] AWG</ENG> and smaller.  For circuits with power wiring larger than <MET>[6.54] [_____] 
+millimeter diameter (No. [2] [_____] AWG)</MET><ENG> No. [2] [_____] AWG</ENG>, ensure the grounding conductor is in accordance with <RID>NFPA 70</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Bonding of Conduit and Raceway Systems</TTL><BRK/>
+<BRK/>
+<TXT>Bond all metal conduit, fittings, junction boxes, outlet boxes, armored and metal sheathed cable, and other raceways.  Ensure adequate electrical 
+contact at the joints and terminations.  Ensure metallic raceway systems have electrical continuity with equipment.  Individually and directly 
+connect equipment to the building ground, independent of the raceway system.</TXT><BRK/>
+<BRK/>
+<TXT>For rigid metal conduit and terminations, ensure threaded connections are wrench-tight with no exposed threads.  Ream all ends of the conduit to 
+remove burrs and rough edges.  Bond conduits entering boxes and enclosures to the box with [bonding-type locknuts, one outside and one inside.] 
+[locknuts and grounding-type bushings.]  Locknuts that gouge into the metal box when tightened are not acceptable.</TXT><BRK/>
+<BRK/>
+<TXT>Conduit systems that are interrupted by PVC dielectric links are bonded separately on either side of the link.  Do not jumper the dielectric link.</TXT><BRK/>
+<BRK/>
+<TXT>Install flexible metal conduit with an integral grounding conductor.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Cable Tray Bonding</TTL><BRK/>
+<BRK/>
+<TXT>Bond cable tray sections together.  Cable tray sections in tandem assembly are considered as having electrical continuity when these sections are 
+bonded with the appropriate bolts.  Install bond straps across expansion joints.  Bond cable trays to the building ground system.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Bonding Materials And Methods</TTL><BRK/>
+<BRK/>
+<TXT>Accomplish bonding of metal surfaces by [brazing] [welding] [clamping] [structural joining methods].</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Brazing</TTL><BRK/>
+<BRK/>
+<TXT>Ensure brazing solder conforms to <RID>AWS A5.8/A5.8M</RID> [_____].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Welding</TTL><BRK/>
+<BRK/>
+<TXT>Weld using the exothermic process with procedures conforming to <RID>AWS A3.0M/A3.0</RID>, <RID>AWS B2.1/B2.1M</RID>, and manufacturer's recommendation.  Where dissimilar 
+metals are to be joined via exothermic weld, follow the weld kit manufacturer's recommendations and published instructions.  Ensure connections 
+between dissimilar metals do not produce galvanic action in accordance with <RID>MIL-STD-889</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Use welding processes of the exothermic fusion type that makes a connection without corroding or loosening.  Ensure process joins all strands and 
+does not cause the parts to be damaged or weakened.  Completed connection or joint is equal or larger in size than the conductors joined and has 
+the same current-carrying capacity as the largest conductor.  Paint the buried ground connections with a bitumastic paint.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Clamping</TTL><BRK/>
+<BRK/>
+<TXT>In external locations, use clamping only where a disconnect type of connection is required.  Connection device may utilize [spring-loaded jaws] 
+[threaded fasteners].  Construct device such that positive contact pressure is maintained at all times.  Use machine bolts with [tooth-type] [spring-type] 
+lockwashers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Cleaning of Bonding Surfaces</TTL><BRK/>
+<BRK/>
+<TXT>Thoroughly clean surfaces that comprise the bond before joining.  Apply an appropriate abrasive with gentle and uniform pressure to ensure a smooth 
+and uniform surface.  Do not remove excessive metal from the surface.  Clean clad metals in such a manner that the cladding material is not penetrated 
+by the cleaning process.  Then clean bare metal with an appropriate solvent to remove any grease, oil, dirt, corrosion preventives, and other contaminants.  
+Bond to the cleaned area within one hour after cleaning.  Seal joint and refinish the exposed surfaces within two hours of exposure to prevent 
+oxidation.  When additional time is required, apply a corrosion preventive compound until the area can be refinished.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Protection of Finished Bonds</TTL><BRK/>
+<BRK/>
+<TXT>Protect finished bonds by painting to match the original finish after the bond is made.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></SPT><SPT><TTL>FIELD QUALITY CONTROL</TTL><BRK/>
+<TAI OPT="RCBEA"><NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  If the specified system is identified as critical, configured, or mission essential, use Section 
+<SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS to establish predictive and acceptance testing 
+criteria.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT><TST>Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS</TST>.</TXT><BRK/></TAI>
+<BRK/>
+[<TXT>The requirements of Section <SRF>26 08 00</SRF> APPARATUS COORDINATION, INSPECTION AND TESTING apply to this section.</TXT><BRK/>
+<BRK/>
+]<TXT>Perform the following tests in the presence of the Contracting Officer.  Furnish test equipment and personnel and submit written results of each 
+test.  Notify the Contracting Officer at least 14 calendar working days prior to each test.</TXT><BRK/>
+<BRK/>
+<TXT>Submit written results of each test to Contracting Officer for review and approval.  Document each location where test is performed, the field 
+conditions at the time of the test, the measured results of the test, and whether the measured results "PASSED" or "FAILED" relative to specified 
+pass/fail performance criteria. </TXT> <BRK/>
+<BRK/>
+<TXT>Perform rework to correct FAILED conditions at no additional cost to the Government.</TXT><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Bond Resistance Test</SUB></TTL><BRK/>
+<BRK/>
+<TXT><TST>Resistance of any bond connection cannot exceed [0.5] [_____] milliohm.</TST>  Rework bonds that exceed this resistance at no additional cost to the 
+Government.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Ground Resistance Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT><TST>Test grounding systems for ground resistance.  Total resistance from any point on the ground network to the building counterpoise cannot exceed 
+[50] [_____] milliohms.</TST></TXT><BRK/>
+<BRK/>
+<TXT>Make ground resistance and counterpoise tests during dry weather, and no sooner than [48] [_____] hours after rainfall.  Conduct tests using the 
+ratio method that measures the ratio of the resistance to earth of an auxiliary test electrode to the series resistance of the electrode under 
+test and a second auxiliary electrode.  Perform measurements in accordance with <RID>IEEE 81</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Ground Isolation Test</SUB></TTL><BRK/>
+<BRK/>
+<TXT><TST>Test ground systems for isolation from other ground systems.</TST></TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Equipment Continuity Test</SUB></TTL><BRK/>
+<BRK/>
+<TXT><TST>Test connection from electrical distribution equipment including panelboards, switchboards, transformers, substations, and motor control centers 
+to counterpoise.  Measure and record the circuit resistance between electrical equipment ground connections and the counterpoise.  The circuit 
+resistance shall not exceed [5][  ] Ohms.</TST></TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>CLOSEOUT ACTIVITIES</TTL><BRK/>
+<BRK/>
+<TXT>Submit <SUB>record drawings</SUB> indicating the location of ground rods, mats, grids, building ground bus, supplementary grounding electrodes, steel building 
+columns, and other metal structures connected to the grounding system.</TXT><BRK/>
+<BRK/></SPT>
+</PRT>    <END/><BRK/></SEC>

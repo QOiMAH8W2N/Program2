@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">UFGS-26 05 70.00 40 (May 2019)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1" STYLEID="s50"/>
+         <CEL STYLEID="s50"/>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2" STYLEID="s50">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Preparing Activity:  <PRA>NASA</PRA></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-26 05 70.00 40 (February 2015)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 05 70.00 40</SCN><BRK/>
+<BRK/>
+<STL>HIGH VOLTAGE OVERCURRENT PROTECTIVE DEVICES</STL><BRK/>
+<DTE>05/19</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers the requirements for <SCP>circuit breakers, fuses, motor controls, and control 
+devices</SCP>.  This section supports Section <SRF>33 75 00.00 40</SRF> SWITCHGEAR AND PROTECTION DEVICES; accordingly, include 
+it to the extent applicable to project requirements.  Show frame and trip ratings, interrupting ratings, and NEMA 
+types and sizes, as well as single-line and schematic diagrams, elevations, and details on drawings.</NPR><BRK/>
+<BRK/>
+<NPR>Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format Standard when editing this guide 
+specification or preparing new project specification sections.  Edit this guide specification for project specific 
+requirements by adding, deleting, or revising text.  For bracketed items, choose applicable item(s) or insert 
+appropriate information.</NPR><BRK/>
+<BRK/>
+<NPR>Remove information and requirements not required in respective project, whether or not brackets are present.</NPR><BRK/>
+<BRK/>
+<NPR>Comments, suggestions and recommended changes for this guide specification are welcome and should be submitted 
+as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of the guide specification.  The publications 
+are referred to in the text by basic designation only and listed in this paragraph by organization, designation, 
+date, and title.</NPR><BRK/>
+<BRK/>
+<NPR>Use the Reference Wizard's Check Reference feature when you add a Reference Identifier (RID) outside of the Section's 
+Reference Article to automatically place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.</NPR><BRK/>
+<BRK/>
+<NPR>References not used in the text are automatically deleted from this section of the project specification when 
+you choose to reconcile references in the publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are referred to within the text by 
+the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>AMERICAN NATIONAL STANDARDS INSTITUTE (ANSI)</ORG><BRK/><BRK/><RID>ANSI C12.1</RID><RTL>(2014; Errata 2016) Electric Meters - Code for Electricity Metering</RTL><BRK/><BRK/><RID>ANSI C39.1</RID><RTL>(1981; R 1992) Requirements for Electrical Analog Indicating Instruments</RTL><BRK/><BRK/></REF><REF><ORG>ASTM INTERNATIONAL (ASTM)</ORG><BRK/><BRK/><RID>ASTM A48/A48M</RID><RTL>(2003; R 2021) Standard Specification for Gray Iron Castings</RTL><BRK/><BRK/><RID>ASTM A167</RID><RTL>(2011) Standard Specification for Stainless and Heat-Resisting Chromium-Nickel Steel Plate, Sheet, and Strip</RTL><BRK/><BRK/><RID>ASTM D877</RID><RTL>(2002; R 2007) Standard Test Method for Dielectric Breakdown Voltage of Insulating Liquids Using Disk Electrodes</RTL><BRK/><BRK/><RID>ASTM D2472</RID><RTL>(2000; R 2014) Standard Specification for Sulphur Hexafluoride</RTL><BRK/><BRK/><RID>ASTM D3487</RID><RTL>(2016; E2017) Standard Specification for Mineral Insulating Oil Used in Electrical Apparatus</RTL><BRK/><BRK/></REF><REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE C2</RID><RTL>(2017; Errata 1-2 2017; INT 1 2017) National Electrical Safety Code</RTL><BRK/><BRK/><RID>IEEE C37.09</RID><RTL>(2018; Errata 2019; Corr 2021) Standard Test Procedure for AC High-Voltage Circuit Breakers Rated on a Symmetrical Current Basis</RTL><BRK/><BRK/><RID>IEEE C37.2</RID><RTL>(2008) Standard for Electrical Power System Device Function Numbers, Acronyms and Contact Designations</RTL><BRK/><BRK/><RID>IEEE C37.40</RID><RTL>(2003; Errata 2003; R 2009) Service Conditions &amp; Definitions for High-Voltage Fuses, Distribution Enclosed Single-Pole Air Switches, Fuse Disconnecting Switches, &amp; Accessories</RTL><BRK/><BRK/><RID>IEEE C37.41</RID><RTL>(2016; Corr 2017) Design Tests for High-Voltage (&gt;1000 V) Fuses and Accessories</RTL><BRK/><BRK/><RID>IEEE C37.42</RID><RTL>(2016) Specifications for High-Voltage (&gt; 1000 V) Fuses and Accessories</RTL><BRK/><BRK/><RID>IEEE C37.46</RID><RTL>(2010) Standard for High Voltage Expulsion and Current-Limiting Type Power Class Fuses and Fuse Disconnecting Switches</RTL><BRK/><BRK/><RID>IEEE C37.47</RID><RTL>(2011) Standard for High Voltage Distribution Class Current-Limiting Type Fuses and Fuse Disconnecting Switches</RTL><BRK/><BRK/><RID>IEEE C37.121</RID><RTL>(2012) American National Standard for Switchgear-Unit Substations - Requirements</RTL><BRK/><BRK/><RID>IEEE C57.13</RID><RTL>(2016) Standard Requirements for Instrument Transformers</RTL><BRK/><BRK/><RID>IEEE C63.2</RID><RTL>(2009) Standard for Electromagnetic Noise and Field Strength Instrumentation, 10 Hz to 40 GHz - Specifications</RTL><BRK/><BRK/><RID>IEEE C63.4</RID><RTL>(2014) American National Standard for Methods of Measurement of Radio-Noise Emissions from Low-Voltage Electrical and Electronic Equipment in the Range of 9 kHz to 40 GHz</RTL><BRK/><BRK/></REF><REF><ORG>INTERNATIONAL ELECTRICAL TESTING ASSOCIATION (NETA)</ORG><BRK/><BRK/><RID>NETA ATS</RID><RTL>(2021) Standard for Acceptance Testing Specifications for Electrical Power Equipment and Systems</RTL><BRK/><BRK/></REF><REF><ORG>INTERNATIONAL ELECTROTECHNICAL COMMISSION (IEC)</ORG><BRK/><BRK/><RID>IEC 60255-149</RID><RTL>(2013) Measuring Relays and Protection Equipment</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA)</ORG><BRK/><BRK/><RID>RCBEA GUIDE</RID><RTL>(2004) NASA Reliability Centered Building and Equipment Acceptance Guide</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION (NEMA)</ORG><BRK/><BRK/><RID>ANSI C78.23</RID><RTL>(1995; R 2003) American National Standard for Incandescent Lamps - Miscellaneous Types</RTL><BRK/><BRK/><RID>NEMA 250</RID><RTL>(2020) Enclosures for Electrical Equipment (1000 Volts Maximum)</RTL><BRK/><BRK/><RID>NEMA AB 3</RID><RTL>(2013) Molded Case Circuit Breakers and Their Application</RTL><BRK/><BRK/><RID>NEMA ICS 1</RID><RTL>(2000; R 2015) Standard for Industrial Control and Systems: General Requirements</RTL><BRK/><BRK/><RID>NEMA ICS 2</RID><RTL>(2000; R 2020) Industrial Control and Systems Controllers, Contactors, and Overload Relays Rated 600 V</RTL><BRK/><BRK/><RID>NEMA ICS 3</RID><RTL>(2005; R 2010) Medium-Voltage Controllers Rated 2001 to 7200 V AC</RTL><BRK/><BRK/><RID>NEMA ICS 6</RID><RTL>(1993; R 2016) Industrial Control and Systems:  Enclosures</RTL><BRK/><BRK/><RID>NEMA SG 2</RID><RTL>(1993) Standard for High-Voltage Fuses</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)</ORG><BRK/><BRK/><RID>NFPA 70</RID><RTL>(2020; ERTA 20-1 2020; ERTA 20-2 2020; TIA 20-1; TIA 20-2; TIA 20-3; TIA 20-4) National Electrical Code</RTL><BRK/><BRK/></REF><REF><ORG>UNDERWRITERS LABORATORIES (UL)</ORG><BRK/><BRK/><RID>UL 50</RID><RTL>(2015) UL Standard for Safety Enclosures for Electrical Equipment, Non-Environmental Considerations</RTL><BRK/><BRK/><RID>UL 489</RID><RTL>(2016; Rev 2019) UL Standard for Safety Molded-Case Circuit Breakers, Molded-Case Switches and Circuit-Breaker Enclosures</RTL><BRK/><BRK/><RID>UL 508</RID><RTL>(2018; Reprint Jul 2021) UL Standard for Safety Industrial Control Equipment</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>ADMINISTRATIVE REQUIREMENTS</TTL><BRK/>
+<BRK/>
+[<TXT>Section <SRF>26 08 00</SRF> APPARATUS INSPECTION AND TESTING applies to work specified in this section.</TXT><BRK/>
+<BRK/>
+]<BRK/></SPT>
+<SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review Submittal Description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES and edit the following 
+list, and corresponding submittal items in the text, to reflect only the submittals required for the project.  
+The Guide Specification technical editors have classified those items that require Government approval, due to 
+their complexity or criticality, with a "G."  Generally, other submittal items can be reviewed by the Contractor's 
+Quality Control System.  Only add a “G” to an item, if the submittal is sufficiently important or complex in context 
+of the project.</NPR><BRK/>
+<BRK/>
+<NPR><TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, with a code of up to three characters 
+to indicate the approving authority.  Codes for Army projects using the Resident Management System (RMS) are:  
+"AE" for Architect-Engineer; "DO" for District Office (Engineering Division or other organization in the District 
+Office); "AO" for Area Office; "RO" for Resident Office; and "PO" for Project Office.  </TAI>Codes following the "G" 
+typically are not used for Navy,  Air Force, and NASA projects.</NPR><BRK/>
+<BRK/>
+<NPR> The "S" classification indicates submittals required as proof of compliance for sustainability Guiding Principles 
+Validation or Third Party Certification and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.</NPR><BRK/>
+<BRK/>
+<NPR>Choose the first bracketed item for Navy, Air Force and NASA projects, or choose the second bracketed item for 
+Army projects.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" or "S" classification are [for Contractor 
+Quality Control approval.][for information only.  When used, a code following the "G" classification identifies the office that will review the 
+submittal for the Government.]  Submit the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-01 Preconstruction Submittals</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Sample Warranty</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-02 Shop Drawings</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Connection Diagrams</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Fabrication Drawings</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM> <BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>High-Voltage Motor Controllers</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Instrument Transformers</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Current Transformers</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Potential Transformers</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Enclosures</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Circuit Breakers</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Protective Relays</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Indicating Instruments</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Indicating Lights</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Fuses</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-06 Test Reports</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Final Test Reports</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Acceptance Tests</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-07 Certificates</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Warranty</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<ITM><SUB>Factory Tests</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-10 Operation and Maintenance Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Operation and Maintenance Manuals</SUB>[; <SUB>G<TAI OPT="ARMY">[, [____]]</TAI></SUB>]</ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>QUALITY CONTROL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Regulatory Requirements</TTL><BRK/>
+<BRK/>
+<TXT>In each of the publications referred to herein, consider the advisory <BRK/>
+provisions to be mandatory, as though the word, "shall" had been <BRK/>
+substituted for "should" wherever it appears.  Interpret references in <BRK/>
+these publications to the "authority having jurisdiction," or words of <BRK/>
+similar meaning, to mean the Contracting Officer.  Ensure equipment, materials, installation, and workmanship are in accordance with the mandatory 
+and advisory provisions of <RID>NFPA 70</RID>, <RID>IEEE C2</RID> unless more stringent requirements are specified or indicated.</TXT> <BRK/>
+<BRK/></SPT>
+<SPT><TTL>Qualification</TTL><BRK/>
+<BRK/>
+<TXT>Provide materials and equipment that are products of manufacturers <BRK/>
+regularly engaged in the production of such products which are of equal <BRK/>
+material, design and workmanship.  Provide products which have been in <BRK/>
+satisfactory commercial or industrial use for 2 years prior to bid <BRK/>
+opening.  Ensure the 2-year period includes applications of equipment and <BRK/>
+materials under similar circumstances and of similar size.  Ensure the product has been on sale on the commercial market through advertisements, <BRK/>
+manufacturers' catalogs, or brochures during the 2-year period.  Where two <BRK/>
+or more items of the same class of equipment are required, these items <BRK/>
+must be products of a single manufacturer.</TXT><BRK/>
+<BRK/></SPT>
+<TAI OPT="RCBEA"><SPT><TTL>Predictive Testing and Inspection Technology Requirements</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  The Predictive Testing and Inspection (PT&amp;I) tests prescribed in Section <SRF>01 86 26.07 40</SRF> RELIABILITY 
+CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS are MANDATORY for all [NASA] [_____] assets and systems identified 
+as Critical, Configured, or Mission Essential.  If the system is non-critical, non-configured, and not mission 
+essential, use sound engineering discretion to assess the value of adding these additional test and acceptance 
+requirements.  See Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS for additional 
+information regarding cost feasibility of PT&amp;I.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>This section contains systems and/or equipment components regulated by NASA's Reliability Centered Building and Equipment Acceptance Program.  
+This program requires the use of Predictive Testing and Inspection (PT&amp;I) technologies in conformance with <RID>RCBEA GUIDE</RID> to ensure building equipment 
+and systems installed by the Contractor have been installed properly and contain no identifiable defects that shorten the design life of a system 
+and/or its components.  Satisfactory completion of all acceptance requirements is required to obtain Government approval and acceptance of the 
+Contractor's work.<BRK/>
+<BRK/>
+Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS</TXT><BRK/>
+<BRK/></SPT>
+</TAI><SPT><TTL>Standard Products</TTL><BRK/>
+<BRK/>
+<TXT>Provide materials and equipment that are products of manufacturers regularly engaged in the production of such products which are of equal material, 
+design and workmanship.  Provide products that have been in satisfactory commercial or industrial use for 2 years prior to bid opening.  The 2-year 
+period includes applications of equipment and materials under similar circumstances and of similar size.  Provide products that have been on sale 
+on the commercial market through advertisements, manufacturers' catalogs, or brochures during the 2-year period.  Where two or more items of the 
+same class of equipment are required, use items of a single manufacturer; however, the component parts of the item need not be the products of 
+the same manufacturer unless stated in this section.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Material and Equipment Manufacturing Date</TTL><BRK/>
+<BRK/>
+<TXT>Do not use products manufactured more than 3 years prior to date of delivery to site, unless specified otherwise.</TXT></SPT></SPT><SPT><TTL>Shop Drawings</TTL><BRK/>
+<BRK/>
+<TXT>Submit <SUB>connection diagrams</SUB> showing the relations and connections of control devices and protective devices by showing the general physical layout 
+of all controls, the interconnection of one system (or portion of system) with another, and internal tubing, wiring, and other devices.<BRK/>
+<BRK/>
+Submit <SUB>fabrication drawings</SUB> for control devices and protective devices consisting of fabrication and assembly details to be performed in the factory.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>WARRANTY</TTL><BRK/>
+<BRK/>
+<TXT>Submit manufacturer's <SUB>sample warranty</SUB> for review and acceptance to the Contracting Officer.</TXT><BRK/>
+<BRK/></SPT>
+</PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<BRK/>
+<SPT><TTL>EQUIPMENT</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>High-Voltage Motor Controllers</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide motor controllers conforming to <RID>NEMA ICS 3</RID>, and <RID>UL 508</RID>.  Provide controllers that have thermal overload protection in each phase.</TXT><BRK/>
+<BRK/>
+<TXT>Provide high-voltage motor controllers for the control and protection of squirrel-cage induction motors, wound-rotor induction motors, and synchronous 
+machines rated 2.4 through 13.8 kilovolts, three-phase, that are <RID>NEMA ICS 2</RID>, Class E2, type as required.</TXT><BRK/>
+<BRK/>
+<TXT>Unless enclosed within a switchgear or unit-substation cubicle, house high-voltage motor controllers in floor-mounted structures of the NEMA type 
+indicated, approximately<MET> 2300 millimeter</MET><ENG> 90 inches</ENG> high,<MET> 750 millimeter</MET><ENG> 30 inches</ENG> wide, and<MET> 750 millimeter</MET><ENG> 30 inches</ENG> deep, with suitable draw-out 
+compartments.  Include structural provisions for padlocking the doors.</TXT><BRK/>
+<BRK/>
+<TXT>Subdivide structure into low-voltage control compartment with separate door, high-voltage control compartment with separate door, ac bus compartment, 
+and cable-entrance compartment.</TXT><BRK/>
+<BRK/>
+<TXT>Isolate controller by externally operated draw-out stabs with shutter mechanism which also opens the secondary of the control-power transformer.  
+Provide interlocks to prevent inadvertent operation of the isolating mechanism under load, opening the medium-voltage compartment door without 
+isolating the starter, and closing the line contactor with door open.  Include an isolating switch assembly.</TXT><BRK/>
+<BRK/>
+<TXT>For overload protection, include ambient-compensated thermal overload relays and hand reset in all three phases.  Utilizing solid state multifunction 
+overload protection is acceptable when approved.</TXT><BRK/>
+<BRK/>
+<TXT>Provide fused type controllers employing current-limiting power fuses of the interrupting rating indicated.  Provide fuses with fatigue proof elements 
+that allow the elements to absorb expansions and contractions created by the heating and cooling associated with cycling associated with normal 
+motor starting.  Provide single-phase antitrip protection.  Provide magnetic air-break line contactors rated not less than 5 kilovolts on starters.  
+Provide control circuit with provisions for external testing of 120-volt control circuit and a minimum of one set of normally open and normally 
+closed auxiliary contacts.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Vacuum Contactor</TTL><BRK/>
+<BRK/>
+<TXT>Provide vacuum contactor of the [slide-out] [roll-out] and [latched] [magnetically-held] design, rated [300] [400] [800] [_____] amperes with single-break 
+high-pressure type main contacts with weld-resistant alloy contact faces.  Ensure that the vacuum contactor contact wear is easily checked with 
+the use of a "go/no-go" feeler gauge.</TXT><BRK/>
+<BRK/>
+<TXT>Provide built-in test circuitry to permit checking of the starter control and pilot circuit, with the high voltage de-energized and isolated, and 
+the contactor in its normal position or in the drawout position.  Ensure the control circuit is capable of being energized through a polarized 
+plug connector from an external 115-volt supply while in the test mode.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Starters</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Ensure starter ratings, types, and accessories are coordinated with drawings and included in the following 
+section.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide starters designed to accommodate motors of the size and type as indicated.  Provide [non-reversing] [reversing] starters for [Induction 
+Motor Full-Voltage Start], [Induction Motor Autotransformer Start], [Induction Motor Reactor Start], [Induction Motor Solid State Reduced Voltage 
+Start], [Synchronous Motor Full-Voltage Start - Brush-Type], [Synchronous Motor Full-Voltage Start - Brushless-Type] motors.</TXT><BRK/>
+<BRK/>
+<TXT>Provide starters with interrupting rating with current limiting fuses of [_____].  [When starters are grouped together in a lineup, ensure the 
+entire assembly is suitable for application on a power system having a short circuit-capacity of [_____].]</TXT><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Ensure that any additional accessories necessary for the the type of starter specified are included in 
+the list below.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Each starter high-voltage compartment includes:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Starter isolating switch [with blown fuse indicator]. </LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Three [Bolt-in] [Clip-in] Current-limiting power fuses for each starter. </LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  [Stab-in] [Bolt-in] contactor assembly.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Control circuit transformer with primary current limiting fuses and secondary fusing.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Run/Test circuit.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Electrical interlocks.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  Current transformers for use with electronic overload.</LST><BRK/>
+[<BRK/>
+<LST INDENT="-0.33">h.  Ground fault current transformer where ground fault protection is indicated.</LST>]<BRK/>
+[<BRK/>
+<LST INDENT="-0.33">i.  Additional contactor for motor reversing.  Ensure both contactors are mechanically and electrically interlocked.</LST>]<BRK/>
+<BRK/>
+<TXT>Each starter low-voltage compartment includes:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Motor Protection Relay</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Control relays</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Set of control circuit terminal blocks</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Potential Transformers</LST> <BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Isolation switch viewing window to verify switch position</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Current transformer shorting terminal block</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Instrument Transformers</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Comply with the interference requirements listed below, measured in accordance with <RID>IEEE C63.2</RID> and <RID>IEEE C63.4</RID> for Instrument transformers.</TXT><BRK/>
+<TAB HEADERROWS="2">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+      <STY SID="s51">
+         <ALN HORIZONTAL="CENTER"/>
+      </STY>
+      <STY SID="s52">
+         <ALN HORIZONTAL="CENTER" VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="6" ROWCOUNT="15">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="74.25"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="66.00"/>
+      <COL AUTOWIDTH="0" WIDTH="56.25"/>
+      <COL AUTOWIDTH="0" WIDTH="85.50"/>
+      <COL AUTOWIDTH="0" WIDTH="80.25"/>
+      <COL AUTOWIDTH="0" WIDTH="105.75"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="28.50">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING"><HL4><BRK/>Influence</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s50"/>
+         <CEL>
+<DTA TYPE="STRING"><HL4><BRK/>Preferred</HL4></DTA>
+         </CEL>
+         <CEL/>
+         <CEL STYLEID="s51"/>
+         <CEL>
+<DTA TYPE="STRING"><HL4><BRK/>Ratio</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="69.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING"><BRK/><HL4>Insulation<BRK/>Class,<BRK/>kV</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING"><HL4>Basic<BRK/>Insulation<BRK/>Level,<BRK/>kV</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING"><HL4>Nominal<BRK/>System<BRK/>Voltage,<BRK/>kV</HL4><BRK/></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING"><HL4>Test Voltage<BRK/>for Potential<BRK/>Transformers,<BRK/>kV</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING"><HL4>Test Voltage<BRK/>for Current<BRK/>Transformers,<BRK/>kV</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>Voltage Level,<BRK/>Microvolts</HL4>
+<BRK/><BRK/><HL4>Dry    Oil</HL4><BRK/><HL4>Type  Filled</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">0.6</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">10</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">........</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">.............</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">0.76</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>250    250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="54.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">1.2</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">30</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>0.208<BRK/>0.416<BRK/>0.832<BRK/>1.04</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>0.132<BRK/>0.264<BRK/>0.528<BRK/>0.66</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">0.76</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>250    250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">2.5</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">45</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>2.40</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>1.52</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">1.67</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>250    250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="33.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">5.0</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">60</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>4.16<BRK/>4.80</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>2.64<BRK/>3.04</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">3.34</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>250    250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="33.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">8.7</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">75</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>7.20<BRK/>8.32</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>4.57<BRK/>5.28</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">5.77</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>250    250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.75">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">15L or 15H</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">95-110</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>12.00<BRK/>12.47<BRK/>14.40</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>7.62<BRK/>7.92<BRK/>9.14</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">9.41</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>1000   250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="22.50">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">25</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">150</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>23.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>14.60</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">15.70</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>2500   650</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">34.5</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">200</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>34.50</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>21.90</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">23.0</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....   650</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">46</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">250</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>46.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>29.20</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">29.30</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....  1250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">69</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">350</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>69.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>43.80</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">44.00</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....  1250</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="18.00">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">92</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">450</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>92.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>58.40</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">58.40</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....  2500</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="23.25">
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">115</DTA>
+         </CEL>
+         <CEL STYLEID="s52">
+<DTA TYPE="STRING">550</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>115.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>73.40</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">73.40</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....  2500</HL4></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="47.25">
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">138</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">650</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>138.00</HL4></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>88.00</HL4></DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">88.00</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL4>....  2500</HL4></DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<SPT><TTL><SUB>Current Transformers</SUB> (CT)</TTL><BRK/>
+<BRK/>
+<TXT>Provide current transformers conforming to <RID>IEEE C57.13</RID> for installation in metal-clad switchgear.  Use standard multi-ratio 5A secondary transformers.  
+Ensure CTs are coordinated to the rating of the associated switchgear, relays, and instruments.  Ensure CTs have a thermal rating factor of 2.0.</TXT><BRK/>
+<BRK/>
+<TXT>Provide [wound] [bushing] [bar] [window] type transformers.</TXT><BRK/>
+<BRK/>
+<TXT>Provide transformers that have [single] [double] secondary winding.</TXT><BRK/>
+<BRK/>
+<TXT>Provide transformers that are complete with secondary short-circuiting device.</TXT><BRK/>
+<BRK/>
+<TXT>Provide indoor dry type construction for window type transformers with secondary current ratings as indicated with specified burden, frequency, 
+and accuracy.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Potential Transformers</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide potential transformers conforming to <RID>IEEE C57.13</RID> for installation in metal-clad switchgear.  Use standard 120-volt secondary, drawout type, 
+60 Hz transformers with voltage ratings and ratios coordinated to the ratings of the associated switchgear, relays, and instruments.  Ensure potential 
+transformers are equipped with two current limiting fuses in the primary sized as recommended by the potential transformer manufacturer.</TXT><BRK/>
+<BRK/>
+<TXT>Provide transformers with [single] [tapped] [double] secondary.</TXT><BRK/>
+<BRK/>
+<TXT>Provide burden, frequency, and accuracy as required.</TXT><BRK/>
+<BRK/>
+<TXT>Provide indoor dry type two-winding construction for disconnecting potential transformers with integral fuse mountings and current-limiting fuses 
+with primary and secondary voltage ratings as required.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Enclosures</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>Equipment Enclosures</TTL><BRK/>
+<BRK/>
+<TXT>Provide enclosures for equipment in accordance with <RID>NEMA 250</RID> and <RID>NEMA ICS 6</RID>.  Ensure enclosures are completely front accessible.  Provide outdoor 
+enclosures equipped with space heaters and thermostats.  Obtain control power from an [internal control power transformer] [external source as 
+indicated].</TXT><BRK/>
+<BRK/>
+[<LST INDENT="-0.33">a.  Contain equipment installed inside clean, dry locations in a NEMA Type 1, general-purpose sheet-steel enclosure.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">b.  Contain equipment installed in wet locations in NEMA Type 4 watertight, corrosion-resistant sheet-steel enclosure, constructed to prevent 
+entrance of water when tested in accordance with <RID>NEMA ICS 6</RID> for Type 4 enclosures.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">c.  Contain equipment installed in industrial locations in a NEMA Type 12 industrial use, sheet-steel enclosure constructed to prevent 
+the entrance of dust, lint, fibers, flying's, oil, and coolant seepage.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">d.  Contain equipment installed in Class I, Division I, Group A, B, C, and D, hazardous locations in NEMA Type 7 enclosures approved for 
+the specific flammable gas or vapor that is possibly present under normal operating conditions.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">e.  Contain equipment installed in Class II, Division I, Group E, F and G, hazardous locations in NEMA Type 9 enclosures approved for use 
+where combustible dust is possibly present under normal operating conditions.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">f.  Fabricate sheet-steel enclosures from uncoated commercial quality carbon-steel sheets.  Ensure box dimensions and thickness of sheet 
+steel are in accordance with <RID>UL 50</RID>.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">g.  Fabricate steel enclosures from corrosion-resistant, chromium-nickel steel sheet conforming to <RID>ASTM A167</RID> Type 300 series with ASM No. 
+4 general-purpose polished finish.  Ensure box dimensions and thickness of sheet steel are in accordance with <RID>UL 50</RID>.</LST><BRK/>
+<BRK/>
+]</SPT><SPT><TTL>Control Station Enclosures</TTL><BRK/>
+<BRK/>
+<TXT>Provide control station enclosures for pushbuttons, selector switches, and indicating lights in accordance with the appropriate articles of <RID>NEMA ICS 6</RID>
+ and <RID>NEMA 250</RID>.</TXT><BRK/>
+<BRK/>
+[<LST INDENT="-0.33">a.  Contain control stations installed in indoor, clean, dry locations in NEMA Type 1 general-purpose, sheet-steel enclosures.  Contain 
+recessed control stations in standard wall outlet boxes with matching corrosion-resistant steel flush cover plate.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">b.  Contain control stations installed in wet locations in NEMA Type 4 watertight, corrosion-resistant sheet-steel enclosures constructed 
+to prevent entrance of water when tested in accordance with <RID>NEMA ICS 6</RID> and <RID>NEMA 250</RID> for Type 4 enclosures.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">c.  Contain control stations installed in wet locations in NEMA Type 4 watertight, cast-iron enclosures constructed to prevent entrance 
+of water when tested in accordance with <RID>NEMA ICS 6</RID> and <RID>NEMA 250</RID> for Type 4 enclosures.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">d.  Contain control stations installed in dry noncombustible dust-laden atmospheres in NEMA Type 12 dusttight, cast-iron enclosures with 
+gaskets or their equivalent to prevent the entrance of dust.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">e.  Contain control stations installed in industrial locations in NEMA Type 12 industrial-use, sheet-steel enclosures constructed to prevent 
+the entrance of dust, lint, fibers, filings, oil, and coolant seepage.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">f.  Contain control stations installed in industrial locations in NEMA Type 12 industrial-use, cast-iron enclosures constructed to prevent 
+the entrance of dust, lint, fibers, filings, oil, and coolant seepage.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">g.  Contain control stations installed in Class I, Division I, Group A, B, C, and D, hazardous locations in NEMA Type 7 enclosures approved 
+for the specific flammable gas or vapor which is possibly present under normal operating conditions.</LST><BRK/>
+<BRK/>
+][<LST INDENT="-0.33">h.  Contain control stations installed in Class II, Division I, Group E, F and G, hazardous locations in NEMA Type 9 enclosures approved 
+for use where combustible dust is possibly present under normal operating conditions.</LST><BRK/>
+]<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Select the material type most suitable to the project requirements and environmental conditions.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+[<TXT>Fabricate sheet-steel enclosures from uncoated carbon-steel sheets of commercial quality.  Ensure box dimensions and thickness of sheet steel are 
+in accordance with <RID>UL 50</RID>.</TXT><BRK/>
+<BRK/>
+][<TXT>Fabricate steel enclosures from corrosion-resistant, chromium-nickel steel sheet conforming to <RID>ASTM A167</RID>, Type 300 series with ASM No. 4 general-purpose 
+polished finish.  Ensure box dimensions and thickness of sheet steel are in accordance with <RID>UL 50</RID>.</TXT><BRK/>
+<BRK/>
+][<TXT>Provide cast-iron enclosures of gray-iron castings conforming to <RID>ASTM A48/A48M</RID>, with tensile-strength classification recognized as suitable for 
+this application.  Provide cast metal enclosures that are not less than<MET> 3 millimeter</MET><ENG> 1/8 inch</ENG> thick at reinforcing ribs and door edges and not 
+less than<MET> 6 millimeter</MET><ENG> 1/4 inch</ENG> thick at tapped holes for conduit.</TXT><BRK/>
+<BRK/>
+]<TXT>Install control stations with the centerline<MET> 1700 millimeter</MET><ENG> 66 inches</ENG> above the finished floor.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Circuit Breakers</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers conforming to <RID>UL 489</RID> and <RID>NEMA AB 3</RID>.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Air Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that include a ground-fault system or ground-sensing relays.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Stored-Energy-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>For air circuit breakers with stored-energy-operated mechanisms, conform to <RID>IEEE C37.121</RID> for metal-clad switchgear rated above [600 volts] [5 kilovolts], 
+[14.4 kilovolts] [grounded] [ungrounded].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad air circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical interlocks 
+to allow complete removal of the unit for inspection and maintenance.  Provide three-pole, single-throw, electrically operated circuit breakers, 
+with a motor-charged spring, stored-energy mechanism, and electric release coils for tripping and closing operations.</TXT><BRK/>
+<BRK/>
+<TXT>Provide a motor-operated position-changing mechanism that moves the breaker between the test and operating position by means of a levering device.  
+Provide interlocks to prevent the complete withdrawal of the circuit breaker from its compartment when the stored-energy mechanism is in the fully 
+charged position.  Design circuit breakers to prevent the release of stored energy unless the mechanism is fully charged.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that have mechanically trip-free mechanisms with direct-current potential trip coils of the voltage indicated, auxiliary 
+switches, latch-checking switches, control relays, and operation counters.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Solenoid-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>Conform to <RID>IEEE C37.121</RID> for air circuit breakers with solenoid-operated mechanisms and the appropriate articles for metal-clad switchgear rated 
+above [600 volts] [5 kilovolts] [14.4 kilovolts].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad air circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical interlocks 
+to allow complete removal of the unit for inspection and maintenance.  Provide three-pole single-throw circuit breakers, with solenoid-operated 
+tripping/closing mechanism designed for operation on a [direct-current station battery power supply] [direct from an emergency ac power system 
+of [_____] voltage].</TXT><BRK/>
+<BRK/>
+<TXT>Rate the mechanism closing coils for [_____] volts and operable at voltages as low as [_____] volts.  Rate the mechanism trip coils for [_____] 
+volts and operable at voltages as low as [_____] volts.  Provide an operating mechanism for ac control circuits by the manufacturer for [_____] 
+voltage.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers with mechanically trip-free mechanisms including auxiliary switches, latch-checking switches, control relays, and operation 
+counters.  The use of solid state tripping devices is acceptable.</TXT><BRK/></SPT>
+<BRK/></SPT>
+<SPT><TTL>Oil Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>For oil circuit breakers, use control voltage as indicated with a tripping mechanism consisting of a magnet acting as a trigger to release a latch, 
+permitting the breaker to open.  Provide a pneumatic operating system with compressors and reservoirs as needed.  Integrate tripping and closing 
+control with the breakers.</TXT><BRK/>
+<BRK/>
+<TXT>Provide three phase distribution-voltage breakers with all three interrupters mounted in the same tank.  Provide transmission-voltage oil circuit 
+breakers with the phase interrupters mounted in separate tanks.</TXT><BRK/>
+<BRK/>
+<TXT>Equip circuit-breaker bushings with bushing current transformers and standard secondary taps.  Provide taps that are terminated outside the tank 
+housing on terminal blocks and identified for short circuiting.</TXT><BRK/>
+<BRK/>
+<TXT>Enclose operating mechanism in a waterproof housing mounted on the breaker framework with heaters to prevent condensation of moisture.  Provide 
+a mechanically trip-free breaker mechanism.</TXT><BRK/>
+<BRK/>
+<TXT>Equip each breaker with complete relaying and controls.  Provide relaying consisting of instantaneous and overcurrent time-delay relays plus others 
+as indicated and controls consisting of a reclosing relay, control switch, indicating lights, ammeters, and as approved.  Install relays and controls 
+in a control cabinet mounted on the breaker housing [solid state type is acceptable] or [install remotely].  Provide an externally operable manual 
+trip device.</TXT><BRK/>
+<BRK/>
+<TXT>Supply each oil circuit breaker with tank-lowering and tank-lifting devices.  Provide a tank drain valve and an oil level indicator on each tank 
+where applicable.</TXT><BRK/>
+<BRK/>
+<TXT>Conform to <RID>ASTM D3487</RID> for oil used in the oil circuit breakers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Vacuum Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that include a ground-fault system or ground-sensing relays.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that contain three vacuum interrupters separately mounted in a self-contained, removable self-aligning pole unit.  Ensure  
+components are inserted into a vacuum heat chamber and sealed under vacuum.  "Pinch tubes" are not acceptable.  Ensure proper isolation of the 
+ambient air and the vacuum.  Design circuit breakers to prevent rotation of the contact within the vacuum chamber and the contacts are self-aligning.  
+Ensure contacts do not require adjustments for the life of the vacuum interrupter assembly.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Stored-Energy-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>For vacuum circuit breakers with stored-energy-operated mechanisms, conform to <RID>IEEE C37.121</RID> for metal-clad switchgear rated above [600 volts] [5 
+kilovolts], [14.4 kilovolts] [grounded] [ungrounded].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad vacuum circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical 
+interlocks to allow complete removal of the unit for inspection and maintenance.  Provide three-pole, single-throw, electrically operated circuit 
+breakers, with a motor-charged spring, stored-energy mechanism, and electric release coils for tripping and closing operations.</TXT><BRK/>
+<BRK/>
+<TXT>Provide a motor-operated position-changing mechanism that moves the breaker between the test and operating position by means of a levering device.  
+Provide interlocks to prevent the complete withdrawal of the circuit breaker from its compartment when the stored-energy mechanism is in the fully 
+charged position.  Design circuit breakers to prevent the release of stored energy unless the mechanism is fully charged.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that have mechanically trip-free mechanisms with direct-current potential trip coils of the voltage indicated, auxiliary 
+switches, latch-checking switches, control relays, and operation counters.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Solenoid-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>Conform to <RID>IEEE C37.121</RID> for vacuum circuit breakers with solenoid-operated mechanisms and the appropriate articles for metal-clad switchgear rated 
+above [600 volts] [5 kilovolts] [14.4 kilovolts].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad vacuum circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical 
+interlocks to allow complete removal of the unit for inspection and maintenance.  Provide three-pole single-throw circuit breakers, with solenoid-operated 
+tripping/closing mechanism designed for operation [on a direct-current station battery power supply][direct from an emergency ac power system of 
+[_____] volts].</TXT><BRK/>
+<BRK/>
+<TXT>Rate the mechanism closing coils for [125][_____] volts and operable at voltages as low as [90][_____] volts.  Rate the mechanism trip coils for 
+[125][_____] volts and operable at voltages as low as [70][_____] volts.  Provide an operating mechanism for ac control circuits by the manufacturer 
+for [_____] volts.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers with mechanically trip-free mechanisms including auxiliary switches, latch-checking switches, control relays, and operation 
+counters.  The use of solid state tripping devices is acceptable.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>SF6 Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that include a ground-fault system or ground-sensing relays.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that contain three sulfur hexafluoride (SF6) interrupters separately mounted in a self-contained, removable self-aligning 
+pole unit.  Design circuit breakers to prevent rotation of the contact within the vacuum chamber and the contacts are self-aligning.  Ensure contacts 
+do not require adjustments for the life of the vacuum interrupter assembly.  Ensure SF6 circuit breakers are shipped factory filled with SF6 gas 
+conforming to <RID>ASTM D2472</RID>.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Stored-Energy-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>For SF6 circuit breakers with stored-energy-operated mechanisms, conform to <RID>IEEE C37.121</RID> for metal-clad switchgear rated above [600 volts] [5 kilovolts], 
+[14.4 kilovolts] [grounded] [ungrounded].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad SF6 circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical interlocks 
+to allow complete removal of the unit for inspection and maintenance.  Provide three-pole, single-throw, electrically operated circuit breakers, 
+with a motor-charged spring, stored-energy mechanism, and electric release coils for tripping and closing operations.</TXT><BRK/>
+<BRK/>
+<TXT>Provide a motor-operated position-changing mechanism that moves the breaker between the test and operating position by means of a levering device.  
+Provide interlocks to prevent the complete withdrawal of the circuit breaker from its compartment when the stored-energy mechanism is in the fully 
+charged position.  Design circuit breakers to prevent the release of stored energy unless the mechanism is fully charged.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers that have mechanically trip-free mechanisms with direct-current potential trip coils of the voltage indicated, auxiliary 
+switches, latch-checking switches, control relays, and operation counters.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Solenoid-Operated Type</TTL><BRK/>
+<BRK/>
+<TXT>Conform to <RID>IEEE C37.121</RID> for SF6 circuit breakers with solenoid-operated mechanisms and the appropriate articles for metal-clad switchgear rated 
+above [600 volts] [5 kilovolts] [14.4 kilovolts].</TXT><BRK/>
+<BRK/>
+<TXT>Mount metal-clad SF6 circuit breakers on a mobile frame with primary and secondary disconnecting devices, automatic shutters, and mechanical interlocks 
+to allow complete removal of the unit for inspection and maintenance.  Provide three-pole single-throw circuit breakers, with solenoid-operated 
+tripping/closing mechanism designed for operation [on a direct-current station battery power supply][direct from an emergency ac power system of 
+[_____] volts].</TXT><BRK/>
+<BRK/>
+<TXT>Rate the mechanism closing coils for [125][_____] volts and operable at voltages as low as [90][_____] volts.  Rate the mechanism trip coils for 
+[125][_____] volts and operable at voltages as low as [70][_____] volts.  Provide an operating mechanism for ac control circuits by the manufacturer 
+for [_____] volts.</TXT><BRK/>
+<BRK/>
+<TXT>Provide circuit breakers with mechanically trip-free mechanisms including auxiliary switches, latch-checking switches, control relays, and operation 
+counters.  The use of solid state tripping devices is acceptable.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></SPT><SPT><TTL><SUB>Fuses</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide a complete set of fuses for all switches and switchgear.  Provide fuses that have a voltage rating of not less than the circuit voltage.</TXT><BRK/>
+<BRK/>
+<TXT>Make no change in continuous-current rating, interrupting rating, and clearing or melting time of fuses unless written permission from the Contracting 
+Officer has first been obtained.</TXT><BRK/>
+<BRK/>
+<TXT>Provide nonrenewable cartridge type fuses.  Conform to <RID>IEEE C37.40</RID>, <RID>IEEE C37.41</RID>, <RID>IEEE C37.42</RID>, <RID>IEEE C37.46</RID>, and <RID>IEEE C37.47</RID> as applicablefor high-voltage 
+fuses.</TXT><BRK/>
+<BRK/>
+<TXT>Provide power fuses on ac systems above 600 volts in accordance with <RID>NEMA SG 2</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Label fuses showing UL class, interrupting rating, and time-delay characteristics, when applicable.  Clearly list fuse information on equipment 
+drawings.</TXT><BRK/>
+<BRK/>
+<TXT>Provide porcelain fuse holders when field-mounted in a cabinet or box.  Do not use fuse holders made of such materials as ebony asbestos, Bakelite, 
+or pressed fiber for field installation.</TXT><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Relays and functions identified below represent the minimum protection requirements.  Coordinate specific 
+functions and features with project requirements and the specific relays chosen as the basis of design.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/></SPT>
+<SPT><TTL><SUB>Protective Relays</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide relays capable of communications using [Modbus RTU][Modbus TCP][RS485][_____].  Ensure relays are equipped with self-checking  Coordinate 
+relay requirements with instrument transformers for proper operation.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Circuit Breaker Management/Protection Relay</TTL><BRK/>
+<BRK/>
+<TXT>Provide a microprocessor-based relay equipped with the following combination of functions including protection, monitoring, control, automation, 
+and reporting functions:</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Overcurrent Protection</TTL><BRK/>
+<BRK/>
+<TXT>Provide relays with [minimum 12][multiple] time overcurrent elements for phase, neutral, and ground.  Ensure the relay incorporates phase and negative-sequence 
+overcurrent elements for detection of phase faults,  adaptive phase overcurrent elements that perform reliably in the presence of current transformer 
+saturation, dc offset, and off-frequency harmonics, and residual-ground and neutral-ground overcurrent elements for detection of ground faults.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Under- and Overvoltage Elements</TTL><BRK/>
+<BRK/>
+<TXT>Provide relays that incorporate under- and overvoltage elements for creating protection and control schemes, including but not limited to the following: 
+voltage checks (e.g., hot bus/dead line) for reclosing, blown transformer high-side fuse detection logic, and control schemes for capacitor banks.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Frequency Protection</TTL><BRK/>
+<BRK/>
+<TXT>Provide relays that with under- and overfrequency elements for detection of power system frequency disturbances.  Each setting level must use an 
+independently set timer for load shedding or generator tripping schemes.  Ensure the relays also include rate-of-change-of-frequency elements with 
+independent pickup and dropout timers, independent selection of increasing or decreasing frequency, or either.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Autoreclosing Control</TTL><BRK/>
+<BRK/>
+<TXT>Provide relays that incorporate a minimum four-shot recloser that includes four independently set open time intervals, an independently set reset 
+time from reclose cycle, and an independently set reset time from lockout.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Synchronism Check</TTL><BRK/>
+<BRK/>
+<TXT>Ensure relays include a minimum of two synchronism-check elements with separate maximum angle settings (e.g., one for autoreclosing and one for 
+manual closing).  The synchronism-check function must compensate for breaker close time and constant phase angle differences between the two voltage 
+sources used for synchronism check (phase angle differences settable in 30-degree increments).</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Independent Trip/Close Pushbuttons</TTL><BRK/>
+<BRK/>
+<TXT>Ensure the relays include the option for independently operated breaker trip/close switches and indicating lamps.  Ensure pushbuttons include sealable 
+guards to prevent unauthorized operation and protection from inadvertent operation and the switch contacts include solid state protection to eliminate 
+arcing damage and prolong contact life.  The switches and breaker status lamps are to be functional regardless of the relay status.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Event Reporting</TTL><BRK/>
+<BRK/>
+Ensure relays are capable of automatically recording disturbance events of 15, 30, or 60 cycles with settable prefault duration and user-defined triggering.  
+The relay must store the event reports in nonvolatile memory. <BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Motor Management/Protection Relays</TTL><BRK/>
+<BRK/>
+<TXT>Provide a microprocessor-based relay equipped with the following protection, monitoring, control, automation, and reporting functions.  ANSI standard 
+device numbers in accordance with <RID>IEEE C37.2</RID> are noted in parenthesis where applicable.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Motor Thermal Overload (49)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Integrated thermal protection for locked rotor starts, running overload, and repeated or frequent starting.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Phase and residual overcurrent elements (50P/50G, 51P/51G)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Current Unbalance/single phasing (46)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Phase Reversal (47)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Load Loss (undercurrent) (37C)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  Notching/Jogging Device (66)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">h.  Start Motor Timer</LST><BRK/>
+<BRK/>
+ </SPT><SPT><TTL>Feeder Management/Protection Relays</TTL><BRK/>
+<BRK/>
+<TXT>Provide a microprocessor-based relay equipped with the following protection, monitoring, control, automation, and reporting functions.  ANSI standard 
+device numbers in accordance with <RID>IEEE C37.2</RID> are noted in parenthesis where applicable.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Phase, residual, and negative-sequence overcurrent elements (50P/50G/50Q) with optional directional control.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Phase, residual, and negative-sequence inverse-time overcurrent elements (51P/51G/51Q) with optional directional control.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Neutral overcurrent and inverse-time overcurrent elements (50N/51N</LST>)<BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Breaker/contactor failure</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Line/cable thermal elements in accordance with <RID>IEC 60255-149</RID></LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Over- and undervoltage (59/27)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  Inverse-time over- and undervoltage elements (59I, 27I)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">h.  Synchronism check (25)</LST>[<BRK/>
+<BRK/>
+<LST INDENT="-0.33">i.  Autoreclosing control (79)</LST>][<BRK/>
+<BRK/>
+<LST INDENT="-0.33">j.  Arc Flash detection and arc flash overcurrent (50PAF/50NAF)</LST>]<BRK/>
+<BRK/></SPT>
+<SPT><TTL>Bus Differential Relay</TTL><BRK/>
+<BRK/>
+<TXT>Provide a microprocessor-based relay equipped with the following protection, monitoring, control, and automation functions.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Differential protection to include low-impedance current differential elements.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Phase-comparator directional elements for each zone.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Dedicated check zones with each zone having its own adaptive differential element and settings.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Elements in each zone to detect CT open or short-circuit conditions.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Ability to invert individual or grouped CT and PT polarities to account for field wiring or zones of protection changes.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Internal breaker failure protection with retrip functions for each of the terminals selectable to also accept external breaker failure 
+protection.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  Include both instantaneous and time-overcurrent elements for each of the current inputs with torque control capability for the inverse-time 
+overcurrent elements.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">h.  Three-phase over- and undervoltage elements as well as negative- and zero-sequence overvoltage elements.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">i.  Capability to provide protection for a fault between the open circuit breaker and the CT.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">j.  Capability to detect an external fault and enter into a high-security mode without blocking the differential protection at any time.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">k.  Use the disconnect contacts, without auxiliary relays, to create a replica of the busbar linking to assign the terminal currents to 
+the correct differential elements.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">l.  Logic to ensure security of the healthy zone when the tie breaker is closed onto a fault.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">m.  Tie-breaker configuration capability, without any additional wiring, to be configured in any one of the following configurations: a 
+CT on one side in overlap, CTs on either side in overlap, or CTs on either side in a separate breaker differential configuration.</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Indicating Instruments</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>Ammeters</TTL><BRK/>
+<BRK/>
+<TXT>For ammeters, conform to <RID>ANSI C39.1</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide switchboard indicating ammeters of approximately<MET> 115 millimeter</MET><ENG> 4-1/2 inches</ENG> square with 250-degree scale and recessed cases suitable for 
+flush mounting.  Furnish white dials with black figures and black pointers.  Mount instruments on the hinged front panel of the switchgear compartment 
+completely isolated from high-voltage circuits.  Provide standard 5-ampere type meter for a zero to full-scale normal movement, 60 hertz.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Voltmeters</TTL><BRK/>
+<BRK/>
+<TXT>For voltmeters, conform to <RID>ANSI C39.1</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide a switchboard indicating voltmeters that is approximately<MET> 115 millimeter</MET><ENG> 4-1/2 inches</ENG> square with 250-degree scale and recessed cases suitable 
+for flush mounting.  Furnish white dials with black figures and black pointers.  Mount instruments on the hinged front panel of the switchgear 
+compartment completely isolated from high-voltage circuits.  Provide standard 120-volt type voltmeter for a zero to full-scale normal movement, 
+60 hertz.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Watt-Hour Meters/Wattmeters</TTL><BRK/>
+<BRK/>
+<TXT>For watt-hour meters, wattmeters, and pulse initiation meters conform to <RID>ANSI C12.1</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide three-phase induction type switchboard wattmeters for use with instrument transformers with two stators, each equipped with a current and 
+potential coil.  Provide meter that is rated for 5 amperes at 120 volts and is suitable for connection to three-phase, 3- and 4-wire circuits.  
+Provide instrument complete with potential indicating lamps, light-load and full-load adjustments, phase balance, power-factor adjustments, four-dial 
+clock register, ratchets to prevent reverse rotation, and built-in testing facilities.</TXT><BRK/>
+<BRK/>
+<TXT>Provide pulse initiating meters for use with demand meters or pulse recorders that are suitable for use with mechanical or electrical pulse initiators.  
+Provide mechanical load imposed on the meter by the pulse initiator that is within the limits of the pulse meter.  Provide load as constant as 
+practical throughout the entire cycle of operation to ensure accurate meter readings.  Provide pulse initiating meter that is capable of measuring 
+the maximum number of pulses at which the pulse device is nominally rated.  Consider pulse initiating meter to be operating properly when a kilowatt 
+hour check indicates that the demand meter kilowatthours are within limits of the watthour meter kilowatthours.</TXT><BRK/>
+<BRK/>
+<TXT>Locate pulse initiating meters such that components sensitive to moisture and temperature conditions are minimized.  Take precautions to protect 
+sensitive electronic metering circuitry from electromagnetic and electrostatic induction.</TXT><BRK/>
+<BRK/>
+<TXT>Furnish removable meters with draw out test plug and furnish contact devices to operate remote impulse-totalizing graphic demand meters.</TXT><BRK/>
+<BRK/>
+<TXT>Semi-flush mount case with matching cover to the hinged instrument panel.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Specialty-Type Meters</TTL><BRK/>
+<BRK/>
+<TXT>For specialty meters conform to <RID>ANSI C39.1</RID>.  Specialty-type meters are panel meters applicable to specific situations, such as pyrometers and dc 
+parameter meters that conform to the panel layout specified.  Provide meter scales that are not less than 180 degrees.  Do not use edgewise meters 
+for circuit current and voltage measurements.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Indicating Lights</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>General-Purpose Type</TTL><BRK/>
+<BRK/>
+<TXT>For indicating lights, provide oiltight instrument devices with threaded base and collar for flush-mounting, translucent convex lens, candelabra 
+screw-base lampholder, and 120-volt, 6-watt, LED lamp in accordance with <RID>ANSI C78.23</RID>.  Provide indicating lights color coded in accordance with <RID>
+NEMA ICS 6</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide indicating lights in control stations when pushbuttons and selector switches are out of sight of the controller.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Switchboard Indicating Lights</TTL><BRK/>
+<BRK/>
+<TXT>For switchboard indicating lights, provide the manufacturer's standard transformer type units [120-volt input] [_____] utilizing low-voltage lamps 
+and convex lenses of the colors indicated.  Provide indicating lights that are capable of being relamped from the switchboard front.  Indicating 
+lights utilizing resistors in series with the lamps are not permitted, except in direct-current control circuits.  Provide lights that have a press-to-test 
+feature.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></SPT><SPT><TTL>TEST, INSPECTIONS, AND VERIFICATIONS</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Factory Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit factory tests certification on control and high- voltage protective devices in accordance with the manufacturer's standard practice and 
+recommendations.</TXT><BRK/>
+<BRK/>
+<TXT>Conduct short-circuit tests in accordance with Section 2 of <RID>NEMA ICS 1</RID> and submit to the Contracting Officer.</TXT><BRK/>
+<BRK/>
+<TXT>Submit certification of factory tests on power, high-voltage, and oil circuit breakers in accordance with <RID>IEEE C37.09</RID>.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Circuit Breaker</TTL><BRK/>
+<BRK/>
+<TXT>Perform production tests in accordance with <RID>IEEE C37.09</RID> for each high-voltage circuit breaker.  Thoroughly check each circuit breaker for proper 
+operation and make all necessary adjustments.  Check shunt trip coils for proper operation.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Instrument Transformer Test</TTL><BRK/>
+<BRK/>
+<TXT>Subject potential and current transformers to routine tests in  accordance with paragraph 4.7.2 of <RID>IEEE C57.13</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Provide results of typical ratio and phase angle tests for each type and rating of instrument transformer.</TXT><BRK/></SPT>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>PREPARATION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Surface Protection</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  For all outdoor applications and all indoor applications in a harsh environment refer to Section 
+<SRF>09 90 00</SRF> PAINTS AND COATINGS or <SRF>09 96 00</SRF> HIGH-PERFORMANCE COATINGS.  High performance coatings are specified for 
+all outdoor applications because ultraviolet radiation breaks down most standard coatings, causing a phenomena 
+known as chalking, which is the first stage of the corrosion process.  For additional information contact The 
+Coatings Industry Alliance, specific suppliers such as Keeler and Long and PPG, and NACE International (NACE).</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Protect metallic materials against corrosion.  Provide equipment with the standard finish by the manufacturer when used for most indoor installations.  
+For harsh indoor environments (any area subjected to chemical and/or abrasive action), and all outdoor installations, refer to Section [
+<SRF>09 96 00</SRF> HIGH-PERFORMANCE COATINGS][<SRF>09 90 00</SRF> PAINTS AND COATINGS].</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>INSTALLATION</TTL><BRK/>
+<BRK/>
+<TXT>Install control devices and protective devices that are not factory installed in equipment in accordance with the manufacturer's recommendations 
+[and in accordance with Section <SRF>26 08 00</SRF> APPARATUS INSPECTION AND TESTING].  Field adjust and operate test devices.  Conform to <RID>NFPA 70</RID>, <RID>NEMA ICS 1</RID>
+, <RID>NEMA ICS 2</RID>, and <RID>NEMA ICS 3</RID> requirements for installation of control and protective devices.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>FIELD QUALITY CONTROL</TTL><BRK/>
+<TAI OPT="RCBEA"><NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  If the specified system is identified as critical, configured, or mission essential, use Section 
+<SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS to establish predictive and acceptance testing 
+criteria, above and beyond that listed below.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT><TST>Perform PT&amp;I tests and provide submittals as specified in Section <SRF>01 86 26.07 40</SRF> RELIABILITY CENTERED ACCEPTANCE FOR ELECTRICAL SYSTEMS</TST>.</TXT><BRK/></TAI>
+<BRK/>
+<SPT><TTL><SUB>Acceptance Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Demonstrate that control and protective devices that are not factory installed operate as indicated.</TXT><BRK/>
+<BRK/>
+<TXT>Ratio and verify the tap settings of instrumentation, potential, and current transformers.</TXT><BRK/>
+<BRK/>
+<TXT>Conduct a  timing test on circuit breakers rated 15KV to verify proper contact speed, travel, bounce, and wipe.</TXT><BRK/>
+<BRK/>
+<TXT>Conduct an insulation power factor test on all high-voltage circuit breakers and their bushings to establish condition monitoring baselines.</TXT><BRK/>
+<BRK/>
+<TXT>Perform dielectric tests and submit results on insulating oil in oil circuit breakers before the breakers are energized.  Test oil in accordance 
+with <RID>ASTM D877</RID>, and provide breakdown voltage that is not less than 25,000 volts.  Provide manufacturer certification that the oil contains no 
+PCB's and affix a label to that effect on each breaker tank and on each oil drum containing the insulating oil.</TXT><BRK/>
+<BRK/>
+<TXT>Field adjust reduced-voltage starting devices to obtain optimum operating conditions.  Provide test meters and instrument transformers that conform 
+to <RID>ANSI C12.1</RID> and <RID>IEEE C57.13</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Do not energize control and protective devices until recorded test data has been approved by the Contracting Officer.</TXT><BRK/>
+<BRK/>
+<TXT>Perform and record results for all <RID>NETA ATS</RID> visual and mechanical inspections, standard tests, and optional tests unless otherwise indicated.  
+Perform tests on all equipment.</TXT><BRK/>
+<BRK/>
+<TXT>Submit <SUB>final test reports</SUB> containing the results of all checks and tests, neatly cataloged and bound, to the Contracting Officer prior to Final 
+Acceptance.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>CLOSEOUT ACTIVITIES</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Operation and Maintenance Manuals</TTL><BRK/>
+<BRK/>
+<TXT>No less than [30] [_____] days prior to final testing and inspection, submit <SUB>Operation and Maintenance Manuals</SUB> to the Contracting Officer for the 
+following equipment:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  High-voltage motor controllers</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Circuit breakers</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Protective relays</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Indicating instruments</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Warranty</SUB></TTL><BRK/>
+<BRK/>
+<TXT>No less than [30] [_____] days prior to project completion, submit warranty <NED/>to the Contracting Officer for final review.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT>    <END/><BRK/></SEC>
