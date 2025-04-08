@@ -15,8 +15,8 @@ This repository uses a hierarchical branching structure to organize content deve
 
         - **`document1-draft1-review1`**: Branched from a working draft of `document1-draft1` for the purpose of developing review comments. Review comments are submitted as pull requests against the parent branch.
        
-    - **`document2`**: Branched from `template`, this branch contains all published versions of `document1`.
+    - **`document2`**: Branched from `template`, this branch contains all published versions of `document2`.
     
-      - **`document2-draft1`**: Branched from a certain version of `document1`, this branch is a working draft and includes a history of approval actions before publication (merging) to the parent branch.
+      - **`document2-draft1`**: Branched from a certain version of `document2`, this branch is a working draft and includes a history of approval actions before publication (merging) to the parent branch.
 
-        - **`document2-draft1-review1`**: Branched from a working draft of `document1-draft1` for the purpose of developing review comments. Review comments are submitted as pull requests against the parent branch.
+        - **`document2-draft1-review1`**: Branched from a working draft of `document2-draft1` for the purpose of developing review comments. Review comments are submitted as pull requests against the parent branch.
