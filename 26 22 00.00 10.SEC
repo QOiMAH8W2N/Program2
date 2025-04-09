@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><BRK/>
+<HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="309.75"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="309.00"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">UFGS-26 22 00.00 10 (October 2007)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1" STYLEID="s50"/>
+         <CEL STYLEID="s50"/>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2" STYLEID="s50">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Preparing Activity:  <PRA>USACE</PRA></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-26 22 00.00 10 (April 2006)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 22 00.00 10</SCN><BRK/>
+<BRK/>
+<STL>480-VOLT STATION SERVICE SWITCHGEAR AND TRANSFORMERS</STL><BRK/>
+<DTE>10/07</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers the requirements for <SCP>480-volt station service switchgear and transformers 
+normally used for hydroelectric power plant facilities, navigation locks and pumping plants</SCP>.  This section was 
+originally developed for USACE Civil Works projects.</NPR><BRK/>
+<BRK/>
+<NPR>Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format Standard when editing this guide 
+specification or preparing new project specification sections.  Edit this guide specification for project specific 
+requirements by adding, deleting, or revising text.  For bracketed items, choose applicable item(s) or insert 
+appropriate information.<BRK/>
+<BRK/>
+Remove information and requirements not required in respective project, whether or not brackets are present.</NPR><BRK/>
+<BRK/>
+<NPR>Comments, suggestions and recommended changes for this guide specification are welcome and should be submitted 
+as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  If this guide specification is used for procurement of items to be installed by the Government or to be 
+furnished to the Contractor as Government furnished equipment, or is used to obtain services which are not part 
+of a construction contract, the following guidance applies:</NPR><BRK/>
+<BRK/>
+<NPR>a.  Applicable parts of this guide specification should be adapted to the procurement and included in Section 
+C of the Uniform Contract Format contracts for products or the scope of work portion of contracts for services.</NPR><BRK/>
+<BRK/>
+<NPR>b.  The following provides information and requirements to be included in a contract for procurement of the specified 
+supplies or services.</NPR><BRK/>
+<BRK/>
+<HL4>PART I -- THE SCHEDULE</HL4><BRK/>
+<BRK/>
+<NPR>Section B   Supplies or Services and Prices</NPR><BRK/>
+<BRK/>
+<NPR>Select the appropriate schedule applicable to the procurement.</NPR><BRK/>
+<TAB HEADERROWS="2">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+      <STY SID="s51">
+         <ALN HORIZONTAL="CENTER"/>
+      </STY>
+      <STY SID="s52">
+         <ALN HORIZONTAL="RIGHT" VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="6" ROWCOUNT="9">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="43.50"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="150.75"/>
+      <COL AUTOWIDTH="0" WIDTH="62.25"/>
+      <COL AUTOWIDTH="0" WIDTH="61.50"/>
+      <COL INDEX="6" AUTOWIDTH="0" WIDTH="64.50"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">ITEM NO.</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">SUPPLIES/SERVICES</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">UNIT QUANTITY</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">UNIT</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">PRICE</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">AMOUNT</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL MERGEACROSS="5" STYLEID="s50">
+<DTA TYPE="STRING">SCHEDULE (ALTERNATE 1)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="96.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0001</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">480-Volt AC Indoor Metal-Enclosed Power Circuit Breaker Switchgear Assembly</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Each</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0002</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Switchgear Accessories
+ and Spare Parts</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Lot</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0003</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">600-Volt, AC, [_____]-Amps 3-Phase, Metal-Enclosed Bus</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Lot</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="84.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0004</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">[[_____]-480] [13,800-480]-Volt.  [_____]-kVA, 3-Phase, Indoor, Ventilated, Dry Type (Class AA), Transformer</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Each</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0005</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Bid Data (See DD Form 1423, Exhibit A)</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Not separately priced</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">0006</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Contract Data (See DD Form 1423, Exhibit B)</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Not separately priced</DTA>
+         </CEL>
+         <CEL STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="23.25">
+         <CEL MERGEACROSS="4" STYLEID="s52">
+<DTA TYPE="STRING">TOTAL</DTA>
+         </CEL>
+         <CEL INDEX="6" STYLEID="s51">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<TAB HEADERROWS="2">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN HORIZONTAL="CENTER"/>
+      </STY>
+      <STY SID="s51">
+         <ALN HORIZONTAL="RIGHT"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="6" ROWCOUNT="7">
+      <COL AUTOWIDTH="0" WIDTH="43.50"/>
+      <COL AUTOWIDTH="0" WIDTH="150.75"/>
+      <COL AUTOWIDTH="0" WIDTH="62.25"/>
+      <COL AUTOWIDTH="0" WIDTH="61.50"/>
+      <COL INDEX="6" AUTOWIDTH="0" WIDTH="64.50"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL>
+<DTA TYPE="STRING">ITEM NO.</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">SUPPLIES/SERVICES</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">UNIT QUANTITY</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">UNIT</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">PRICE</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">AMOUNT</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL MERGEACROSS="5">
+<DTA TYPE="STRING">SCHEDULE (ALTERNATE 2)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="96.00">
+         <CEL>
+<DTA TYPE="STRING">0001</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[[_____]-480] [13,800-480] Volt, [_____]-kVA,<BRK/>     3-Phase, Indoor, Metal-Enclosed Secondary Unit Substation</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Each</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL>
+<DTA TYPE="STRING">0002</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Substation Accessories and Spare Parts</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Lot</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL>
+<DTA TYPE="STRING">0005</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Bid Data (See DD Form 1423, Exhibit A)</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Not separately priced</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL>
+<DTA TYPE="STRING">0006</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Contract Data (See DD Form 1423, Exhibit B)</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Not separately priced</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="23.25">
+         <CEL MERGEACROSS="4" STYLEID="s51">
+<DTA TYPE="STRING">TOTAL</DTA>
+         </CEL>
+         <CEL INDEX="6" STYLEID="s50">
+<DTA TYPE="STRING">[_____]</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<BRK/>
+<NPR>SCHEDULE (ALTERNATE 2)</NPR><BRK/>
+<BRK/>
+<NPR>NOTE:  Bid items above should be copied on Standard Form 36, continuation sheet, when submitting specifications 
+for approval.</NPR><BRK/>
+<BRK/>
+<NPR>Section C   Description/Specifications</NPR><BRK/>
+<BRK/>
+<NPR>All materials, components, and equipment not manufactured by the Contractor shall be products of manufacturers 
+other than those specified herein will be accepted when it is proved to the satisfaction of the Contracting Officer 
+that such products are adequate and suitable for the intended use.  Upon request, the Contractor shall furnish 
+to the Contracting Officer for approval the names of all such other manufacturers, together with complete pertinent 
+information regarding all such products which he proposes to incorporate into the work.  Samples of materials 
+and equipment shall be submitted for approval when so directed.  Insofar as practicable, devices and equipment 
+used for the same or similar services shall be of the same make and type, and shall be inter-changeable when of 
+the same rating.</NPR><BRK/>
+<BRK/>
+<NPR>Section D   Inspection and Acceptance</NPR><BRK/>
+<BRK/>
+<NPR>Include the following:</NPR><BRK/>
+<BRK/>
+<NPR>Test of Materials.</NPR><BRK/>
+<BRK/>
+<NPR>All materials, supplies, and parts and assemblies thereof entering into the work to be done under these specifications 
+shall be tested in accordance with the requirements of the referenced standard specifications specified herein, 
+except as otherwise indicated or where such tests are waived in writing by the Contracting Officer.  In case the 
+Contractor desires to use stock material not manufactured specifically for the work covered by these specifications, 
+he shall submit evidence satisfactory to the Contracting Officer that such material conforms to the requirements 
+of these specifications, in which case detailed tests on these materials may be waived.</NPR><BRK/>
+<BRK/>
+<NPR>Unless waived in writing, all tests or trials shall be made in the presence of a Quality Assurance Representative 
+(QAR) and copies of all test reports shall be furnished by the Contractor as soon as practicable after the tests 
+are made an shall be submitted in such form as to provide means of determining compliance with the applicable 
+specifications for the material tested.  Where the presence of a QAR is waived, certified copies of the test reports 
+shall be furnished to the Contracting Officer.</NPR><BRK/>
+<BRK/>
+<NPR>Test specimens and samples for analysis shall be plainly marked to indicate the materials they represent and, 
+if required, they shall be properly boxed and prepared for shipment.</NPR><BRK/>
+<BRK/>
+<NPR>Except as provided elsewhere, all costs of all test and trials, excepting the pay and expense of the QAR, shall 
+be borne by the Contractor and no separate payment will be made therefor.</NPR><BRK/>
+<BRK/>
+<NPR>Section E   Special Contract Requirements</NPR><BRK/>
+<BRK/>
+<NPR>Include the following:</NPR><BRK/>
+<BRK/>
+<NPR>Contractor's Drawings and Data.</NPR><BRK/>
+<BRK/>
+<NPR>1.  Within [_____] calendar days after [date of award] [date of receipt of notice of award], submit for approval 
+outline drawings of all equipment to be furnished under this contract, together with weights and overall dimensions 
+to enable the Contracting Officer to proceed with the final design of the [powerhouse] [pumping plant] [navigation 
+lock].  These drawings must show space requirements, details of any floor supports to be embedded in concrete, 
+location of terminal blocks, and top and bottom conduit entrance areas.</NPR><BRK/>
+<BRK/>
+<NPR>2.  Within [_____] calendar days after [date of award] [date of receipt of notice of award], submit for approval 
+such assembly and detailed drawings and data as required to demonstrate fully that all parts of the equipment 
+will conform to the requirements and intent of the specifications.  The drawings and data shall include applicable 
+schematic diagrams with wire designations, equipment lists, accessories and spare parts lists, nameplate schedules, 
+all necessary descriptive data, and wiring diagrams showing panel connections, panel interconnections, terminal 
+block and conductor designations, and external cables.</NPR><BRK/>
+<BRK/>
+<NPR>3.  All drawings and data submitted and approved will form a part of the contract.  The sequence of submission 
+of drawings shall be such that all information is available for checking each drawing when it is received.</NPR><BRK/>
+<BRK/>
+<NPR>4.  [_____] reproducible, of a quality that will make legible prints,] [and] black and white copies or blueprints 
+of each drawing for approval shall be furnished.  Each submission of drawings by the Contractor must be accompanied 
+by a letter of transmittal containing a list of drawings giving titles and numbers.  Transmittals shall be addressed 
+to [_____].  Decisions on these drawings, either approval or disapproval, will be given by the Contracting Officer 
+by letter or telegram.  Within [15] [_____] calendar days after receipt, the Contracting Officer will return one 
+copy to the Contractor marked "Approved", "Approved Except as Noted", or "Returned for Correction".  The notations 
+"Approved" and "Approved Except as Noted" authorize the Contractor to proceed with the fabrication of the equipment 
+covered by such drawings, subject to the correction, if any, indicated thereon or described in the letter of transmittal.  
+When prints of drawings have been "Returned for Correction", the Contractor shall make the necessary revisions 
+on the drawings and shall submit [reproducibles] [and] [_____] prints for approval in the same routine as before.  
+Every revision made during the life of the contract shall be shown by number, date, and subject in a revision 
+block and a notation shall be made in the drawing margin to permit rapid location of the revision.  The time consumed 
+by the Contractor in submitting and obtaining approval of assembly and shop drawings shall be included in the 
+time allowed for completion of the contract.</NPR><BRK/>
+<BRK/>
+<NPR>5.  Upon receipt of prints which have been marked "Approved Except as Noted" or "Returned for Correction", the 
+Contractor shall within 30 calendar days after receipt, submit correct [reproducibles] [and] [_____] prints of 
+each drawing.  If revisions are made after a drawing has been "Approved", the Contractor shall furnish [reproducibles] 
+[and] [corrected prints] subsequent to each revision.</NPR><BRK/>
+<BRK/>
+<NPR>6.  All of the applicable requirements of this paragraph with reference to drawing submittals shall apply equally 
+to catalog cuts, illustrations, printed specifications, weld qualifications, mill tests, factory tests, field 
+tests, or other required data, except that two additional copes shall be submitted in lieu of any reproducibles.  
+All correspondence, drawings, literature, instruction books, data, and nameplates shall be in the English language, 
+with Metric (English) units as currently used in the United States.</NPR><BRK/>
+<BRK/>
+<NPR>7.  Any manufacturing work performed prior to the approval of the drawings will be at the Contractor's risk.  
+The Contractor shall make any changes in the design which are necessary to make the equipment conform to the provisions 
+and intent of these specifications without additional cost to the Government.  Approval of the drawings shall 
+not be construed as a complete check but will indicate only that the general method of construction and detailing 
+is satisfactory.  Approval by the Contracting Officer of the Contractor's drawing shall not be held to relieve 
+the Contractor of any part of the Contractor's' obligation to meet all of the requirements of these specifications 
+or of the responsibility for the correctness of the Contractor's drawings.</NPR><BRK/>
+<BRK/>
+<NPR>8.  Upon completion of the work under this contract, the Contractor shall furnish a complete set of [CADD files] 
+[process tracings together with complete sets of black and white prints or blue-prints] of added drawings as finally 
+approved.  [The CADD files shall be furnished in Microstation format on electronic media; i.e., 3<SPS>1</SPS>/<SBS>2</SBS> inch floppy 
+disks, compact disks, etc.]  [The process tracings shall be full size reproducibles made on cloth, Mylar, or equal, 
+from the original tracings by photographic-type reproduction, and shall be of such quality and clarity as to permit 
+sharp and thoroughly legible microfilm copying.]  These [CADD files] [tracings] [tracings and prints] shall show 
+all changes and revisions, including any field changes made up to the time that the equipment is completed and 
+accepted and the contract number shall be shown thereon.  The number shall be located immediately above the title 
+block if possible.</NPR><BRK/>
+<BRK/>
+<NPR>9.  Parts catalogs, where applicable, the operating instructions especially prepared covering all equipment furnished 
+under this contract which may be needed or useful in operation, maintenance, repair, dismantling, or assembling, 
+and for repair and identification of parts for ordering replacements shall be assembled under a suitable common 
+cover and [_____] copies of the assembled material shall be furnished.  The assembled material shall include complete 
+identification of the spare parts furnished in compliance with the requirements of these specifications.</NPR><BRK/>
+<BRK/>
+<NPR>Part III -- LIST OF DOCUMENTS, EXHIBITS, AND OTHER ATTACHMENTS</NPR><BRK/>
+<BRK/>
+<NPR>Section F   List of Documents, Exhibits, and Other Attachments</NPR><BRK/>
+<BRK/>
+<NPR>Suitable drawings showing the location and general arrangements of the equipment, a single-line diagram of the 
+main power connections, and tabulations of feeder circuit data should be included with the procurement specifications.  
+The drawings should include all features not adequately covered in the specifications which will affect the design 
+of related equipment or the structure.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<SPT><TTL>PAYMENT PROCEDURES</TTL><BRK/>
+<BRK/>
+<TXT>The 480-Volt Station Service Switchgear and Transformers will be paid by the lump sum job basis for costs associated with [furnishing] [and] [installing] 
+the 480-Volt Station Service Switchgear and Transformers and other completed work, as specified.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of the guide specification.  The publications 
+are referred to in the text by basic designation only and listed in this paragraph by organization, designation, 
+date, and title.<BRK/>
+<BRK/>
+Use the Reference Wizard's Check Reference feature when you add a Reference Identifier (RID) outside of the Section's 
+Reference Article to automatically place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.<BRK/>
+<BRK/>
+References not used in the text will automatically be deleted from this section of the project specification when 
+you choose to reconcile references in the publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are referred to within the text by 
+the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>AMERICAN NATIONAL STANDARDS INSTITUTE (ANSI)</ORG><BRK/><BRK/><RID>ANSI C39.1</RID><RTL>(1981; R 1992) Requirements for Electrical Analog Indicating Instruments</RTL><BRK/><BRK/></REF><REF><ORG>AMERICAN SOCIETY OF MECHANICAL ENGINEERS (ASME)</ORG><BRK/><BRK/><RID>ASME B1.1</RID><RTL>(2003; R 2018) Unified Inch Screw Threads (UN and UNR Thread Form)</RTL><BRK/><BRK/><RID>ASME B1.20.1</RID><RTL>(2013; R 2018) Pipe Threads, General Purpose (Inch)</RTL><BRK/><BRK/><RID>ASME B1.20.2M</RID><RTL>(2006; R 2011) Pipe Threads, 60 Deg. General Purpose (Metric)</RTL><BRK/><BRK/></REF><REF><ORG>ASTM INTERNATIONAL (ASTM)</ORG><BRK/><BRK/><RID>ASTM B187/B187M</RID><RTL>(2020) Standard Specification for Copper, Bus Bar, Rod and Shapes and General Purpose Rod, Bar and Shapes</RTL><BRK/><BRK/><RID>ASTM B188</RID><RTL>(2015; E 2016) Standard Specification for Seamless Copper Bus Pipe and Tube</RTL><BRK/><BRK/><RID>ASTM B236</RID><RTL>(2007) Standard Specification for Aluminum Bars for Electrical Purposes (Bus Bars)</RTL><BRK/><BRK/><RID>ASTM B236M</RID><RTL>(2007) Standard Specification for Aluminum Bars for Electrical Purposes (Bus Bars) (Metric)</RTL><BRK/><BRK/><RID>ASTM B317/B317M</RID><RTL>(2007; R 2015; E 2016) Standard Specification for Aluminum-Alloy Extruded Bar, Rod, Tube, Pipe, Structural Profiles, and Profiles for Electrical Purposes (Bus Conductor)</RTL><BRK/><BRK/></REF><REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE C37.13</RID><RTL>(2015) Standard for Low-Voltage AC Power Circuit Breakers Used in Enclosures</RTL><BRK/><BRK/><RID>IEEE C37.16</RID><RTL>(2009) Standard for Preferred Ratings, Related Requirements, and Application Recommendations for Low-Voltage AC (635 V and below) and DC 3200 V and below) Power Circuit Breakers</RTL><BRK/><BRK/><RID>IEEE C37.17</RID><RTL>(2012) Standard for Trip Devices for AC and General-Purpose DC Low-Voltage Power Circuit Breakers</RTL><BRK/><BRK/><RID>IEEE C37.20.1A</RID><RTL>(2020) Metal-Enclosed Low-Voltage (1000 Vac and below, 3200 Vdc and below) Power Circuit-Breaker Switchgear Amendment 1: Control and Secondary Circuits and Devices, and All Wiring</RTL><BRK/><BRK/><RID>IEEE C37.20.2A</RID><RTL>(2020) Metal-Clad Switchgear Amendment 1: Control and Secondary Circuits and Devices, and All Wiring</RTL><BRK/><BRK/><RID>IEEE C37.20.3</RID><RTL>(2013) Standard for Metal-Enclosed Interrupter Switchgear</RTL><BRK/><BRK/><RID>IEEE C37.90</RID><RTL>(2005; R 2011) Standard for Relays and Relay Systems Associated With Electric Power Apparatus</RTL><BRK/><BRK/><RID>IEEE C57.12.01</RID><RTL>(2020) General Requirements for Dry-Type Distribution and Power Transformers Including Those with Solid-Cast and/or Resin-Encapsulated Windings</RTL><BRK/><BRK/><RID>IEEE C57.12.50</RID><RTL>(1981; R 1998) Ventilated Dry-Type Distribution Transformers, 1 to 500 kVA, Single-Phase, and 15 to 500 kVA, Three-Phase, with High-Volt 601 to 34,500 Volts</RTL><BRK/><BRK/><RID>IEEE C57.12.51</RID><RTL>(2019) IEEE Guide for Mechanical Interchangeability of Ventilated Dry-Type Transformers</RTL><BRK/><BRK/><RID>IEEE C57.12.91</RID><RTL>(2011) Standard Test Code for Dry-Type Distribution and Power Transformers</RTL><BRK/><BRK/><RID>IEEE C57.13</RID><RTL>(2016) Standard Requirements for Instrument Transformers</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION (NEMA)</ORG><BRK/><BRK/><RID>ANSI C80.1</RID><RTL>(2020) American National Standard for Electrical Rigid Steel Conduit (ERSC)</RTL><BRK/><BRK/><RID>ANSI C80.3</RID><RTL>(2020) American National Standard for Electrical Metallic Tubing (EMT)</RTL><BRK/><BRK/><RID>NEMA AB 3</RID><RTL>(2013) Molded Case Circuit Breakers and Their Application</RTL><BRK/><BRK/><RID>NEMA C37.50</RID><RTL>(2018) Switchgear--Low-Voltage AC Power Circuit Breakers Used in Enclosures - Test Procedures</RTL><BRK/><BRK/><RID>NEMA C37.51</RID><RTL>(2018) Switchgear--Metal Enclosed Low-Voltage AC Power, Circuit-Breaker Switchgear Assemblies-Conformance Test Procedures</RTL><BRK/><BRK/><RID>NEMA FB 1</RID><RTL>(2014) Standard for Fittings, Cast Metal Boxes, and Conduit Bodies for Conduit, Electrical Metallic Tubing, and Cable</RTL><BRK/><BRK/><RID>NEMA TR 1</RID><RTL>(2013) Transformers, Regulators, and Reactors</RTL><BRK/><BRK/><RID>NEMA WC 70</RID><RTL>(2009) Power Cable Rated 2000 V or Less for the Distribution of Electrical Energy--S95-658</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)</ORG><BRK/><BRK/><RID>NFPA 70</RID><RTL>(2020; ERTA 20-1 2020; ERTA 20-2 2020; TIA 20-1; TIA 20-2; TIA 20-3; TIA 20-4) National Electrical Code</RTL><BRK/><BRK/></REF><REF><ORG>UNDERWRITERS LABORATORIES (UL)</ORG><BRK/><BRK/><RID>UL 489</RID><RTL>(2016; Rev 2019) UL Standard for Safety Molded-Case Circuit Breakers, Molded-Case Switches and Circuit-Breaker Enclosures</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>SUMMARY</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  The location and general arrangement of the low-voltage metal-enclosed switchgear assembly, [metal-enclosed bus structures] [and station 
+service transformers] are shown.  Modifications of the equipment arrangement or the equipment device requirements shown shall be subject 
+to approval.  The switchgear assembly shall be completely assembled and wired at the factory.  Assemble at the factory the metal-enclosed 
+bus structures in sections of sufficient length for convenience of tests, shipment, and installation.  After complete assembly, disassemble 
+the switchgear group into sections, for convenience of handling, shipment, and installation.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Each shipping section of the switchgear shall be properly matchmarked to facilitate reassembly, and shall be provided with removable 
+lifting channels with eye bolts for attachment of crane slings to facilitate lifting and handling.  The equipment shall be shipped as completely 
+assembled and wired as feasible so as to require a minimum of installation work.  Switchgear groups and metal-enclosed buses which are 
+disassembled into sections for shipment shall have the associated parts properly matchmarked to facilitate installation by the Government.  
+Any relay (, indicating instrument) or other device which cannot withstand the hazards of shipment when mounted in place on the switchgear 
+shall be carefully packed and shipped separately.  These pieces shall be marked with the number of the panel on which they are to be mounted 
+and fully identified so they can be readily mounted and connected.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  All finished painted surfaces and metal work shall be wrapped suitably or otherwise protected from damage during shipment.  All parts 
+shall be prepared for shipment so that slings for handling may be attached readily while the parts are in a railway car or transport truck.  
+Switchgear sections crated for shipment shall be of such size, including crates, that they will pass through a<MET> [_____]-meter by [_____]-meter</MET><ENG>
+ [_____]-foot by [_____]-foot</ENG> hatch opening, and a<MET> [_____]-meter by [_____]-meter</MET><ENG> [_____]-foot by [_____]-foot</ENG> wall opening.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review submittal description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES and edit the following 
+list, and corresponding submittal items in the text, to reflect only the submittals required for the project.  
+The Guide Specification technical editors have classified those items that require Government approval, due to 
+their complexity or criticality, with a "G."  Generally, other submittal items can be reviewed by the Contractor's 
+Quality Control System.  Only add a “G” to an item, if the submittal is sufficiently important or complex in context 
+of the project.<BRK/>
+<BRK/>
+<TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, with a code of up to three characters 
+to indicate the approving authority.  Codes for Army projects using the Resident Management System (RMS) are:  
+"AE" for Architect-Engineer; "DO" for District Office (Engineering Division or other organization in the District 
+Office); "AO" for Area Office; "RO" for Resident Office; and "PO" for Project Office.  </TAI>Codes following the "G" 
+typically are not used for Navy, Air Force, and NASA projects.<BRK/>
+<BRK/>
+The "S" classification indicates submittals required as proof of compliance for sustainability Guiding Principles 
+Validation or Third Party Certification and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.<BRK/>
+<BRK/>
+Choose the first bracketed item for Navy, Air Force and NASA projects, or choose the second bracketed item for 
+Army projects.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" or "S" classification are [for Contractor 
+Quality Control approval.][for information only.  When used, a code following the "G" classification identifies the office that will review the 
+submittal for the Government.]  Submit the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-02 Shop Drawings</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Shop Drawings</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<ITM><SUB>Installation</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<ITM><SUB>Terminal Blocks</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Switchgear</SUB><BRK/>
+<SUB>Power Circuit Breakers</SUB><BRK/>
+<SUB>Transformers</SUB></ITM><BRK/>
+<ITM><SUB>Spare Parts</SUB></ITM><BRK/>
+<ITM><SUB>Metal-Enclosed Bus</SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-04 Samples</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Nameplates</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-06 Test Reports</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Factory Inspection and Tests</SUB></ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>EXTRA MATERIALS</TTL><BRK/>
+<BRK/>
+<TXT>Submit a list of <SUB>spare parts</SUB> as specified herin.  Spare parts shall be duplicates of the original parts furnished, and shall be interchangeable 
+therewith.  Furnish the following spare parts for each type and frame size of drawout circuit breaker, except that only one spare is required where 
+parts are applicable to all types and frame sizes of the circuit breakers:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  One complete set of main, intermediate and arcing contacts and associated springs for one three pole breaker.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  One complete set of arc chute assemblies for one three pole breaker.</LST><BRK/>
+ <BRK/>
+<LST INDENT="-0.33">c.  One set of primary disconnecting devices for one three pole breaker.</LST><BRK/>
+ <BRK/>
+<LST INDENT="-0.33">d.  One set of secondary disconnecting devices for one three pole breaker.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  One shunt trip coil.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  One Spring-charging motor or solenoid for electrically-operated breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  One Control relay of each type and rating for electrically-operated breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">h.  One Auxiliary switch complete for electrically-operated breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">i.  One manual operating mechanism handle for drawout feeder air circuit breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">j.  Twelve fuses of each type and size for voltage transformers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">k.  Six Indicating lamp assemblies (three red lens and three green lens.)</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">l.  Ten Indicating lamp color caps of each color.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">m.  One spring for stored-energy closing mechanism.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">n.  Four spare blank nameplates for operating unit doors.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">o.  One lot spare bulbs for indicating lamp assemblies, package to contain not less than 20.</LST><BRK/>
+<BRK/></SPT>
+</PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>NAMEPLATES</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit samples of engraved nameplates with a schedule of nameplate sizes and lettering.  The Contractor will be permitted to supply and attach 
+to the switchgear assembly a nameplate or trademark.  Include a drawing or illustration showing the proposed nameplate, its size and location.  
+Provide each item of equipment mounted on the switchgear, which does not have a suitable designation included as an integral part of the device, 
+with an engraved nameplate or with other approved suitable means of identification.  Nameplates shall be made of laminated sheet plastic or of 
+anodized aluminum approximately<MET> 3 mm</MET><ENG> 1/8 inch</ENG> thick, engraved to provide white letters on a black background.  Provide equipment of the withdrawal 
+type with nameplates mounted on the removable equipment in locations visible when the equipment is in place.  The nameplates shall be fastened 
+to the panels in proper positions with black finished roundhead screws.  Each control switch shall be provided with an escutcheon clearly marked 
+to  show each operating position.  The switch identifications shall be engraved on the escutcheon plates or on separate nameplates.  The escutcheon 
+and nameplate markings shall be subject to approval.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>COPPER AND ALUMINUM BARS AND RODS</TTL><BRK/>
+<BRK/>
+<TXT>Copper or aluminum bars and shapes for main bus and ground bus conductors may be provided at the option of the Contractor and shall conform to 
+the requirements of <RID>ASTM B187/B187M</RID>, <RID>ASTM B188</RID>, <MET> <RID>ASTM B236M</RID> </MET><ENG><RID>ASTM B236</RID></ENG>, and <RID>ASTM B317/B317M</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>CONDUIT AND ELECTRICAL METALLIC TUBING</TTL><BRK/>
+<BRK/>
+<TXT>Rigid conduit shall conform to <RID>ANSI C80.1</RID> and shall, be zinc-coated (galvanized) both inside and outside by the hot-dip method.  Electrical metallic 
+tubing shall conform to <RID>ANSI C80.3</RID>.  Fittings for rigid metal conduit and electrical metallic tubing shall conform to <RID>NEMA FB 1</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>CONNECTIONS</TTL><BRK/>
+<BRK/>
+<TXT>All bolts, studs, machine screws, nuts, and tapped holes shall be in accordance with <RID>ASME B1.1</RID>.  Threads for sizes<MET> 6 to 25 mm</MET><ENG> 1/4 to 1 inch</ENG>, inclusive, 
+shall be NC or UNC series.  The sizes and threads of all valves, pipe and fittings, conduit and fittings, tubing and fittings, and connecting equipment 
+shall be in accordance with <MET><RID>ASME B1.20.2M</RID></MET><ENG><RID>ASME B1.20.1</RID></ENG>.  Manufacturer's standard thread and construction may be used on small items which, in the 
+opinion of the Contracting Officer, are integrally replaceable, except that threads for external connections to these items shall meet the above 
+requirements.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>480-VOLT STATION SERVICE SWITCHGEAR</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>Except as otherwise specified or indicated, the design, construction and tests of the switchgear shall conform to the applicable requirements of <RID>
+IEEE C37.13</RID>, and [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>]. The switchgear will be used to distribute power from two [[_____]-kVA, [_____]-480 
+volt] [13,800-480 volt], 3-phase, 60-Hz, station service transformers to 480-volt power distribution centers and to other station service loads.  
+The switchgear assembly shall contain two main bus sections connected by a bus tie circuit breaker.  Each main bus section will be connected to 
+a supply transformer through a main supply circuit breaker.  The two main supply circuit breakers and the bus tie circuit breaker shall be electrically 
+operated and will normally be remotely controlled.  Automatic bus transfer shall be provided as specified in paragraph Automatic Bus Transfer.  
+The switchgear shall have instruments, control accessories, and other equipment mounted on the front panels and inside the switchgear as shown 
+and as specified.  The annunciator window group will be furnished by the Government for mounting and wiring by the Contractor.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Enclosure and Framework</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Switchgear</SUB></TTL><BRK/>
+<BRK/>
+<TXT>The switchgear shall be of the totally-enclosed, free-standing, dead-front type built on a suitable framework of structural steel, or by an equivalent 
+approved method, which shall provide a self-supporting and stable structure.  Metal-enclosed switchgear construction consisting of ribbed side 
+sheets and fabricated framework which is functionally equivalent to the structural steel framework specified will be acceptable.  The framework 
+and structure shall be sufficiently rigid to withstand operation of the equipment or any stresses due to short circuits.  Each shipping assembly 
+shall also be sufficiently rigid, with the addition of temporary members if required, to withstand handling during shipment and installation.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Enclosure</TTL><BRK/>
+<BRK/>
+<TXT>The enclosure shall be made of selected smooth sheet steel panels, suitably supported.  Doors and panels used to support instruments and other 
+devices and barriers between compartments shall not be less than No. 11 MSG.  Exposed panels on the front and ends of the enclosure shall be bent 
+angle or channel edges with all corner seams welded and ground smooth, or shall be the manufacturer's equivalent construction as approved.  The 
+front outside surfaces shall not be drilled or welded for the purpose of attaching wires or mounting devices if such holes or fastenings will be 
+visible from the front.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Drawout Circuit Breaker</TTL><BRK/>
+<BRK/>
+<TXT>Each drawout type circuit breaker shall be completely enclosed in a metal compartment.  Access to the circuit breakers shall be provided through 
+hinged steel doors.  Access to instrument and relay wiring, instrument transformers and fuses, shall also be through hinged doors.  All hinged 
+doors shall have bent angle or channel edges, invisible hinges and suitable latches or fastenings.  Access to bus compartments shall be through 
+removable bolted panels, cover plates or hinged doors.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Ventilating Opening</TTL><BRK/>
+<BRK/>
+<TXT>Ventilating openings shall be provided as required and shall preferably be  of the grille type.  All ventilating openings shall be provided with 
+corrosion-resistant insect-proof screens on the inside.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Foundations</TTL><BRK/>
+<BRK/>
+<TXT>Continuous channel iron foundations, complete with bolts and drilled holes  for grouting and anchoring to the floor, shall be furnished by the 
+Contractor for the complete length (front and rear) of each [substation] [switchgear assembly].  Channel construction and drilling shall be as 
+required for mounting the equipment.  The channels shall be designed for flat mounting and maximum channel depth shall be<MET> 63 mm</MET><ENG> 2-1/2 inches</ENG>.  
+The foundation channels shall be placed on top of the floor, fastened in place, and then filled with grout.  Additional channel or substantial 
+metal trim shall be provided flush with the end panels to completely enclose the bases across the ends of the equipment assemblies where exposed 
+to view.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Buses and Connections</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  The buses in each main bus section shall have a continuous current-carrying capacity of not less than [1,200] [1,600] [2,000] [3,000] 
+amperes without exceeding the temperature limits specified in [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>].  The buses shall have mechanical 
+and thermal capacities coordinated with the interrupting rating of the power supply circuit breakers.  Bus bars shall be of hard-drawn 
+copper, aluminum, or aluminum-alloy.  Shop splices and tap connections shall be brazed, pressure-welded or bolted.  All splices for field 
+assembly shall be bolted.  Where bolted connections are used, contact surfaces shall be silver-plated except that contact surfaces for 
+aluminum-alloy may be tin-plated and shall be equipped with provisions for adequate clamping.  The buses shall be mounted on insulating 
+supports of wet process porcelain, glass polyester, or suitable molded material.  All primary connections including the power connections 
+to the line side of the circuit breakers shall be by bus bar.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  The standard phasing within equipment housing for AC power circuits shall be A-B-C from left to right when facing the front of the 
+equipment, A-B-C from top to bottom, and A-B-C from front to back.  Nonstandard phasing in any compartment will be permitted only upon 
+approval and providing each phase is identified and a warning sign, "Nonstandard Phasing," is incorporated within such a compartment.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Blank compartments without buses and small spare compartments with buses and complete provisions for installing future feeder circuit 
+breakers shall be provided where shown.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Power Circuit Breakers</SUB></TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>The power supply, bus tie, and feeder air circuit breakers shall be 3-pole, dead-front, drawout type rated 600 volts AC, conforming to the requirements 
+of <RID>IEEE C37.13</RID>; <RID>IEEE C37.16</RID>; and <RID>IEEE C37.17</RID>.  All circuit breakers of the same frame size and type of operation (electrical or manual) shall be 
+interchangeable.  Suitable means shall be provided for removing and handling the drawout circuit breakers.  These means may include support from 
+the top of the switchgear enclosure without interference with incoming or outgoing wiring.  The Government reserves the right to change the indicated 
+current ratings, within frame limits, of the tripping devices at the time the <SUB>shop drawings</SUB> are submitted for approval.  Overcurrent trip alarm 
+contacts, with means for manual reset, shall be furnished as indicated.  Covers shall be provided over readily accessible energized portions to 
+prevent hazards to personnel when withdrawing or inserting the breakers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Power Supply and Bus Tie Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>The 2 power supply circuit breakers and the bus tie circuit breaker shall be electrically-operated drawout type with the closing mechanism designed 
+for operation on 125 volts DC.  The circuit breakers shall be rated 600 volts AC, [600] [1,600] [3,000] ampere frame size, [22,000] [42,000] [65,000] 
+amperes symmetrical interrupting capacity at 600 volts AC, with continuous current ratings as indicated.  Each circuit breaker shall be provided 
+with functional components in accordance with Table 1 of <RID>IEEE C37.13</RID>, including means for manual emergency tripping  and manual closing for maintenance 
+operation.  Each power supply breaker and the bus tie circuit breaker shall be provided with a solid-state direct-acting over-current tripping 
+device consisting of long-time-delay and short-time-delay elements.  The bus tie circuit breaker shall be furnished without an overcurrent trip 
+device but shall be provided with a 125-volt DC shunt trip device.  Long-time and short-time-delay operation bands shall be selected to provide 
+maximum selectivity between the primary supply protective relays, power supply breakers, bus tie breaker, feeder breakers and motor control center 
+molded case breakers for a fault on a feeder circuit.  Information on primary relays and molded case breakers will be supplied to the Contractor.  
+The 2 power supply circuit breakers and the bus tie circuit breaker shall be electrically interlocked so that only 2 of the 3 breakers can be in 
+the closed position at the same time.  A local test control switch shall be provided for each electrically-operated circuit breaker which shall 
+be electrically interlocked through cell switches or secondary disconnects to prevent breaker operation except when the breaker is in the test 
+position.  Sufficient breaker auxiliary switch contacts and cell switches shall be provided to accomplish the required breaker control and interlocking 
+system as shown.  At least 4 auxiliary switch contacts shall be provided on each breaker.  At least 2 spare auxiliary switch contacts, one normally-open 
+and one normally-closed, shall also be provided on each electrically-operated breaker.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Feeder Air Circuit Breakers</TTL><BRK/>
+<BRK/>
+<TXT>Feeder breakers shall be independent manually-operated type with manually-charged stored energy closing mechanism and with frame sizes as indicated, 
+and shall be rated 600 volts AC.  Circuit breakers with 600-ampere frames shall have a short-circuit interrupting capacity of not less than 22,000 
+rms symmetrical amperes at 600 volts AC.  Each feeder breaker, except as specified otherwise, shall be provided with a solid-state direct-acting 
+overcurrent tripping device consisting of a long-time-delay element and a short-time-delay element.  The long-time-delay trip elements for direct-acting 
+overcurrent tripping devices shall be adjustable over an approximate range of 80 to 110 percent of the trip ampere rating.  The short-time-delay 
+trip elements, for the direct-acting overcurrent tripping devices shall be adjustable over a range of approximately 4 to 10 times the ampere rating.  
+Manually-operated drawout type circuit breakers shall be fitted with suitable operating handles, preferably of the pistol grip type, or vertical 
+lever type, designed to close the breaker with a rotary motion of less than 180 degrees.  All breakers shall be designed for tripping by a rotary 
+motion in the opposite direction or by pressing a readily accessible trip button.  The operating handles shall be easily removable when it is necessary 
+to open the compartment door and easily replaceable for operating the breaker in the withdrawn or test position.  Duplicate feeder breakers shall 
+be key interlocked.  Each breaker shall be equipped with a conspicuous mechanical target visible with the breaker in the normal operating position 
+to indicate whether the breaker is open or closed and shall be provided with a manually-reset bell alarm contact to energize the annunciator circuit 
+only when the breaker is automatically tripped on a fault or overload.  The circuit breaker for the powerhouse crane feeder shall be manually-operated 
+type equipped with a 125-volt DC shunt trip attachment for emergency operation from remote stations.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Automatic Bus Transfer</TTL><BRK/>
+<BRK/>
+<TXT>The stations shall be provided with automatic bus transfer.  The automatic transfer arrangement shall be as shown by the schematic diagrams and 
+shall incorporate the following (normal operation will be with both supply breakers closed and the bus tie breaker open):</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Loss of voltage on one bus shall cause the associated supply breaker to trip and the bus tie breaker to close.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Automatic transfer control will cease to function if either of the supply breakers or the bus tie breaker trip on overcurrent.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Recovery of voltage from 1 of the 2 normal sources shall (after a time delay) open the bus tie breaker and close the associated supply 
+breaker.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Recovery of voltage from both normal sources shall (after a time delay) open the bus tie breaker and close the supply breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  After pickup by the voltage relays, the bus transfer operation shall be accomplished within approximately 1 second.</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Wiring</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Control Panel and Power Wiring</TTL><BRK/>
+<BRK/>
+<TXT>Control panel wiring shall be stranded copper switchboard wire with 600-volt insulation.  The wire shall be Type SIS as listed in <RID>NFPA 70</RID> and shall 
+meet the requirements of <RID>NEMA WC 70</RID>.  Hinge wire shall have class K stranding.  Current transformer secondary leads shall be not smaller than No. 
+10 AWG.  The minimum size of wire for all other control wiring shall be No. 14 AWG.  Power wiring for 480-volt circuits and below shall be of the 
+same type as control panel wiring and the minimum size shall be No. 12 AWG.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Terminals and Installation</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Control wiring within the assembly housings shall be furnished and installed by the Contractor as specified.  All control wiring leaving 
+equipment shall be run to and terminated on terminal blocks.  Terminal blocks and internal wiring shall be provided for connection of remote 
+circuits to all spare auxiliary and alarm contacts, remote annunciators, remote control switches, and pilot devices and remote indicating 
+lights where such devices are specified and applicable to the equipment involved.  Each individual potential transformer lead shall be 
+brought out to a terminal block.  Potential transformers for ground detecting circuits shall be grounded at the equipment.  Potential transformers 
+for metering circuits will be remotely grounded by the Government.  There shall be no splices in the wiring and all connections shall be 
+made at terminal studs or blocks.  Terminal blocks shall be added for wiring to devices having leads instead of terminals.  Indented terminals, 
+Burndy Type YAV10 or an approved equal, shall be used on all wires terminated on screw or stud terminals.  All screw terminals shall have 
+toothed lock washers and all stud terminals shall have contact nuts and either locking nuts or lock washers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  All external control cables and power cables will enter the switchgear in [conduit] [cable trays] [from above] [from below].  Space 
+for cables as shown  shall be provided.  The 600-volt metal-enclosed buses shall enter the switchgear from [above] [below through floor 
+slots].  Matching openings shall be provided in the switchgear to permit the entrance of the bus into the switchgear through the concrete 
+openings.  Clam-style terminals of sizes indicated shall be provided for all main power cable leaving the switchgear.  The terminals shall 
+be of the heavy-duty, full clamp type, Burndy "Qiklug", or approved equal.  Adequate provisions shall be included for supporting the Government's 
+cables between the conductor terminating points and where they enter or leave the switchgear.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>Terminal Blocks</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit prints of wiring and terminal drawings in accordance with Contract Clause CONTRACTOR'S DRAWINGS AND DATA, which will be marked and returned 
+to the Contractor for addition of the designations to the terminal strips and tracings, along with any rearrangement of points required.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Terminal blocks for control wiring shall be molded or fabricated type with barriers, rated not less than 600 volts, type [_____].  
+The terminals shall be removable binding, fillister or washer head screw type, or stud type with contact and locking nuts.  The terminals 
+shall be not less than No. 10 in size and shall have sufficient length and space for connecting at least 2 indented terminal connectors 
+for No. 19/22 AWG conductors to each terminal.  The terminal arrangement shall be subject to approval.  Not less than 10 percent, but in 
+no case less than 2, spare terminals shall be provided on each block or group of blocks.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Short-circuiting type terminal blocks shall be furnished for all current transformer secondary leads and shall have provision for shorting 
+together all leads from each current transformer without first opening any circuit.  These terminal blocks shall be made by the same manufacturer 
+as the terminal blocks for control wiring listed above, type [_____].</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  White or other light-colored plastic marking strips, fastened by screws to each terminal block, shall be provided for control wire 
+designations.  The manufacturer's wire number and the Government's wire number shall both be shown for each connected terminal on the marking 
+strips with permanent marking fluid.  The marking strips shall be reversible to permit marking both sides, or two marking strips shall 
+be furnished with each block, to accommodate the two sets of wire numbers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Load terminal blocks rated not less than 600 volts and of adequate capacity shall be provided for the conductors of power circuits 
+except those supplied from air circuit breakers.  The terminals shall be of either the stud type with contact nuts and locking nuts or 
+of the removable screw type, having length and space for at least two indented terminal connectors of the size required on the conductors 
+to be terminated.  For conductors rated more than 50 amperes all screws shall have hexagonal heads.  For conductors rated 50 to 99 amperes 
+the minimum screw size shall be<MET> 8 mm</MET><ENG> 5/16 inch</ENG>.  Conducting parts between connected terminals shall have adequate contact surface and cross 
+section to operate without overheating.  Each connected terminal shall have the circuit designation or wire number marked on or near the 
+terminal in permanent contrasting color.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Give special attention to wiring the terminal arrangement on the terminal blocks to permit the individual conductors of each external 
+Government-furnished cable to be terminated on adjacent terminal points.  The wire (terminal point) designations used on the Contractor's 
+wiring diagrams and printed on terminal block marking strips may be according to the Contractor's standard practice; however, additional 
+wire and cable designations for identification of remote (external) circuits may be required.</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Grounding</TTL><BRK/>
+<BRK/>
+<TXT>The switchgear assembly shall include a full-length interior ground bus of  copper or aluminum bar to which the housing, framework, cable supports, 
+bus supports, and non-current carrying metallic parts of all equipment and conduits shall be grounded insofar as practicable.  No soldered connections 
+shall be used in the ground leads.  If the operating mechanism of drawout units is not permanently grounded, ground contacts shall be provided 
+to automatically connect the movable element to the ground buses.  These connections shall make before the main disconnecting devices upon insertion, 
+and break after the main disconnecting devices upon withdrawal.  Grounding shall conform to[<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>] except 
+that the ground bus shall have a continuous current-carrying capacity not less than 25 percent of the continuous rating of the power supply circuit 
+breakers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Molded Case Circuit Breakers</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>Molded case circuit breakers shall conform to the applicable requirements of <RID>UL 489</RID> and <RID>NEMA AB 3</RID>, shall be fully rated, and shall have voltage 
+ratings and interrupting ratings stated.  For circuit breakers of the same ampere frame size, 3 pole and 2 pole circuit breakers shall be the same 
+width as 3 single pole and 2 single pole circuit breakers respectively.  The circuit breakers shall be manually-operated and shall have trip-free 
+operating mechanisms of the quick-make, quick-break type.  All poles of each breaker shall be operated simultaneously by means of a common handle, 
+and shall be enclosed in a common molded plastic case.  The contacts of multi-pole breakers shall open simultaneously when the breaker is tripped 
+manually or automatically.  The operating handles shall clearly indicate whether the breakers are in "On", "Off", or "Tripped" position.  The circuit 
+breakers shall be of the individually-mounted, stationary type, shall all be products of the same manufacturer, and shall be interchangeable when 
+of the same frame size.  Each circuit breaker shall be provided with mechanical pressure type terminal lugs for single-conductor stranded copper 
+cables of the size required by the specifications or shown.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Trip Units</TTL><BRK/>
+<BRK/>
+<TXT>The circuit breakers shall be of the automatic type provided with combination thermal and instantaneous magnetic trip units. Instantaneous magnetic 
+trip units shall be set at approximately 10 times the continuous current ratings of the circuit breakers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>480-Volt AC Circuits</TTL><BRK/>
+<BRK/>
+<TXT>Circuit breakers for 480-volt AC circuits shall be rated 600 volts AC, and  shall have a minimum NEMA interrupting capacity of [14,000] [_____] 
+symmetrical amperes at 600 volts AC.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>120-Volt and 208-Volt AC Circuits</TTL><BRK/>
+<BRK/>
+<TXT>Circuit breakers for 120-volt and 208-volt AC circuits shall be rated not less than 250 volts DC, and either 120/240 or 240 volts AC, and shall 
+have a minimum NEMA interrupting capacity of 10,000 symmetrical amperes.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>125 Volt DC Circuits</TTL><BRK/>
+<BRK/>
+<TXT>Circuit breakers for 125 volt DC circuits shall be 2-pole rated 125/250 or  250 volts DC, and shall have a minimum NEMA interrupting capacity of 
+10,000 amperes DC.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Instrument Transformers</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Voltage Transformers</TTL><BRK/>
+<BRK/>
+<TXT>Five 480-120 volt, 200 volt-ampere capacity, voltage transformers shall be provided for each main 480-volt bus section.  Two of the transformers 
+shall be used for metering and 3 of the transformers shall be used with the ground detection equipment.  Voltage transformers shall conform to <RID>
+IEEE C57.13</RID> and shall have an ANSI accuracy classification of 0.3W, 0.3X, and 1.2Y or better.  The full-wave impulse level shall be not less than 
+10 kV.  Each voltage transformer shall be protected with removable primary and secondary fuses.  Fuses shall be installed in each ungrounded lead 
+and located adjacent to the transformers in an easily accessible place.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Current Transformers</TTL><BRK/>
+<BRK/>
+<TXT>Dry type current transformers as shown shall be furnished, installed and wired to the specified terminal blocks.  These current transformers shall 
+conform to <RID>IEEE C57.13</RID>, and shall have the ratios indicated.  The current transformers shall be rated not less than 600 volts AC, 10 kV BIL, and 
+the ANSI accuracy classification shall be in accordance with [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>], or better.  If cable connections 
+to the transformer primary are required, terminals of an approved solderless type and proper size shall be furnished.  If transformers are connected 
+to buses, proper connections shall be furnished, complete with bolts, nuts, washers and other accessories.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Ground Detection Equipment</TTL><BRK/>
+<BRK/>
+<TXT>Ground detection equipment shall be furnished for each bus section of the switchgear, to be used for indication and annunciation of grounds of 
+the 480-volt system.  The equipment shall consist of 3 instrument voltage transformers complete with primary and secondary fuses, connected wye-delta, 
+with neutral of primary wye grounded and with the coil of a voltage ground detector relay connected in the broken delta corner of the secondary 
+windings of the 3 voltage transformers in accordance with [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>].  Two ground detector relays shall be 
+provided, one for each bus section of the switchgear.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Relays</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Relays shall conform to the applicable requirements of <RID>IEEE C37.90</RID>.  The relays shall be back-connected, semi-flush-mounted, switchboard 
+type with black, rectangular, dust-tight cases, removable covers with windows, and means of sealing against tampering.  Relays, except 
+auxiliary relays, shall be drawout type with built-in test facilities arranged so that the relays can be tested in position or withdrawn 
+from the fronts of the cases without opening current transformer secondary circuits, disturbing external circuits, or requiring disconnection 
+of leads from the relay terminals.  The test devices shall permit testing with energy from either the instrument <SUB>transformers</SUB> or an external 
+power supply.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Submit descriptive data, including manufacturer types and catalog numbers for equipment.  Curve sheets for power supply and bus tie 
+circuit breakers combining characteristics of the trip elements to show the proposed selectivity.  In addition, [_____] sets of characteristic 
+curves of the individual breaker trip elements shall be included to permit checking and for power supply and bus tie circuit breakers.  
+The breaker trip ampere ratings and lug sizes shall be as indicated.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Protective relays shall be provided with all required auxiliaries, including auxiliary instrument transformers and reactors, to adjust 
+currents, potentials and phase angles for proper operation.  External relay auxiliaries shall be mounted in compact assemblies back of 
+the panels and adjacent to the relays.  AC relays shall be suitable for use on 60-Hz circuits and for operation with the instrument transformer 
+ratings and connections shown.  Relay current coils shall be able to withstand 35 times normal current for 1/2 second, and relay voltage 
+coils shall be able to withstand 110 percent rated voltage continuously without damage.  Time delay features shall not depend upon oil 
+dashpots or other devices which are appreciably affected by temperature.  Each relay shall be provided with 1 or more operation indicators 
+and/or indicating Contractor switches with targets and external target reset devices, and the circuits shall be arranged for positive target 
+operation.  Seal-in Contractor and suitable loading resistors shall be provided where required.  Separate relay operating function, such 
+as instantaneous trip attachments and different zones for distance relays, shall have separate targets and contacts.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Relay contacts shall be silver-to-silver, electrically independent, chatterproof and non-bouncing, and suitable for use on 125-volt 
+ungrounded DC circuits unless otherwise specified or shown.  Where more than one electrically-independent relay contact is required, as 
+indicated , and it is not feasible to provide more than 1 such contact, or if 2 contacts are available but are not electrically independent, 
+auxiliary relays shall be furnished to provide the required additional contacts.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>AC Voltage Relays</TTL><BRK/>
+<BRK/>
+<TXT>Voltage relays other than ground detector relays shall be induction-disc inverse-time type with adjustable time and voltage settings and with semiflush 
+mounting, drawout case type [_____].  Ground detector relays shall be induction-disc inverse-time overvoltage type rated 199 volts AC with low 
+pickup, semiflush mounting in drawout case with circuit closing contacts suitable for 125-volt DC ungrounded circuits.  They shall be from the 
+same manufacturer as the AC voltage relays, type [_____].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Auxiliary relays</TTL><BRK/>
+<BRK/>
+<TXT>Auxiliary relays for bus transfer control shall be semiflush back-connected  type for front-of-panel mounting.  The semiflush cases shall be black 
+and shall match in appearance other relay cases on the switchgear.  Auxiliary relays for interior mounting shall be provided with covers.  Relay 
+coils and contacts shall be suitable for continuous operation at 125 volts DC, shall be furnished with resistors where required, and shall be of 
+a type to require a minimum continuous current.  The auxiliary relays shall be high-speed, multi-contact, self-reset type, from the same manufacturer 
+as the AC voltage relays, type [_____].</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Control and Instrument Switches</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>All control switches shall be of the rotary switchboard type with handles on the front and the operating contact mechanisms on the rear of the 
+panels, type [_____].  Each switch shall be provided with ample contact stages to perform the functions of the control system.  Contacts shall 
+be self-aligning and shall operate with a wiping action.  A positive means of maintaining high pressure on closed contacts shall be provided.  
+Compression springs or pivotal joints shall not carry current.  The covers or plates on the switches shall be readily removable for inspection 
+of contacts.  All control switches shall be suitable for operation on 600-volt AC or 250-volt DC circuits.  All such switches shall be capable 
+of satisfactorily withstanding a life test of at least 10,000 operations with rated current flowing in the switch contacts.  The switches shall 
+be capable of continuously carrying 20 amperes without exceeding a temperature rise of 30 degrees C.  The single-break inductive load interrupting 
+rating of switches shall be not less than 1.5 amperes for 125 volts DC or 10 amperes for 115 volts AC.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Switch Features</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Control and instrument switches shall be suitable for the intended use and shall have the features shown on the schematic diagrams 
+and switch development drawings.  The switches shall have modern handles or keys of pistol grip, oval, round notched or knurled type, and 
+shall be black color unless otherwise specified.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Control switches for electrically-operated circuit breakers shall be 3 position momentary-contact type with spring return to neutral 
+position, and shall have modern-black, heavy duty pistol grip handles.  Circuit breaker control switches shall have mechanical operation 
+indicators to show the last manual operation of the switches, and shall have slip contacts when so indicated or required.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Instrument and meter transfer switches and selector switches shall be the maintained-contact type with the required number of positions, 
+and shall have round notched or knurled handles.  Ammeter switches shall not open the secondary circuits of current transformers at any 
+time.  Instrument switches for potential selection shall have oval handles.</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Indicating Lamp Assemblies</TTL><BRK/>
+<BRK/>
+<TXT>Indicating lamp assemblies shall be of the switchboard type, insulated for  125-volt DC service, with appropriately colored caps and integrally 
+mounted resistors for nominal 125-volt DC service (140 volts maximum).  Lamps shall be long-life low-wattage type replaceable from the front of 
+the panels and any special tools required for lamp replacement shall be furnished.  Color caps shall be made of transparent or translucent material 
+which will not be softened by the heat from the lamps.  Insofar as practicable, all color caps shall be similar and interchangeable, and all lamps 
+shall be of the same type and rating.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Indicating Instruments</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>Electrical indicating instruments shall conform to the applicable requirements of <RID>ANSI C39.1</RID> and the accuracy rating shall be within 1 percent 
+of full-scale value.  The instruments shall be back-connected semiflush mounting.  Instruments shall have white dials, circular scales, black scale 
+markings, and black tapered antiparallax pointers.  Instrument cases shall be dust tight with shadowproof covers and anti-glare windows. Taut-band 
+suspension shall be provided where this design is available.  Zero adjustments accessible from the front without removal of covers shall be provided 
+for instruments with spring control.  AC instruments shall be designed and calibrated for use on 60-Hz circuits and for operation from 120-volt 
+secondaries of voltage transformers and 5-ampere secondaries of current transformers, as shown.  AC instrument potential coils shall be designed 
+for continuous operation at 150-volts, and AC instrument current coils shall be capable of withstanding 40 times rated current for two seconds. 
+Instrument identification legends shall be neatly printed on the dials or on separate legend plates inside the cases.  Instrument scales shall 
+be as specified, or as approved if scales are not specified, and appropriate for the application.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Rectangular Switchboard Instruments</TTL><BRK/>
+<BRK/>
+<TXT>Instruments shall be<MET> 108 mm</MET><ENG> 4-1/4 inch</ENG> minimum rectangular type with nominal 250-degree scale angle and zero-left scales</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>AC Voltmeters</TTL><BRK/>
+<BRK/>
+<TXT>AC voltmeters shall be provided with expanded type scales.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></SPT><SPT><TTL><SUB>METAL-ENCLOSED BUS</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit the proposed methods for grounding bus housing.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>The electrical connections between the 480-volt terminals of the station service transformers and the power supply air circuit breakers in the 
+main 480-volt station service switchgear shall consist of 3-phase, nonventilated, nonsegregated-phase, metal-enclosed bus conforming to the applicable 
+requirements of [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>].  The bus shall be rated 600 volts AC [1,600] [_____] amperes continuous current 
+carrying capacity, and the momentary current rating shall be not less than [25,000][50,000] rms asymmetrical amperes.  The metal-enclosed bus shall 
+be fabricated in sections to suit the arrangement shown.  Necessary frames and flange sections required at the bus terminals at the transformers 
+and switchgear, and all required structural supports for the bus structures shall be provided.  Expansion sections shall be provided wherever the 
+bus crosses a contraction joint in the building.  All electrical and mechanical connections at the station service transformers shall be coordinated 
+with the station service transformer manufacturer.  Flexible connections shall be provided at the switchgear and transformer connections.  Connections 
+at the switchgear shall be coordinated with the design of the 480-volt station service switchgear.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Conductors</TTL><BRK/>
+<BRK/>
+<TXT>The bus phase conductors shall be of bare copper, aluminum or aluminum-alloy, and when assembled shall withstand the specified dielectric tests.  
+Field joints in the conductors shall be silver-plated except that contact surfaces of aluminum-alloy conductors may be tin plated.  The joints 
+shall be provided with sufficient bolts to provide adequate low-resistance contacts.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Enclosure</TTL><BRK/>
+<BRK/>
+<TXT>The three phase conductors with insulating supports and spacers shall be mounted inside a common nonventilated dust tight enclosure made of sheet 
+metal not less than No. 14 MSG.  Covers for enclosure openings shall be not less than No. 14 MSG.  The design of the enclosure shall permit the 
+installation and alignment of all bus sections and the completion of field joints in the conductors before the enclosure is completely closed.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Grounding</TTL><BRK/>
+<BRK/>
+<TXT>All sections of the housing shall be connected to the powerhouse ground system.  Bus housing sections shall be bonded together or connected to 
+a common ground bus to facilitate connection to the powerhouse ground system.  The proposed method of metal-enclosed bus grounding shall be subject 
+to approval.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>SECONDARY UNIT SUBSTATION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>The secondary unit substation shall be indoor metal-enclosed secondary selective (double-ended) type rated [13,800-480] [[_____]-480] volts, [_____]kVA, 
+3-phase, 3-wire, with incoming, transforming, and outgoing sections arranged as indicated.  Except as otherwise specified or indicated, the unit 
+substation shall conform to the applicable requirements of <RID>NEMA TR 1</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Incoming Sections</TTL><BRK/>
+<BRK/>
+<TXT>Incoming sections for terminating the high-voltage power cables shall be as specified for Station Service Transformers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Transforming Sections</TTL><BRK/>
+<BRK/>
+<TXT>The transforming section shall be metal enclosed containing ventilated dry type (Class AA) transformers as specified for Station Service Transformers.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Transformer Bus Connections</TTL><BRK/>
+<BRK/>
+<TXT>The transformer low-voltage terminals shall be connected to the power supply breakers in the adjacent 480-volt, outgoing switchgear section by 
+means of copper or aluminum bus with thermal and mechanical capacities coordinated with the ratings of the 480-volt power supply circuit breakers.  
+The transformer high-voltage and low-voltage bus connections shall be arranged so that the front of the transformer enclosures will line up with 
+the front of adjoining incoming sections and the 480-volt outgoing switchgear section.  Suitable bus transition compartments shall be provided 
+if required.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Outgoing Section</TTL><BRK/>
+<BRK/>
+<TXT>The outgoing section shall be an indoor metal-enclosed 480-volt power circuit breaker switchgear assembly, with drawout type circuit breakers, 
+as specified for 480-volt Station Service Switchgear.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>STATION SERVICE TRANSFORMER</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Type and Rating</TTL><BRK/>
+<BRK/>
+<TXT>The station service transformers shall be indoor ventilated dry-type, self-cooled, NEMA Class AA, with<MET> 150 or 220 degrees C</MET><ENG> 300 or 428 degrees 
+F</ENG> limiting temperature insulation and shall conform to the applicable requirements of <RID>IEEE C57.12.01</RID>, [<RID>IEEE C57.12.50</RID>] [<RID>IEEE C57.12.51</RID>], <RID>IEEE C57.12.91</RID>
+, and <RID>NEMA TR 1</RID>.  The transformers shall be rated [_____]kVA, 3-phase, 60-Hz, [13,800-480 volts],  [[_____]-480 volts] and the windings shall be 
+connected delta-delta.  The transformer impedance shall be [_____] percent subject to ANSI standard tolerance.  The transformer shall be designed 
+to carry rated load continuously without exceeding<MET> 80 degrees C (Class 150 degrees C) or 150 degrees C (Class 220 degrees C)</MET><ENG> 176 degrees F (Class 
+302 degrees F) or 302 degrees F (Class 428 degrees F)</ENG> temperature rise above<MET> 40 degrees C</MET><ENG> 104 degrees F</ENG> ambient temperature when installed in its 
+ventilated sheet metal enclosure and cooled by natural air circulation.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Core and Coils</TTL><BRK/>
+<BRK/>
+<TXT>The core, coils and metal enclosure of the transformer shall be rigidly attached to a structural steel base suitable for moving the complete transformer 
+by the use of rollers.  Jacking facilities and removable lifting eyes shall be provided on the core and coil assembly.  The core laminations shall 
+be free from burrs which may puncture the insulation between laminations and shall be securely fastened to prevent excessive vibration in normal 
+service or displacement under short-circuit conditions.  Four 2-1/2 percent full-capacity taps, 2 above rated voltage and 2 below rated voltage, 
+shall be provided in the high-voltage windings, and suitable means shall be provided for changing the taps while the transformer is de-energized.  
+The terminal board shall be accessible through a door or removable panel in the enclosure.  All transformer leads and taps shall be securely braced 
+to prevent displacement or injury during transit or installation and under short-circuit condition.  Wiring for transformer accessories shall be 
+adequately supported to prevent breaking of the conductors due to vibration of the transformer and shall be connected to accessible terminal blocks.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Enclosure</TTL><BRK/>
+<BRK/>
+<TXT>The transformer shall be provided with a ventilated sheet steel enclosure as specified for 480-volt Station Service Switchgear, except that a formed 
+enclosure of not less than No.13 MSG may be used.  Doors or removable panels shall be provided in the enclosure to permit access to the transformer, 
+and suitable removable lifting eyes or other approved means shall be provided to permit lifting the enclosure alone and also the complete transformer 
+by the use of a crane.  The enclosure shall be adequately braced and stiffened on the inside, and shall be coated with sound-deadening material 
+if necessary, so that the audible sound level of the enclosed transformer when operating at rated load will not exceed the value permitted in Table 
+0-3 of <RID>NEMA TR 1</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Incoming Sections</TTL><BRK/>
+<BRK/>
+<TXT>Metal-enclosed compartments shall be provided for terminating the incoming  high-voltage power cables with stress cones as indicated.  Access to 
+the interior of the compartment shall be through removable bolted panels or bolted hinged doors.  Connections between the terminals of the incoming 
+cables and the high-voltage winding terminals of the adjacent transformers shall be by means of copper or aluminum bus with not less than [600] 
+[_____] amps. continuous current-carrying capacity and [_____] asymmetrical amperes momentary current rating.  Heavy-duty clamp type terminal lugs 
+shall be provided for connecting the high-voltage cables to the transformer high-voltage bus.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>ACCESSORIES</TTL><BRK/>
+<BRK/>
+<TXT>Furnish handling and testing accessories needed to remove, replace, test and maintain the drawout type air circuit breakers.  The accessories shall 
+include the following:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  One Closing Lever for manually closing the electrically-operated circuit breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  One set of couplers (if required) for test operation of the electrically-operated breakers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  One set of test plugs for drawout relays.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Two sets of keys for key interlocks.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  One Hoist, cart or other suitable means for breaker removal and handling.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  One complete set of all special wrenches and tools required for the installation, maintenance and repair of the switchgear.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">g.  Four one-quart containers of paint for outside finish.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">h.  One portable test set by the same manufacturer as the static trip devices to check the operation of the static trip devices without 
+the need for high primary circuit current.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">i.  One indicating lamp replacement tool (if required).</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>FACTORY INSPECTION AND TESTS</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit five certified copies of the reports of all tests, including complete test data, and five sets of calibration curves for each trip.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>General</TTL><BRK/>
+<BRK/>
+<TXT>Each item of equipment supplied under this contract shall be given the manufacturer's routine factory tests and also other tests, as specified 
+below, to insure successful operation of all parts of the assemblies.  All tests required shall be witnessed by the Contracting Officer, unless 
+waived in writing, and no equipment shall be shipped until it has been approved for shipment.  Notify the Contracting Officer sufficiently in advance 
+of the test date, so that the Contracting Officer can make arrangements to be present.  The factory test equipment and test methods used shall 
+conform to the applicable requirements of ANSI, IEEE and NEMA standards, and shall be subject to approval.  The witnessing representatives of the 
+Contractor and the Contracting Officer shall sign all test reports.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Switchgear Assembly Tests</TTL><BRK/>
+<BRK/>
+<TXT>Each low-voltage air circuit breaker switchgear assembly shall be subjected to the [_____] ["Production Tests"] described in [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>
+][<RID>IEEE C37.20.3</RID>], except as modified or supplemented below:</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Assembled Equipment</TTL><BRK/>
+<BRK/>
+<TXT>The assembled equipment shall be checked for mechanical adjustment, alignment of panels and devices mounted thereon, adequacy of fastenings and 
+general good workmanship.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Wiring</TTL><BRK/>
+<BRK/>
+<TXT>Control, instrument and relay wiring shall be given a point-to-point check, and the correctness of the control wiring shall be verified by actual 
+operation of the compartment devices.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Switchgear Assembly</TTL><BRK/>
+<BRK/>
+<TXT>Each switchgear assembly, with all circuit breakers in operating position and contacts closed, shall be subjected to a 1-minute power frequency 
+withstand dielectric test of 2,200 volts AC.  Control, instrument and relay wiring shall be subjected to a 1-minute, power frequency withstand 
+dielectric test of 1,500 volts AC to ground.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Circuit Breaker</TTL><BRK/>
+<BRK/>
+<TXT>Each low-voltage power circuit breaker shall be given the production tests  described in [<RID>NEMA C37.50</RID>][<RID>NEMA C37.51</RID>].  Each circuit breaker shall 
+be thoroughly checked for proper operation and all necessary adjustments shall be made.  Shunt trip coils shall be checked for proper operation.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Instrument Transformer Test</TTL><BRK/>
+<BRK/>
+<TXT>The voltage and current transformers shall be subjected to routine tests in  accordance with paragraph 4.7.2 of <RID>IEEE C57.13</RID>.</TXT><BRK/>
+<BRK/>
+<TXT>Five copies of typical ratio and phase angle tests shall be furnished for each type and rating of instrument transformer.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Metal-enclosed Bus Test</TTL><BRK/>
+<BRK/>
+<TXT>Each shop-assembled section of metal-enclosed bus shall be subjected to a low-frequency dielectric withstand test of 2,200 volts for 1 minute between 
+each conductor and the other conductors, and between all conductors connected together and the grounded metal housing in accordance with [<RID>IEEE C37.20.1A</RID>
+][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Station Service Transformer Test</TTL><BRK/>
+<BRK/>
+<TXT>The station service transformers shall be subjected to the routine tests listed in paragraph 8.3 of <RID>IEEE C57.12.01</RID>, except that the temperature 
+tests, if made, shall be made with the transformers in their enclosures in order to simulate actual operating conditions.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>PAINTING</TTL><BRK/>
+<BRK/>
+<TXT>Metal surfaces of the low-voltage metal-enclosed switchgear assembly and the enclosures for the metal-enclosed bus and station service transformers 
+shall be finished and painted in accordance with [<RID>IEEE C37.20.1A</RID>][<RID>IEEE C37.20.2A</RID>][<RID>IEEE C37.20.3</RID>], except that all outside surfaces shall be given 
+not less than 2 coats of quick air drying lacquer or synthetic enamel, [ANSI] Indoor Light Gray No. 61 in color, with semi-gloss finish.  Accessories 
+and interior surfaces shall be finished in accordance with manufacturer's standard practices. </TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>INSTALLATION</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Add appropriate requirements to specify installation by the Contractor.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>[_____].</TXT><BRK/>
+<BRK/></SPT>
+</PRT>     <END/><BRK/></SEC>

@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS/>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL AUTOWIDTH="0" WIDTH="225.00"/>
+      <COL AUTOWIDTH="0" WIDTH="225.00"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL>
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">UFGS-26 05 33 (January 2007)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1"/>
+         <CEL>
+<DTA TYPE="STRING">Change 1 - 11/19</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL>
+<DTA TYPE="STRING">Preparing Activity:  <PRA>NAVFAC</PRA></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-26 05 33 (April 2006)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 05 33</SCN><BRK/>
+<BRK/>
+<STL>DOCKSIDE POWER CONNECTION STATIONS</STL><BRK/>
+<DTE>01/07, CHG 1: 11/19</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers <SCP>600 V and 15 kV dockside power connection 
+stations for use in 480 V, 4160 V, and 13.8 kV ship service and 480 V industrial 
+service electrical distribution systems</SCP> meeting the requirements of UFC 4-150-02, 
+"DOCKSIDE UTILITIES FOR SHIP SERVICE".  This specification section shall be 
+referenced in Section <SRF>26 11 16</SRF> SECONDARY UNIT SUBSTATIONS and Section 
+<SRF>26 11 13.00 20</SRF> PRIMARY UNIT SUBSTATION when the power connection stations are 
+to be included as an auxiliary compartment of the switchgear associated with 
+a secondary or primary unit substation being provided for electrical ship service.</NPR><BRK/>
+<BRK/>
+<NPR>Use the following related guide specification for associated power distribution 
+equipment:</NPR><BRK/>
+<BRK/>
+<NPR>--Section <SRF>26 08 00</SRF> APPARATUS INSPECTION AND TESTING<BRK/>
+--Section <SRF>26 12 19.10</SRF> THREE-PHASE, LIQUID-FILLED PAD-MOUNTED TRANSFORMERS<BRK/>
+--Section <SRF>33 71 02</SRF> UNDERGROUND ELECTRICAL DISTRIBUTION<BRK/>
+--Section <SRF>26 11 16</SRF> SECONDARY UNIT SUBSTATIONS<BRK/>
+--Section <SRF>26 11 13.00 20</SRF> PRIMARY UNIT SUBSTATION<BRK/>
+--Section <SRF>26 20 00</SRF> INTERIOR DISTRIBUTION SYSTEM</NPR><BRK/>
+<BRK/>
+<NPR>Before preparing plans and specifications for a specific project, consult Unified 
+Facilities Criteria UFC 4-150-02, "DOCKSIDE UTILITIES FOR SHIP SERVICE" demand 
+and service requirements.</NPR><BRK/>
+<BRK/>
+<NPR>Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format 
+Standard when editing this guide specification or preparing new project specification 
+sections.  Edit this guide specification for project specific requirements by 
+adding, deleting, or revising text.  For bracketed items, choose applicable 
+item(s) or insert appropriate information.</NPR><BRK/>
+<BRK/>
+<NPR>Remove information and requirements not required in respective project, whether 
+or not brackets are present.</NPR><BRK/>
+<BRK/>
+<NPR>Comments, suggestions and recommended changes for this guide specification are 
+welcome and should be submitted as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This section contains the following ACAD files (Graphics) which are available 
+in metric (SI) and U.S. Customary (IP) system dimensions.  Use files to develop 
+project specific drawings.  Files may be modified as necessary.<BRK/>
+<BRK/>
+<TAB>
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="7">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="141.00"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="180.75"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">File Name</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">TITLE</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 1 (SI</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">600 V Ship Service Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 1 (IP)</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">600 V Ship Service Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 2 (SI)</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">600 V Industrial Service Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 2 (IP)</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">600 V Industrial Service Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="35.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 3 (SI)</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">15 kV Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33-Layout 3 (IP)</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">15 kV Power Connection Station</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB></NPR><BRK/>
+<BRK/>
+<NPR>NOTE:  Do not include this index in project specification.</NPR><BRK/>
+<BRK/>
+<NPR>NOTE:  To download UFGS Forms, Graphics, and Tables, go to: <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs/forms-graphics-tables">http://www.wbdg.org/ffc/dod/unified-<BRK/>
+facilities-guide-specifications-ufgs/forms-graphics-tables</URL></NPR><BRK/>
+<AST/><BRK/></NTE>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This section contains links to the following Shore Power Cable and Connector 
+requirement documents in PDF form.  Use these files to develop procurement specifications 
+for components required in OPNAVINST 11310.2B, Operation and Maintenance Policy 
+for Shore-to Ship Power and UFC 4-150-02, "Dockside Utilities for Ship Service".  
+Do not include this index in project specifications.<BRK/>
+<TAB>
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="9">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="160.50"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="161.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">File (Package) Name</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">TITLE</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 1</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Enhanced Low Voltage Portable Power Cables, 600V</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 2</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Enhanced Plus Low Voltage Portable Power Cables, 600V</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 3</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Medium Voltage Portable Power Cables, 350 KCMIL, 8KV</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 4</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Medium Voltage Portable Power Cables, 500 KCMIL, 8KV</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 5</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Medium Voltage Portable Power Cables, 350 KCMIL, 15KV</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="48.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 6</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Medium Voltage Portable Power Cables, 500 KCMIL, 15KV</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="36.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 7</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Single Pole Inline Connectors, 600V</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="23.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">26 05 33 Pkg 8</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Cable Couplers, 15KV</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB></NPR><BRK/>
+<NPR>NOTE:  To download UFGS Forms, Graphics, and Tables, go to: <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs/forms-graphics-tables">http://www.wbdg.org/ffc/dod/unified-<BRK/>
+facilities-guide-specifications-ufgs/forms-graphics-tables</URL></NPR><BRK/>
+<AST/><BRK/></NTE>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  The following information should be indicated on the project drawings 
+or specified in the project specifications.</NPR><BRK/>
+<BRK/>
+<NPR>1.  Site Plan showing location, space available, and desired arrangement of 
+power connection station.</NPR><BRK/>
+<BRK/>
+<NPR>2.  Single-line diagram showing number and configuration of power connection 
+stations; type, number, and size of conductors for each circuit; metering; and 
+power cable terminations.</NPR><BRK/>
+<BRK/>
+<NPR>3.  Floor plan, and elevation and section views of power connection stations 
+as necessary indicating the number and configuration of receptacles, auxiliary 
+devices, and metering accessories.</NPR><BRK/>
+<BRK/>
+<NPR>4.  Control diagrams showing operation of circuit breakers, emergency trip pushbuttons, 
+shunt trip pushbuttons, electric interlock switches, and control cabling between 
+power connection stations, emergency trip panels, and associated unit substation 
+switchgear.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of 
+the guide specification.  The publications are referred to in the text by basic 
+designation only and listed in this paragraph by organization, designation, 
+date, and title.</NPR><BRK/>
+<BRK/>
+<NPR>Use the Reference Wizard's Check Reference feature when you add a Reference 
+Identifier (RID) outside of the Section's Reference Article to automatically 
+place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.</NPR><BRK/>
+<BRK/>
+<NPR>References not used in the text will automatically be deleted from this section 
+of the project specification when you choose to reconcile references in the 
+publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are 
+referred to within the text by the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>AMERICAN NATIONAL STANDARDS INSTITUTE (ANSI)</ORG><BRK/><BRK/><RID>ANSI C12.1</RID><RTL>(2014; Errata 2016) Electric Meters - Code for Electricity Metering</RTL><BRK/><BRK/></REF><REF><ORG>ASTM INTERNATIONAL (ASTM)</ORG><BRK/><BRK/><RID>ASTM A167</RID><RTL>(2011) Standard Specification for Stainless and Heat-Resisting Chromium-Nickel Steel Plate, Sheet, and Strip</RTL><BRK/><BRK/><RID>ASTM B33</RID><RTL>(2010; R 2020) Standard Specification for Tinned Soft or Annealed Copper Wire for Electrical Purposes</RTL><BRK/><BRK/><RID>ASTM D709</RID><RTL>(2017) Standard Specification for Laminated Thermosetting Materials</RTL><BRK/><BRK/><RID>ASTM D1535</RID><RTL>(2014; R 2018) Standard Practice for Specifying Color by the Munsell System</RTL><BRK/><BRK/><RID>ASTM D2240</RID><RTL>(2015; E 2017) Standard Test Method for Rubber Property - Durometer Hardness</RTL><BRK/><BRK/></REF><REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE 100</RID><RTL>(2000; Archived) The Authoritative Dictionary of IEEE Standards Terms</RTL><BRK/><BRK/><RID>IEEE 386</RID><RTL>(2016) Separable Insulated Connector Systems for Power Distribution Systems Rated 2.5 kV through 35 kV</RTL><BRK/><BRK/><RID>IEEE C2</RID><RTL>(2017; Errata 1-2 2017; INT 1 2017) National Electrical Safety Code</RTL><BRK/><BRK/><RID>IEEE C57.12.28</RID><RTL>(2014) Standard for Pad-Mounted Equipment - Enclosure Integrity</RTL><BRK/><BRK/><RID>IEEE C57.13</RID><RTL>(2016) Standard Requirements for Instrument Transformers</RTL><BRK/><BRK/></REF><REF><ORG>INTERNATIONAL ELECTRICAL TESTING ASSOCIATION (NETA)</ORG><BRK/><BRK/><RID>NETA ATS</RID><RTL>(2021) Standard for Acceptance Testing Specifications for Electrical Power Equipment and Systems</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION (NEMA)</ORG><BRK/><BRK/><RID>ANSI C12.7</RID><RTL>(2014) Requirements for Watthour Meter Sockets</RTL><BRK/><BRK/><RID>NEMA WC 58/ICEA S-75-381</RID><RTL>(2008) Portable and Power Feeder Cables for Use in Mines and Similar Applications</RTL><BRK/><BRK/></REF><REF><ORG>NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)</ORG><BRK/><BRK/><RID>NFPA 70</RID><RTL>(2020; ERTA 20-1 2020; ERTA 20-2 2020; TIA 20-1; TIA 20-2; TIA 20-3; TIA 20-4) National Electrical Code</RTL><BRK/><BRK/></REF><REF><ORG>U.S. DEPARTMENT OF DEFENSE (DOD)</ORG><BRK/><BRK/><RID>MIL-C-24368/1</RID><RTL>(1987; Rev B; Notice 1 2020) Connector Assemblies; Plug, Power Transfer, Shore to Ship and Ship to Ship, 500 Volts, 500 Amperes, 60 Hertz, Symbol Number 1160</RTL><BRK/><BRK/><RID>MIL-C-24368/2</RID><RTL>(1987; Rev B; Notice 1 2020) Connector Assemblies; Receptacle, and Receptacle-Cabled, Power Transfer, Shore to Ship and Ship to Ship, 500 Volts, 500 Amperes, 60 Hertz, Symbol Number 1161</RTL><BRK/><BRK/><RID>MIL-DTL-24643/3</RID><RTL>(2009; Rev E) Cable, Electrical, -20 Degrees C to +90 Degrees, 600 Volts, Types LSSHOF, LSDHOF, LSTHOF, and LSFHOF</RTL><BRK/><BRK/></REF><REF><ORG>UNDERWRITERS LABORATORIES (UL)</ORG><BRK/><BRK/><RID>UL 50</RID><RTL>(2015) UL Standard for Safety Enclosures for Electrical Equipment, Non-Environmental Considerations</RTL><BRK/><BRK/><RID>UL 94</RID><RTL>(2013; Reprint May 2021) UL Standard for Safety Tests for Flammability of Plastic Materials for Parts in Devices and Appliances</RTL><BRK/><BRK/><RID>UL 489</RID><RTL>(2016; Rev 2019) UL Standard for Safety Molded-Case Circuit Breakers, Molded-Case Switches and Circuit-Breaker Enclosures</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>RELATED REQUIREMENTS</TTL><BRK/>
+<BRK/>
+<TXT>Section <SRF>26 08 00</SRF> APPARATUS INSPECTION AND TESTING applies to this section, with the additions and modifications 
+specified herein.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>DEFINITIONS</TTL><BRK/>
+<BRK/>
+<TXT>Unless otherwise specified or indicated, electrical and electronics terms used in these specifications, and on 
+the drawings, shall be as defined in <RID>IEEE 100</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review Submittal Description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL 
+PROCEDURES and edit the following list, and corresponding submittal items in 
+the text, to reflect only the submittals required for the project.  The Guide 
+Specification technical editors have classified those items that require Government 
+approval, due to their complexity or criticality, with a "G."  Generally, other 
+submittal items can be reviewed by the Contractor's Quality Control System.  
+Only add a "G" to an item if the submittal is sufficiently important or complex 
+in context of the project.</NPR><BRK/>
+<BRK/>
+<NPR><TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, 
+with a code of up to three characters to indicate the approving authority.  
+Codes for Army projects using the Resident Management System (RMS) are:  "AE" 
+for Architect-Engineer; "DO" for District Office (Engineering Division or other 
+organization in the District Office); "AO" for Area Office; "RO" for Resident 
+Office; and "PO" for Project Office.  </TAI>Codes following the "G" typically are 
+not used for Navy, Air Force, and NASA projects.</NPR><BRK/>
+<BRK/>
+<NPR>The "S" classification indicates submittals required as proof of compliance 
+for sustainability Guiding Principles Validation or Third Party Certification 
+and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.</NPR><BRK/>
+<BRK/>
+<NPR>Choose the first bracketed item for Navy, Air Force, and NASA projects, or choose 
+the second bracketed item for Army projects.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" 
+or "S" classification are [for Contractor Quality Control approval.][for information only.  When used, a code 
+following the "G" classification identifies the office that will review the submittal for the Government.]  Submit 
+the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-02 Shop Drawings</SUB></LST><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Revise or amplify these paragraphs where necessary to cover project requirements.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<ITM><SUB>600 V Power Connection Station</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>15 kV Power Connection Station</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ship Service Emergency Trip Panel</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM>Include wiring diagrams and installation details of equipment indicating layout and arrangement, 
+control panels, accessories, and other items that must be shown to ensure a coordinated installation.  
+Wiring diagrams shall identify circuit terminals and indicate the internal wiring for each item 
+of equipment and the interconnection between each item of equipment.  Drawings shall indicate 
+adequate clearance for operation, maintenance, and replacement of operating equipment devices.  
+Submittals shall include the nameplate data, size, and capacity.  Submittals shall also include 
+applicable federal, military, industry, and technical society publication references.</ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>600 V Single Pole Connectors</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Industrial Service Auxiliary Devices</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Metering Accessories</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>15 kV Cable Couplers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Deadbreak Junctions</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>High-Voltage Connectors</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Flexible Power Cable</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-06 Test Reports</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Paint Coating System</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>600 V Single Pole Connector Compatibility Tests</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>600 V Single Pole Connector Torque Test</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Power Receptacle and Plug Assembly Tests</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>15 kV Cable Coupler Design Tests</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Acceptance Checks and Tests</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<LST><SUB>SD-10 Operation and Maintenance Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>600 V Power Connection Station</SUB>, data package 5; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>15 kV Power Connection Station</SUB>, data package 5; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Ship Service Emergency Trip Panel</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>QUALITY ASSURANCE</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Drawings</TTL><BRK/>
+<BRK/>
+<TXT>Furnish drawings that include, but are not limited to, the following:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  One-line diagram including breakers, fuses, current transformers, and meters.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Outline drawings including front elevation, section views, footprint, and overall dimensions.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Markings and NEMA nameplate data, including fuse information (manufacturer's name, catalog number, 
+and ratings).</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Circuit breaker type, interrupting rating, and trip devices, including available settings.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Three-line diagrams and elementary diagrams and wiring diagrams with terminals identified, and indicating 
+prewired interconnections between items of equipment and the interconnection between the items.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Manufacturer's instruction manuals and published time-current curves (on full size logarithmic paper) 
+of the main secondary breaker and largest secondary feeder device.  These shall be used by the designer 
+of record to provide breaker settings that will insure protection and coordination are achieved.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Regulatory Requirements</TTL><BRK/>
+<BRK/>
+<TXT>In each of the publications referred to herein, consider the advisory provisions to be mandatory, as though the 
+word, "shall" had been substituted for "should" wherever it appears.  Interpret references in these publications 
+to the "authority having jurisdiction," or words of similar meaning, to mean the Contracting Officer.  Equipment, 
+materials, installation, and workmanship shall be in accordance with the mandatory and advisory provisions of <RID>
+NFPA 70</RID> unless more stringent requirements are specified or indicated.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Standard Products</TTL><BRK/>
+<BRK/>
+<TXT>Provide materials and equipment that are products of manufacturers regularly engaged in the production of such 
+products which are of equal material, design and workmanship.  Products shall have been in satisfactory commercial 
+or industrial use for 2 years prior to bid opening.  The 2-year period shall include applications of equipment 
+and materials under similar circumstances and of similar size.  The product shall have been on sale on the commercial 
+market through advertisements, manufacturers' catalogs, or brochures during the 2-year period.  Where two or 
+more items of the same class of equipment are required, these items shall be products of a single manufacturer 
+and the component parts of the item shall be the products of the same manufacturer.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Alternative Qualifications</TTL><BRK/>
+<BRK/>
+<TXT>Products having less than a 2-year field service record will be acceptable if a certified record of satisfactory 
+field operation for not less than 6000 hours, exclusive of the manufacturers' factory or laboratory tests, is 
+furnished.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Material and Equipment Manufacturing Date</TTL><BRK/>
+<BRK/>
+<TXT>Products manufactured more than 3 years prior to date of delivery to site shall not be used, unless specified 
+otherwise.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></SPT><SPT><TTL>WARRANTY</TTL><BRK/>
+<BRK/>
+<TXT>The equipment items shall be supported by service organizations which are reasonably convenient to the equipment 
+installation in order to render satisfactory service to the equipment on a regular and emergency basis during 
+the warranty period of the contract.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>MAINTENANCE</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Operation and Maintenance Data</TTL><BRK/>
+<BRK/>
+<TXT>Submit Operation and Maintenance Manuals in accordance with Section <SRF>01 78 23</SRF> OPERATION AND MAINTENANCE DATA.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>600 V POWER CONNECTION STATION</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Ship service and industrial service power connection station assemblies shall include enclosure, power receptacles, 
+auxiliary devices, metering accessories, and related wiring.  Each power connection station shall have the number 
+of circuits indicated and each circuit shall provide three-phase, three-wire service.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Enclosure Integrity</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Where exposed to physical damage from vehicular traffic, provide suitable 
+guards.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Enclosure shall be <RID>UL 50</RID> listed, type 3R, fabricated entirely of <RID>ASTM A167</RID> type 304 or 304L stainless steel.  
+All interior and exterior covers and doors shall be minimum 12 gauge stainless steel sheets.  Unit shall have 
+fixed top and open bottom.  Side covers shall be bolt-on and removable.  Rear covers shall be hinged.  Optional 
+doors shall have full height continuous hinge and door stop to allow door to be secured open at 90 degrees.  
+Ventilating or similar openings in equipment shall be designed so that foreign objects inserted through these 
+openings are deflected from energized parts.  Paint enclosure <RID>ASTM D1535</RID> light gray No. 61.  Paint coating system 
+shall comply with <RID>IEEE C57.12.28</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>600 V Single Pole Connectors</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Insulated connectors shall be rated for 600 volts, 690 amperes, 60 hertz, single pole, continuous duty operation.  
+Connectors shall be compatible with Leviton and Duraline cam-type positive latching ball nose connectors.  Insulation 
+and protective caps shall be ethylene propylene thermoplastic rubber (EPTR) colored black phase A, white phase 
+B, and red phase C, conforming to the following:</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Constant Service Temperature Range:<MET> minus 60 degrees C to 135 degrees C</MET><ENG> minus 81 degrees F to 275 
+degrees F</ENG></LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Flammability: <RID>UL 94</RID> HB Rated</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Electrical: UL Relative Thermal Index (RTI):<MET> 100 degrees C</MET><ENG> 212 degrees F</ENG> minimum</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Durometer Hardness: <RID>ASTM D2240</RID>, 55 - 65A</LST><BRK/>
+<BRK/>
+<SPT><TTL>Panel Mount Connectors</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  (1) Provide auxiliary switches with receptacles to be used for supplying 
+industrial service and where required by the activity utility department with 
+receptacles to be used for supplying ship service.  (2) When electric interlock 
+switches are required, indicate circuiting to effect opening of breakers and 
+disabling of closing of breakers via the interlock switches when a connector 
+plug is removed from the associated receptacle.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide 15 degree angled, panel mount female connectors (receptacles) with threaded stud terminations.  Each 
+receptacle shall be provided with a protective cap attached via wirelon.[  Panel Mount Connectors (receptacles) 
+indicated to have electric interlock switches shall have a thru-center plunger that engages a single-pole double-throw, 
+water-tight aluminum housed "roller lever actuated" switch upon insertion of a connector plug.  UL listed switch 
+shall be electrically rated for 100,000 cycles at 10 amps, 125/250 VAC, and mechanically rated for 20,000,000 
+cycles.]</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Cable Mount In-Line Connectors</TTL><BRK/>
+<BRK/>
+<TXT>Male and female cable mount in-line connectors (plugs) shall be designed for terminating on 500 kcmil cables 
+with a crimp-type connection.  The connectors shall lock together so that they can not twist or turn loose unless 
+a push button release mechanism is engaged.  The insulated sleeve shall be mechanically secured to the connector 
+contacts to give a minimum of<MET> 3100N</MET><ENG> 700 pounds</ENG> shear force.[  Provide a mating male cable mount in-line connector 
+(plug) for each panel mount connector to be turned over to the contracting officer.][  Provide [_____] male and 
+[_____] female cable mount in-line connectors[ terminated as indicated][ to be turned over to the contracting 
+officer].]</TXT><BRK/>
+<BRK/></SPT>
+</SPT>[<SPT><TTL>600 V Power Receptacle</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Select the following paragraph only for repair projects where the existing 
+MIL-C-24368/2 power receptacles are being replaced in the existing enclosure.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Rated for 500 volts, 500 amperes, 60 hertz, three-pole, continuous duty operation.  Power receptacle assembly 
+shall conform to <RID>MIL-C-24368/2</RID>.  Provide receptacle assembly with factory potted cable pigtails.  Cable pigtails 
+shall be a minimum of<MET> 1220 mm</MET><ENG> 4 feet</ENG> in length and 3-1/c Type LSSHOF-500 cables conforming to <RID>MIL-DTL-24643/3</RID>
+.  Provide each receptacle with provisions for interlocking the receptacle with its respective feeder circuit 
+breaker so that breaker will trip automatically if an attempt is made to remove the plug from the receptacle 
+and when the receptacle cover is opened.</TXT><BRK/>
+<BRK/></SPT>
+][<SPT><TTL><SUB>Industrial Service Auxiliary Devices</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Provide circuit breaker overcurrent protection of each service circuit.  
+When the over current protection for the industrial service circuits is located 
+within the associated industrial power connection station, include the paragraphs 
+for "Fusing," "Circuit Breakers," and "Circuit Breaker Operating Mechanism."  
+When the overcurrent protection is located in a remote panelboard, include the 
+paragraph for "Shunt Trip Pushbutton Control" and indicate conduit and wiring 
+from the industrial power connection station shunt trip pushbutton control to 
+the circuit breaker shunt trip.  Also indicate circuiting to effect opening 
+of breakers via the shunt trip pushbutton control (in conjunction with the interlock 
+switches).</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide the following auxiliary devices for each industrial service power connection station circuit.</TXT><BRK/>
+<BRK/>
+[<SPT><TTL>Shunt Trip Pushbutton Control</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Indicate desired location (side cover or rear flange) of pushbutton control 
+on drawings.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide NEMA Q600 rated, 30 millimeter, heavy duty industrial type, normally-open, momentary, red pushbutton 
+behind a spring return cover, each circuited to shunt trip one circuit breaker.</TXT><BRK/>
+<BRK/></SPT>
+][<SPT><TTL>Fusing</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Include "fusing" when metering is provided.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide a fuse block mounted in the enclosure containing one fuse per phase to protect the voltage input to the[ 
+watt hour meter][ and][ circuit breaker shunt trip].</TXT><BRK/>
+<BRK/></SPT>
+][<SPT><TTL>Circuit Breaker</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Provide 200 kA, non-fused, current limiting circuit breakers when the 
+service transformer is rated 1000 kVA and greater.  When the overcurrent protection 
+is located in a remote panelboard, indicate the required circuit breaker ratings 
+on the "Panelboard Schedule."</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT><RID>UL 489</RID>.  100 percent rated,[ non-fused, current limiting,] molded case circuit breaker, 480 VAC, 400 amperes, 
+3-pole, [200][_____] kaic short circuit current interrupting rating, with a 480 V shunt trip.</TXT><BRK/>
+<BRK/></SPT>
+]<SPT><TTL>Circuit Breaker Operating Mechanism</TTL><BRK/>
+<BRK/>
+<TXT>Provide flexible cable mechanism with flange mounted disconnect handle for each circuit breaker as indicated.</TXT><BRK/>
+<BRK/></SPT>
+</SPT>][<SPT><TTL><SUB>Metering Accessories</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  When metering is required by the activity and the industrial power connection 
+stations are to be directly connected to the industrial power transformer secondary, 
+the industrial power connection stations shall include the following metering 
+accessories.  Where a panelboard is to be provided for industrial loads, provide 
+a separate watt-hour meter/current transformer cabinet.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide watt-hour meter and current transformers for each industrial service power connection station circuit.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Watt-hour Meter</TTL><BRK/>
+<BRK/>
+<TXT>Provide a socket-mounted, electronic programmable outdoor watt-hour meter mounted on door of cabinet.  Meter 
+shall either be programmed at the factory or shall be programmed in the field.  When field programming is performed, 
+turn field programming device over to the Contracting Officer at completion of project.  Meter shall be coordinated 
+to system requirements and conform to <RID>ANSI C12.1</RID>.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Design:  Provide watt-hour meter for use on a three-phase, 3-wire, 480 volt system with 3 current 
+transformers.  Include necessary KYZ pulse initiation hardware for Energy Monitoring and Control System 
+(EMCS).</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Class: 20; Form: 45S, accuracy: plus or minus 1.0 percent; Finish: Class II</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Cover:  Polycarbonate and lockable to prevent tampering and unauthorized removal.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  Kilowatt-hour Register:  Five digit electronic programmable type</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Demand Register:</LST><BRK/>
+<BRK/>
+<ITM INDENT="-0.33">(1) Provide solid state.</ITM><BRK/>
+<BRK/>
+<ITM INDENT="-0.33">(2) Meter reading multiplier:  Indicate multiplier on the meter face.</ITM><BRK/>
+<BRK/>
+<ITM INDENT="-0.33">(3) Demand interval length:  Shall be programmed for 15 minutes with rolling demand up to six 
+subintervals per interval.</ITM><BRK/>
+<BRK/>
+<LST INDENT="-0.33">f.  Socket:  <RID>ANSI C12.7</RID>.  Provide NEMA Type 3R, box-mounted socket, ringless, having manual circuit-closing 
+bypass and having jaws compatible with requirements of the meter.  Cover unused hub openings with blank 
+hub plates.  Provide manufacturers standard enclosure color unless otherwise indicated.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Current Transformers</TTL><BRK/>
+<BRK/>
+<TXT><RID>IEEE C57.13</RID>.  Provide butyl-molded window type current transformers with 600 volt insulation, 10 kV BIL.  Provide 
+three current transformers with characteristics listed in the following table.</TXT><BRK/>
+<BRK/>
+<TAB WIDTH="91">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="3" ROWCOUNT="2">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="126.75"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="95.25"/>
+      <COL AUTOWIDTH="0" WIDTH="203.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="23.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING"><HL1>CT Ratio</HL1></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING"><HL1> RF </HL1></DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING"><HL1>Meter Accuracy Class</HL1></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="24.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">400/5</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">4.0</DTA>
+         </CEL>
+         <CEL>
+<DTA TYPE="STRING">0.3 thru B-0.2</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<BRK/></SPT>
+[<SPT><TTL>Watt-hour Meter/Current Transformer Cabinet</TTL><BRK/>
+<BRK/>
+<TXT>Cabinet shall be NEMA 3R fabricated of 12 gauge stainless steel and shall have hinged front door with vault handle.  
+Paint enclosure <RID>ASTM D1535</RID> light gray No. 61.  Paint coating system shall comply with <RID>IEEE C57.12.28</RID>.</TXT><BRK/>
+<BRK/></SPT>
+]</SPT>]<SPT><TTL>Enclosure Configurations</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Ship Service Power Stations shall consist of multiple sections, with 
+each section having a maximum of four vertically arranged receptacle circuits.  
+Provide pad lockable doors to restrict access to unused energized receptacles 
+where ship service circuits are connected in parallel to multiple stations.  
+See Layout 1 for typical enclosure design.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<LST INDENT="-0.33">a.  Enclosures for ship service stations shall be configured as indicated.  All three receptacles of 
+the same circuit shall be mounted on a common plate.  Each plate shall have handles on both ends and 
+shall be bolted to the front cover so that it can be removed from the front without disconnecting the 
+incoming circuit power cables.  Each section shall include a full width ground bus.[  Each section shall 
+have a hinged pad lockable door.]  Provide nameplates to identify each phase designation and each circuit 
+number as indicated.</LST><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Industrial Power Stations shall consist of multiple sections, with each 
+section having a maximum of two vertically arranged receptacle circuits.  Include 
+information concerning circuit breakers, current transformers, fusing, shunt 
+trip pushbuttons, and watt-hours meters when auxiliary devices and metering 
+accessories are specified. Indicate desired side for mounting external ground 
+bus and shunt trip.  See Layout 2 for typical enclosure design.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<LST INDENT="-0.33">b.  Enclosures for industrial service stations shall be configured as indicated.  All three receptacles 
+of the same circuit shall be mounted on a common plate.  Each plate shall have handles on both ends and 
+shall be bolted to the front cover so that it can be removed from the front without disconnecting the 
+power cable.  Include a full width internal ground bus and a ground bus with four NEMA spaced lug mounting 
+holes on the exterior as indicated.[  Mount the[ circuit breakers,][ and][ current transformers] on inside 
+of enclosure.][  The handle for the circuit breaker operating mechanism shall be located on the rear 
+flange.][  Mount watt-hour meters on rear hinged covers.][  Mount shunt trip pushbuttons on side cover 
+as indicated.]</LST><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>15 KV POWER CONNECTION STATION</SUB></TTL><BRK/>
+<BRK/>
+<TXT>15 kV power connection station assemblies shall include enclosure, 15 kV power receptacles, dead-front high-voltage 
+deadbreak junctions, and insulated high-voltage connectors.  Each power connection station shall have the number 
+of circuits indicated and each circuit shall provide three-phase, three-wire service.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Enclosure Integrity</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Where exposed to physical damage from vehicular traffic, provide suitable 
+guards.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT><RID>IEEE C57.12.28</RID> fabricated entirely of <RID>ASTM A167</RID> type 304 or 304L stainless steel.  All interior and exterior 
+covers and doors shall be minimum 12 gauge stainless steel sheets.  Unit shall have fixed top and open bottom 
+with padlockable two-door front and removable center post.  Side and rear covers shall be bolt-on.  Doors shall 
+be<MET> 915mm</MET><ENG> 36 inch</ENG> wide with full height continuous hinge and door stops to allow doors to be secured open at 90 
+degrees.  Paint enclosure <RID>ASTM D1535</RID> light gray No. 61.  Paint coating system shall comply with <RID>IEEE C57.12.28</RID>
+.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>15 kV Cable Couplers</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  (1) High voltage cable couplers are used predominately in the mining 
+and tunneling industries. There currently is no industry standard for these 
+products and therefore, couplers from different manufactures may not be compatible.  
+Once the use of a particular model coupler has been established at an activity, 
+it may be necessary to request proprietary procurement of future couplers to 
+ensure compatibility.  (2) When couplers are requested by station to have a 
+mechanical interlock feature, coordinate keys with existing or new interlock 
+scheme.  (3) The interlock design when required for new installations shall 
+be as follows:  The circuit breakers associated with the receptacles of a respective 
+power connection station shall be electrically locked open via a common electric 
+reset multi-contact auxiliary relay that is controlled by a key-operated selector 
+switch.  Placing the selector switch in the key-release position shall effect 
+electrically locking open the circuit breakers.  This same key will then be 
+used for unlocking/locking the associated couplers.  Inserting the key into 
+the selector switch will allow return to the “close” position, unlocking the 
+circuit breakers.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide high voltage cable couplers rated for 15,000 volts, 500 amperes, 60 hertz, three-phase, continuous duty 
+operation, and configured with three insulated phase contacts, one ground contact, and one isolated ground check 
+contact.  Couplers shall be aluminum with epoxy powder coating and include hypalon gaskets and seals, all stainless 
+steel hardware and[ three-bolt quick flip][ or][ 90 degree turn] connection feature.  Receptacles shall be equipment 
+mount type with provisions for terminating<MET> [_____] mm</MET><ENG> [_____] inch</ENG> diameter [350][_____] kcmil cables and include 
+Live End Covers.[  Provide one cable mount type plug with weatherproof cover and provisions for terminating<MET> [_____] 
+mm</MET><ENG> [_____] inch</ENG> diameter [350][_____] kcmil cables for each receptacle.  Turn plugs over to the contracting officer.]  
+Coupler pairs shall[ have provisions for padlocking][ have a mechanical interlock that allows key release only 
+after the coupler pair is locked].</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Voltage ratings:  Withstand voltages shall comply with <RID>IEEE 386</RID> voltage ratings and characteristics 
+of connectors rated 14.4 kV rms phase-to-phase.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Current ratings:  Short-time current ratings shall comply with <RID>IEEE 386</RID> current ratings and characteristics 
+of 600 A connectors.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Separable Insulated Connectors and Accessories</TTL><BRK/>
+<BRK/>
+<TXT><RID>IEEE 386</RID>.  15 kV, 95 kV BIL.</TXT><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Deadbreak Junctions</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide 600 A deadbreak junctions with two interfaces.  Brackets shall be stainless steel.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Insulated <SUB>High-Voltage Connectors</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Provide 600 Ampere deadbreak connectors.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>Flexible Power Cable</SUB></TTL><BRK/>
+<BRK/>
+<TXT><RID>ASTM B33</RID>, <RID>NEMA WC 58/ICEA S-75-381</RID>.  Flexible power cable Type SH, 15 kV single conductor.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Enclosure Configuration</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  See Layout 3 for typical enclosure design.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Enclosures shall be configured as indicated.  Include a full width ground bus.  A power cable terminated with 
+a 600-ampere deadbreak connector shall connect each phase of each receptacle to one of the 600-ampere one-piece 
+deadbreak apparatus bushings of a deadbreak junction.  The remaining apparatus bushing for each deadbreak junction  
+shall be used for connection of the incoming circuit power cables terminated with 600-ampere deadbreak connectors.  
+Provide nameplates to identify each phase designation and each circuit number.</TXT><BRK/>
+<BRK/></SPT>
+</SPT>[<SPT><TTL><SUB>SHIP SERVICE EMERGENCY TRIP PANEL</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Provide an emergency trip pushbutton circuited to trip all (480 V, 5 
+kV, and 15 kV) circuit breakers that provide ship service to a respective berth.  
+Locate the emergency trip box where it can be readily accessed by ships force.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Provide a stainless steel NEMA 3R cabinet sized as necessary with a color red pushbutton cover mounted behind 
+the front door.  Pushbutton shall be rated for 10 amperes continuous at 600 volts, heavy duty, watertight, momentary 
+contact, marked "SHIP SERVICE EMERGENCY TRIP".</TXT><BRK/>
+<BRK/></SPT>
+]<SPT><TTL>MANUFACTURER'S NAMEPLATE</TTL><BRK/>
+<BRK/>
+<TXT>Each item of equipment shall have a nameplate bearing the manufacturer's name, address, model number, and serial 
+number securely affixed in a conspicuous place; the nameplate of the distributing agent will not be acceptable.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>FIELD FABRICATED NAMEPLATES</TTL><BRK/>
+<BRK/>
+<TXT><RID>ASTM D709</RID>.  Provide laminated plastic nameplates for each equipment enclosure, relay, switch, and device; as 
+specified or as indicated on the drawings.  Each nameplate inscription shall identify the function and, when 
+applicable, the position.  Nameplates shall be melamine plastic,<MET> 3 mm</MET><ENG> 0.125 inch</ENG> thick, white with [black][_____] 
+center core.  Surface shall be matte finish.  Corners shall be square.  Accurately align lettering and engrave 
+into the core.  Minimum size of nameplates shall be<MET> 25 by 65 mm</MET><ENG> one by 2.5 inches</ENG>.  Lettering shall be a minimum 
+of<MET> 6.35 mm</MET><ENG> 0.25 inch</ENG> high normal block style.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>WARNING SIGNS</TTL><BRK/>
+<BRK/>
+<TXT>Provide warning signs for the enclosures of electrical equipment having a nominal rating exceeding 600 volts.</TXT><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  When the enclosure integrity of such equipment is specified to be in accordance with <RID>IEEE C57.12.28</RID>
+, provide self-adhesive warning signs on the outside of the high voltage compartment door(s).  Sign shall 
+be a decal and shall have nominal dimensions of<MET> 178 by 255 mm</MET><ENG> 7 by 10 inches</ENG> with the legend "DANGER 
+HIGH VOLTAGE" printed in two lines of nominal<MET> 50 mm</MET><ENG> 2 inch</ENG> high letters.  The word "DANGER" shall be 
+in white letters on a red background and the words "HIGH VOLTAGE" shall be in black letters on a white 
+background.</LST><BRK/>
+<BRK/></SPT>
+<SPT><TTL>SOURCE QUALITY CONTROL</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>Paint Coating System</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Submit <RID>IEEE C57.12.28</RID> paint coating system performance requirement tests.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL><SUB>600 V Single Pole Connector Compatibility Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Conduct the following tests in the sequence noted on a male in-line connector mated with a Leviton or Duraline 
+female in-line connector and a female in-line connector mated with a Leviton or Duraline male in-line connector 
+with each connector terminated on a bare 500 kcmil copper conductor.  After completion of the tests, inspect 
+assemblies.  There shall be no evidence of damage to the connectors.  Assemblies shall be satisfactory for immediate 
+return to service at full ratings without maintenance or repair.[  Contracting Officer or his designated representative 
+will witness the tests.][  A factory-certified report of the specified tests previously performed on identical 
+units of each rating will be acceptable.]</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Impact Test</TTL><BRK/>
+<BRK/>
+<TXT>Drop each mated connector set in a horizontal position from a height of 36-inches onto a concrete floor 50 times.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Pull Strain Test</TTL><BRK/>
+<BRK/>
+<TXT>Apply a 500-lb straight pull on each mated connector set for a duration of 5-minutes.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Shear Test</TTL><BRK/>
+<BRK/>
+<TXT>Apply a 100-lb perpendicular pull on each mated connector set for a duration of 5-minutes.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Torque Test</TTL><BRK/>
+<BRK/>
+<TXT>Apply a 100 ft-lb torque on each mated connector set for a duration of 5-minutes.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Heat Rise Test</TTL><BRK/>
+<BRK/>
+<TXT>Apply 400 amperes through each mated connector set for duration of 30-minutes.  Record temperature rise at surface 
+of each mated connector set via infrared scanning equipment.  Temperature rise shall be less than 45 degree C.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Moisture Resistance Test</TTL><BRK/>
+<BRK/>
+<TXT>Subject the mated connectors to a water spray maintained at 5-psi, with a collection rate of 18-in/hr, at a distance 
+of 5-feet, for one hour.  Verify that no water penetrated the connection.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Dielectric Voltage Withstand Test</TTL><BRK/>
+<BRK/>
+<TXT>Wrap the mated connectors in conductive foil and apply a test potential of 2200 VAC between the conductor and 
+the foil for a period of 5-minutes.  Dielectric breakdown shall constitute a failed test.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Insulation Resistance Test</TTL><BRK/>
+<BRK/>
+<TXT>Wrap the mated connectors in conductive foil and using a Megger insulation resistance tester with an open circuit 
+output of 500 VDC, measure the insulation resistance between the conductor and foil.  Resistance measurement 
+shall be greater than 100 Megohms.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL><SUB>600 V Single Pole Connector Torque Test</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Conduct a torque test on three male and three female cable mount in-line connectors as follows:  With the metal 
+connector part rigidly secured, apply a rotating (twisting) force of 700 lbs on the insulating sleeve.  The insulating 
+sleeve shall not break free and spin around the connector metal part.[  Contracting Officer or his designated 
+representative will witness the tests.][  A factory-certified report of the specified tests previously performed 
+on identical units of each rating will be acceptable.]</TXT><BRK/>
+<BRK/></SPT>
+[<SPT><TTL><SUB>Power Receptacle and Plug Assembly Tests</SUB></TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Select the following paragraph only when providing MIL-C-24368/2 receptacles.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Conduct design, production, and quality assurance tests, as required by <RID>MIL-C-24368/1</RID> and <RID>MIL-C-24368/2</RID>, at the 
+manufacturer's plant during fabrication and assembly of power receptacle and plug assemblies.  After completion 
+of tests, inspect assemblies.  There shall be no evidence of damage to the receptacle or plug assembly.  Assemblies 
+shall be satisfactory for immediate return to service at full ratings without maintenance or repair.[  Contracting 
+Officer or his designated representative will witness the tests.][  A factory-certified report of the specified 
+tests previously performed on identical units of each rating will be acceptable.]</TXT><BRK/>
+<BRK/></SPT>
+]<SPT><TTL><SUB>15 kV Cable Coupler Design Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Furnish reports which include results of AC withstand voltage, DC withstand voltage, impulse withstand voltage, 
+short time current, and current cycling design tests performed in accordance with <RID>IEEE 386</RID>.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<SPT><TTL>INSTALLATION</TTL><BRK/>
+<BRK/>
+<TXT>Electrical installations shall conform to <RID>IEEE C2</RID>, <RID>NFPA 70</RID>, and to the requirements specified herein.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>POWER CONNECTION STATION GROUNDING</TTL><BRK/>
+<BRK/>
+<TXT>Ground in accordance with <RID>NFPA 70</RID>.  Maximum resistance from assembly to ground shall be 3 ohms.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>FIELD APPLIED PAINTING</TTL><BRK/>
+<BRK/>
+<TXT>Paint electrical equipment as required to match finish of adjacent surfaces or to meet the indicated or specified 
+safety criteria.  Painting shall be as specified in Section <SRF>09 90 00</SRF> PAINTS AND COATINGS.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>FIELD FABRICATED NAMEPLATE MOUNTING</TTL><BRK/>
+<BRK/>
+<TXT>Provide number, location, and letter designation of nameplates as indicated.  Fasten nameplates to the device 
+with a minimum of two sheet-metal screws or two rivets.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>WARNING SIGN MOUNTING</TTL><BRK/>
+<BRK/>
+<TXT>Provide the number of signs required to be readable from each accessible side, but space the signs a maximum 
+of<MET> 9 meters</MET><ENG> 30 feet</ENG> apart.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>FIELD QUALITY CONTROL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Performance of <SUB>Acceptance Checks and Tests</SUB></TTL><BRK/>
+<BRK/>
+<TXT>Perform in accordance with the manufacturer's recommendations and include the following visual and mechanical 
+inspections and electrical tests, performed in accordance with <RID>NETA ATS</RID>.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Power Connection Stations and Control Panels</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Visual and mechanical inspection performed in accordance with inspection and test procedures for 
+Switchgear and Switchboard Assemblies.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  System function tests.</LST><BRK/>
+<BRK/></SPT>
+[<SPT><TTL>Current Transformers</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Visual and mechanical inspection in accordance with inspection and test procedures for Instrument 
+Transformers.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Electrical tests in accordance with inspection and test procedures for Instrument Transformers.</LST><BRK/>
+<BRK/></SPT>
+][<SPT><TTL>Watt-hour Meters</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Visual and mechanical inspection in accordance with inspection and test procedures for Metering Devices.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Electrical tests in accordance with inspection and test procedures for Metering Devices.</LST><BRK/>
+<BRK/></SPT>
+][<SPT><TTL>Circuit Breakers</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Visual and mechanical inspection in accordance with inspection and test procedures for Circuit Breakers, 
+Air, Insulated-Case/Molded-Case.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Perform Electrical tests in accordance with inspection and test procedures for Circuit Breakers, 
+Air, Insulated-Case/Molded-Case.</LST><BRK/>
+<BRK/></SPT>
+]</SPT></SPT><SPT><TTL>DEMONSTRATION</TTL><BRK/>
+<BRK/>
+<TXT>Upon completion of the work and at a time approved by the Contracting Officer, the Contractor shall provide instructions 
+by a qualified instructor to the Government personnel in the proper operation and <NED/>maintenance of the equipment.  
+[_____] Government personnel shall receive training comparable to the equipment manufacturer's factory training.  
+The duration of instruction shall be for not less than one 8 hour working day for instruction of operating and 
+maintenance personnel.</TXT><BRK/>
+<BRK/></SPT>
+</PRT>    <END/><BRK/></SEC>

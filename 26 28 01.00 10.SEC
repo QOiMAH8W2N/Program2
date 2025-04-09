@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="windows-1252"?><SEC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://si.ksc.nasa.gov/sidownloads/xml/specsintactSEC.xsd"><MTA NAME="SUBFORMAT" CONTENT="NEW"/><MTA NAME="AUTONUMBER" CONTENT="TRUE"/><BRK/>
+<HDR><AST/><TAB BORDERS="0">
+<WBK>
+   <STS>
+      <STY SID="s50">
+         <ALN VERTICAL="BOTTOM"/>
+      </STY>
+   </STS>
+   <TDA COLUMNCOUNT="2" ROWCOUNT="4">
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <COL STYLEID="s50" AUTOWIDTH="0" WIDTH="281.25"/>
+      <ROW AUTOHEIGHT="0" HEIGHT="15.00">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">USACE / NAVFAC / AFCEC / NASA</DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">UFGS-26 28 01.00 10 (August 2021)</DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL MERGEDOWN="1" STYLEID="s50"/>
+         <CEL STYLEID="s50"/>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="12.00">
+         <CEL INDEX="2" STYLEID="s50">
+<DTA TYPE="STRING"><HL3>------------------------------------</HL3></DTA>
+         </CEL>
+      </ROW>
+      <ROW AUTOHEIGHT="0" HEIGHT="32.25">
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Preparing Activity:  <PRA>USACE</PRA></DTA>
+         </CEL>
+         <CEL STYLEID="s50">
+<DTA TYPE="STRING">Superseding<BRK/>UFGS-26 28 01.00 10 (October 2007)</DTA>
+         </CEL>
+      </ROW>
+   </TDA>
+</WBK>
+<BRL/><BRL/><BRL/><BRL/><BRL/><BRL/><BRL/></TAB><BRK/>
+<HL4>UNIFIED FACILITIES GUIDE SPECIFICATIONS</HL4><BRK/>
+<BRK/>
+<HL4>References are in agreement with UMRL dated October 2021</HL4><BRK/>
+<AST/><BRK/></HDR>
+<BRK/>
+<SCN>SECTION 26 28 01.00 10</SCN><BRK/>
+<BRK/>
+<STL>COORDINATED POWER SYSTEM PROTECTION</STL><BRK/>
+<DTE>08/21</DTE><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This guide specification covers the requirements for <SCP>the coordinated protection of power systems</SCP>.<BRK/>
+<BRK/>
+Adhere to <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc/ufc-1-300-02">UFC 1-300-02</URL> Unified Facilities Guide Specifications (UFGS) Format Standard when editing this guide 
+specification or preparing new project specification sections.  Edit this guide specification for project specific 
+requirements by adding, deleting, or revising text.  For bracketed items, choose applicable item(s) or insert 
+appropriate information.<BRK/>
+<BRK/>
+Remove information and requirements not required in respective project, whether or not brackets are present.<BRK/>
+<BRK/>
+Comments, suggestions and recommended changes for this guide specification are welcome and should be submitted 
+as a <URL HREF="http://www.wbdg.org/ffc/dod/unified-facilities-guide-specifications-ufgs">Criteria Change Request (CCR)</URL>.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<PRT><TTL>PART 1   GENERAL</TTL><BRK/>
+<BRK/>
+<SPT><TTL>REFERENCES</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  This paragraph is used to list the publications cited in the text of the guide specification.  The publications 
+are referred to in the text by basic designation only and listed in this paragraph by organization, designation, 
+date, and title.<BRK/>
+<BRK/>
+Use the Reference Wizard's Check Reference feature when you add a Reference Identifier (RID) outside of the Section's 
+Reference Article to automatically place the reference in the Reference Article.  Also use the Reference Wizard's 
+Check Reference feature to update the issue dates.<BRK/>
+<BRK/>
+References not used in the text will automatically be deleted from this section of the project specification when 
+you choose to reconcile references in the publish print process.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The publications listed below form a part of this specification to the extent referenced.  The publications are referred to within the text by 
+the basic designation only.</TXT><BRK/>
+<BRK/>
+<REF><ORG>INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)</ORG><BRK/><BRK/><RID>IEEE 242</RID><RTL>(2001; Errata 2003) Recommended Practice for Protection and Coordination of Industrial and Commercial Power Systems - Buff Book</RTL><BRK/><BRK/><RID>IEEE 399</RID><RTL>(1997) Brown Book IEEE Recommended Practice for Power Systems Analysis</RTL><BRK/><BRK/></REF></SPT><SPT><TTL>SYSTEM DESCRIPTION</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Provide brief, general description of the electrical power system project.</NPR><BRK/>
+<BRK/>
+<NPR>Coordinate with Section <SRF>26 11 14.00 10</SRF> MAIN ELECTRIC SUPPLY STATION AND SUBSTATION; Section <SRF>33 71 01</SRF> OVERHEAD 
+TRANSMISSION AND DISTRIBUTION; Section <SRF>33 71 02</SRF> UNDERGROUND ELECTRICAL DISTRIBUTION; Section <SRF>26 20 00</SRF> INTERIOR 
+DISTRIBUTION SYSTEM; Section <SRF>26 08 00</SRF> APPARATUS INSPECTION AND TESTING.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>The power system covered by this specification consists of:  [_____].</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>SUBMITTALS</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Review submittal description (SD) definitions in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES and edit the following 
+list, and corresponding submittal items in the text, to reflect only the submittals required for the project.  
+The Guide Specification technical editors have classified those items that require Government approval, due to 
+their complexity or criticality, with a "G."  Generally, other submittal items can be reviewed by the Contractor's 
+Quality Control System.  Only add a “G” to an item, if the submittal is sufficiently important or complex in context 
+of the project.<BRK/>
+<BRK/>
+<TAI OPT="ARMY">For Army projects, fill in the empty brackets following the "G" classification, with a code of up to three characters 
+to indicate the approving authority.  Codes for Army projects using the Resident Management System (RMS) are:  
+"AE" for Architect-Engineer; "DO" for District Office (Engineering Division or other organization in the District 
+Office); "AO" for Area Office; "RO" for Resident Office; and "PO" for Project Office.  </TAI>Codes following the "G" 
+typically are not used for Navy, Air Force, and NASA projects.<BRK/>
+<BRK/>
+The "S" classification indicates submittals required as proof of compliance for sustainability Guiding Principles 
+Validation or Third Party Certification and as described in Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES.<BRK/>
+<BRK/>
+Choose the first bracketed item for Navy, Air Force and NASA projects, or choose the second bracketed item for 
+Army projects. </NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Government approval is required for submittals with a "G" or "S" classification.  Submittals not having a "G" or "S" classification are [for Contractor 
+Quality Control approval.][for information only.  When used, a code following the "G" classification identifies the office that will review the 
+submittal for the Government.]  Submit the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURES:</TXT><BRK/>
+<BRK/>
+<LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
+<BRK/>
+<ITM><SUB>Fault Current Analysis</SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>Protective Device Coordination Study</SUB></ITM><BRK/>
+<BRK/>
+<ITM><SUB>System Coordinator</SUB></ITM><BRK/>
+<BRK/></SPT>
+<SPT><TTL>QUALITY ASSURANCE</TTL><BRK/>
+<BRK/>
+<SPT><TTL><SUB>System Coordinator</SUB></TTL><BRK/>
+<BRK/>
+<TXT>System coordination, recommended ratings and settings of protective devices, and design analysis must be accomplished by a registered professional 
+electrical power engineer with a minimum of [3] [_____] years of current experience in the coordination of electrical power systems.  Submit verification 
+of experience and license number, of a registered Professional Engineer as specified above.  Provide experience data consisting of at least five 
+references for work of a magnitude comparable to this contract, including points of contact, addresses and telephone numbers.</TXT><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 2   PRODUCTS</TTL><BRK/>
+<SPT><TTL>COORDINATED POWER SYSTEM PROTECTION</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  The requirements for the studies in these paragraphs depend on the complexity and extent of the power system.  
+Delete these requirements for: projects of limited scope; projects having protective devices which are not adjustable 
+or for which coordination is not possible (standard molded case circuit breakers); projects involving simple extension 
+of 600 volt level service to a building or facility from an existing transformer (750 kVA or less); or projects 
+involving simple extension of 600 volt level service to a building or facility from a new transformer (750 kVA 
+or less).</NPR><BRK/>
+<BRK/>
+<NPR>The designer will be responsible for showing and specifying the requirements for fuses, circuit breakers, protective 
+relays, or other protective devices associated with the project.  The protective devices should be selected and 
+specified to protect electrical power system conductors or equipment against sustained overloads, in-rush conditions, 
+electrical faults, or other abnormal power system or equipment operating conditions, in accordance with UFC 3-520-01, 
+IEEE 242, and IEEE Std 141.</NPR><BRK/>
+<BRK/>
+<NPR>The complexity and extent of coordinated power system protection depends on the type of buildings or facilities 
+required, on the load demand of facilities, and on the quantity and types of facilities to be constructed.  Facilities 
+having a relatively-low power demand (e.g., 2500 kVA or less) generally require protection of:  an incoming aerial 
+distribution line or underground, medium-voltage feeder; low-voltage feeders to individual items of equipment, 
+or to power distribution equipment, and branch circuits.  More complex projects such as facilities with generating 
+capacity, large motors, or larger load demands, will require more detailed and extensive coordinated power system 
+protection.</NPR><BRK/>
+<BRK/>
+<NPR>Independent of the type or types of facilities or load demands, the coordinated power system protection will be 
+based on:  economics, simplicity, and the electrical power availability dictated by the Using Agency or Service, 
+or by the functional use of the facilities or utilities; requirement to provide maximum power service with a minimum 
+of power interruptions; and the operating speed of protective devices required to minimize damage to electrical 
+components or items of equipment and to prevent injury to personnel and nuisance tripping.</NPR><BRK/>
+<BRK/>
+<NPR>Unless otherwise approved, a dc power source will be shown and specified to ensure proper closing and tripping 
+of protective devices which require a reliable power source during outage of the normal alternating-current power 
+source.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Prepare analyses to demonstrate that the equipment selected and system constructed meet the contract requirements for ratings, coordination, and 
+protection.  Include a load flow analysis, a <SUB>fault current analysis</SUB>, and a <SUB>protective device coordination study</SUB>.  Submit the study along with protective 
+device equipment submittals.  No time extensions or similar contact modifications will be granted for work arising out of the requirements for 
+this study.  Approval of protective devices proposed will be based on recommendations of this study.  The Government is not responsible for any 
+changes to equipment, device ratings, settings, or additional labor for installation of equipment or devices ordered and/or procured prior to approval 
+of the study.  The studies must be performed by a registered professional engineer with demonstrated experience in power system coordination in 
+the last [3] [_____] years.  Provide a list of references complete with points of contact, addresses and telephone numbers.  The selection of the 
+engineer is subject to the approval of the Contracting Officer.</TXT><BRK/>
+<BRK/>
+<SPT><TTL>Scope of Analyses</TTL><BRK/>
+<BRK/>
+<TXT>The fault current analysis and protective device coordination study must begin at:  [the source bus and extend down to system buses where fault 
+availability is 10,000 amperes (symmetrical) for building/facility 600 volt level distribution buses.] [the source bus and extended through the 
+secondary side of transformers for medium voltage distribution feeders.] [the source bus and extend through [outgoing breakers] [outgoing medium 
+voltage feeders, down to the individual protective devices for medium voltage radial taps] [outgoing medium voltage feeders, through the secondary 
+side of transformers] [as indicated] for main electric supply substations.] [the nearest upstream device in the existing source system and extend 
+through the downstream devices at the load end.]</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Determination of Facts</TTL><BRK/>
+<NTE><BRK/>
+<AST/><BRK/>
+<NPR>NOTE:  Require the Contractor to obtain an available fault capacity at the power source or provide a fault capacity 
+on which to base the analysis.  Delete the unused option.</NPR><BRK/>
+<AST/><BRK/></NTE>
+<BRK/>
+<TXT>Determine and document the time-current characteristics, features, and nameplate data for each existing protective device.  [Coordinate with the 
+[commercial power company] [_____] for fault current availability at the site.]  [Utilize the fault current availability indicated as a basis for 
+fault current studies.]</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Single Line Diagram</TTL><BRK/>
+<BRK/>
+<TXT>Prepare a single line diagram to show the electrical system buses, devices, transformation points, and all sources of fault current (including 
+generator and motor contributions).  A fault-impedance diagram or a computer analysis diagram may be provided.  Each bus, device or transformation 
+point must have a unique identifier.  If a fault-impedance diagram is provided, show impedance data.  Show location of switches, breakers, and 
+circuit interrupting devices on the diagram together with available fault data, and the device interrupting rating.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Fault Current Analysis</TTL><BRK/>
+<BRK/>
+<SPT><TTL>Method</TTL><BRK/>
+<BRK/>
+<TXT>Perform the fault current analysis in accordance with methods described in <RID>IEEE 242</RID>, and <RID>IEEE 399</RID>.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Data</TTL><BRK/>
+<BRK/>
+<TXT>Utilize actual data in fault calculations.  Bus characteristics and transformer impedance must be those proposed.  Document data in the report.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Fault Current Availability</TTL><BRK/>
+<BRK/>
+<TXT>Provide balanced three-phase fault, bolted line-to-line fault, and line-to-ground fault current values at each voltage transformation point and 
+at each power distribution bus.  Show the maximum and minimum values of fault available at each location in tabular form on the diagram or in the 
+report.</TXT><BRK/>
+<BRK/></SPT>
+</SPT><SPT><TTL>Coordination Study</TTL><BRK/>
+<BRK/>
+<TXT>Demonstrate that the maximum possible degree of selectivity has been obtained between devices specified, consistent with protection of equipment 
+and conductors from damage from overloads and fault conditions. Include a description of the coordination of the protective devices in this project.  
+Provide a written narrative describing:  which devices may operate in the event of a fault at each bus; the logic used to arrive at device ratings 
+and settings; situations where system coordination is not achievable due to device limitations (an analysis of any device curves which overlap); 
+coordination between upstream and downstream devices; and relay settings.  Provide recommendations to improve or enhance system reliability, and 
+detail where such changes would involve additions or modifications to the contract and cost damages (addition or reduction).  Provide composite 
+coordination plots on log-log graph paper.</TXT><BRK/>
+<BRK/></SPT>
+<SPT><TTL>Study report</TTL><BRK/>
+<BRK/>
+<LST INDENT="-0.33">a.  Include a narrative describing:  the analyses performed; the bases and methods used; and the desired method of coordinated protection 
+of the power system.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">b.  Include descriptive and technical data for existing devices and new protective devices proposed.  Include manufacturers published data, 
+nameplate data, and definition of the fixed or adjustable features of the existing or new protective devices.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">c.  Document [utility company data including system voltages, fault MVA, system X/R ratio, time-current characteristic curves, current 
+transformer ratios, and relay device numbers and settings;] [and] [existing power system data including time-current characteristic curves 
+and protective device ratings and settings].</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">d.  The report must contain fully coordinated composite time-current characteristics curves for each bus in the system, as required to 
+ensure coordinated power system protection between protective devices or equipment.  Include recommended ratings and settings of all protective 
+devices in tabulated form.</LST><BRK/>
+<BRK/>
+<LST INDENT="-0.33">e.  Provide the calculation performed for the analyses, including computer analysis programs utilized.  Provide the name of the software 
+package, developer, and version number.</LST><BRK/>
+<BRK/></SPT>
+</SPT></PRT><PRT><TTL>PART 3   EXECUTION</TTL><BRK/>
+<BRK/>
+<TXT>Not Used</TXT><BRK/>
+<BRK/></PRT>
+    <END/><BRK/></SEC>
