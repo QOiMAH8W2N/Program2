@@ -164,11 +164,7 @@ the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURE
 <BRK/>
 <LST><SUB>SD-03 Product Data</SUB></LST><BRK/>
 <BRK/>
-<ITM><SUB>Receptacles</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
 <ITM><SUB>Circuit Breakers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-<ITM><SUB>Switches</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
 <BRK/>
 <ITM><SUB>Transformers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
 <BRK/>
@@ -176,25 +172,7 @@ the following in accordance with Section <SRF>01 33 00</SRF> SUBMITTAL PROCEDURE
 <BRK/>
 <ITM><SUB>Motor Controllers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
 <BRK/>
-[<ITM><SUB>Combination Motor Controllers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-][<ITM><SUB>Load Centers for Housing Units</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-]<ITM><SUB>Manual Motor Starters</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-[<ITM><SUB>Residential Load Centers</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-][<ITM><SUB>Metering</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-][<ITM><SUB>Meter Base Only</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-]<ITM><SUB>CATV Outlets</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-<ITM><SUB>Secondary Bonding Busbar</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
 <ITM><SUB>Surge Protective Devices</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
-<BRK/>
-<ITM><SUB>Cable Trays</SUB>; <SUB>G<TAI OPT="ARMY">[, [_____]]</TAI></SUB></ITM><BRK/>
 <BRK/>
 [<LST>SD-05 Design Data</LST><BRK/>
 <BRK/>
@@ -3010,7 +2988,7 @@ Building Cabling System.</NPR><BRK/>
 <AST/><BRK/></NTE>
 <BRK/>
 <TXT>Install open top and closed ring cable supports on<MET> 1.2 m</MET><ENG> 4 ft</ENG> to<MET> 1.5 m</MET><ENG> 5 ft</ENG> centers to adequately support and 
-distribute the cable’s weight.  Use these types of supports to support a maximum of 50<MET> 6.4 mm</MET><ENG> 0.25 in</ENG> diameter 
+distribute the cableÂ’s weight.  Use these types of supports to support a maximum of 50<MET> 6.4 mm</MET><ENG> 0.25 in</ENG> diameter 
 cables.  Install suspended cables with at least<MET> 75 mm</MET><ENG> 3 in</ENG> of clear vertical space above the ceiling tiles and 
 support channels (T-bars).  Open top and closed ring cable supports:  suspended from or attached to the structural 
 ceiling or walls with hardware or other installation aids specifically designed to support their weight.</TXT><BRK/>
